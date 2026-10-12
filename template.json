@@ -1,0 +1,134 @@
+{
+  "format": "motiongit.discovery/1",
+  "repositoryId": "385712",
+  "templateId": 617,
+  "owner": "prism-studio",
+  "slug": "visual-art-c-collage",
+  "website": "https://motiongit.com/@prism-studio/visual-art-c-collage",
+  "checkedAt": "2026-10-13",
+  "availability": "demo-only",
+  "title": {
+    "en": "Geometric Collage",
+    "zh": "几何拼贴"
+  },
+  "subtitle": {
+    "en": "Four photos. Three compositions. Your story in motion.",
+    "zh": "四张照片，三组构图，让你的故事动起来。"
+  },
+  "summary": {
+    "en": "Turn your own photos into a Bauhaus-inspired animated poster. Circles, strips and blocks reshape four images through three flowing compositions, with your words and event details.",
+    "zh": "把自己的照片变成包豪斯风格动态海报。圆形、条带与色块在三组构图间变化，结合你的关键词和活动信息。"
+  },
+  "category": {
+    "en": "Visual art · Animated posters",
+    "zh": "视觉艺术 · 动态海报"
+  },
+  "ratio": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "durationSeconds": 13,
+  "demo": {
+    "en": "https://media.openaicut.com/previews/617/draft-en-b232ff8db7c6.mp4",
+    "zh": "https://motiongit.com/@prism-studio/visual-art-c-collage?lang=zh",
+    "poster": "https://motiongit.com/media/covers/617/draft-en-e7e87af228a4.jpg"
+  },
+  "materials": [
+    {
+      "en": "4 photos you own or may use — JPG or PNG; keep the important subject clear of the edges.",
+      "zh": "4 张拥有使用权的照片：JPG 或 PNG，重要主体不要紧贴边缘。",
+      "required": true
+    },
+    {
+      "en": "3 short keywords — one for each poster composition.",
+      "zh": "3 个简短关键词：对应三组海报构图。",
+      "required": true
+    },
+    {
+      "en": "A short information block — event name, date and location, or equivalent project details.",
+      "zh": "一组简短信息：活动名称、日期和地点，也可以换成项目信息。",
+      "required": true
+    },
+    {
+      "en": "Your preferred language and brand colors, if you want to change the default look.",
+      "zh": "可选：想使用的语言和品牌配色。",
+      "required": false
+    },
+    {
+      "en": "Optional music or a short voiceover. Ask the assistant to check timing and usage rights before adding audio.",
+      "zh": "可选：配乐或短旁白。加入声音前让助手核对时长与使用权。",
+      "required": false
+    }
+  ],
+  "dependencies": [
+    {
+      "en": "A computer and an assistant or runner that can work with local files. A chat-only assistant can help prepare your brief and hand it off.",
+      "zh": "一台电脑，以及可以处理本地文件的助手或运行器。纯聊天助手可以准备简报，再转交到本地制作。"
+    },
+    {
+      "en": "The downloaded package determines the exact setup. This template family uses a Python adapter, Node.js, Chromium via Playwright, and FFmpeg for export.",
+      "zh": "以下载包要求为准安装具体版本。这套模板使用 Python 适配器、Node.js、Playwright 的 Chromium 浏览器和 FFmpeg 导出。"
+    },
+    {
+      "en": "Use the package's dependency lock and setup/check steps. Ask the user before installing dependencies; do not install from this introduction page alone.",
+      "zh": "按包内依赖锁和 setup/check 流程检查环境。安装依赖前先说明并获得用户同意，不仅凭介绍页安装。"
+    },
+    {
+      "en": "First-time setup may take a while: the assistant checks your operating system and existing tools, installs only missing requirements from the package lock, verifies a short preview, and reuses the environment next time. You can prepare your photos and text while it works.",
+      "zh": "首次配置可能较久：助手先检查系统和已有工具，只按包内依赖锁补齐缺少的项，验证短预览；后续复用环境。等待时可以继续准备照片与文字。"
+    }
+  ],
+  "goodFor": {
+    "en": [
+      "Exhibition & event announcements",
+      "Creative portfolios",
+      "Photo stories & moodboards"
+    ],
+    "zh": [
+      "展览与活动预告",
+      "创意作品展示",
+      "照片故事与情绪板"
+    ]
+  },
+  "boundaries": {
+    "en": [
+      "Four photos and three compositions are the current design; adding more photos does not automatically add scenes.",
+      "The documented layout is landscape 16:9. Ask about another template if you need native portrait output.",
+      "Photo slots accept images. Video clips are not interchangeable with photos.",
+      "The default visual timeline is 13 seconds. A new narration must be checked against the actual package's timing controls."
+    ],
+    "zh": [
+      "现有编舞为四张照片、三组构图；增加照片不会自动增加场景。",
+      "已核实的是 16:9 横屏。需要原生竖屏时，先选择合适的模板。",
+      "照片槽接收图片，不能直接换成视频片段。",
+      "默认画面时间轴为 13 秒。新配音需要按下载包的实际时长控制能力核对。"
+    ]
+  },
+  "capabilities": [
+    {
+      "en": "Find fitting images, footage or stickers",
+      "zh": "匹配图片、视频素材与贴纸",
+      "status": "ready"
+    },
+    {
+      "en": "Generate an image for an empty photo slot",
+      "zh": "为缺少的照片生成配图",
+      "status": "ready"
+    },
+    {
+      "en": "Create a voiceover in the chosen language",
+      "zh": "按所选语言生成配音",
+      "status": "ready"
+    },
+    {
+      "en": "Find music and review its license",
+      "zh": "查找配乐并核对许可",
+      "status": "ready"
+    },
+    {
+      "en": "Generate music, sound effects or video",
+      "zh": "生成配乐、音效或视频",
+      "status": "not-enabled"
+    }
+  ]
+}

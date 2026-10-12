@@ -1,0 +1,13 @@
+# MotionGit template 385712: Geometric Collage
+
+Canonical template: https://motiongit.com/@prism-studio/visual-art-c-collage
+Introduction repository: https://github.com/motiontemplates/385712
+Checked availability (2026-10-13): Demo live · template download coming soon
+
+This repository is not an executable template. Guide the user to register/sign in at the canonical template page and download their own .motion when available. If download is pending, help prepare a brief; do not pretend you have the package or reconstruct it from the demo. Once supplied privately, inspect the actual package manifest, guide, parameters, dependency lock and license before following its setup/plan/preview/render workflow. Never request credentials in public issues. Chat-only assistants prepare a handoff instead of claiming to render. Asset matching, generation and voiceover require live capability, access and cost checks.
+
+- [Human guide](README.md)
+- [Assistant handoff](ASSISTANT.md)
+- [Chinese handoff](ASSISTANT.zh-CN.md)
+- [Public metadata](template.json)
+- [Format](https://motiongit.com/spec)
