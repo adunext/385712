@@ -16,15 +16,17 @@ https://github.com/user-attachments/assets/d45fb633-5c79-4671-b067-371baddb73c4
 
 [Watch the original demo](https://media.openaicut.com/previews/617/draft-en-b232ff8db7c6.mp4)
 
-![Circles, strips, blocks — three poster compositions](assets/compositions.jpg)
+![Frames from the public demo](assets/compositions.jpg)
 
 ## What to prepare
 
-- **Photos:** 4 JPG or PNG images you own or may use; keep the main subject clear of the edges.
-- **Words:** 3 short keywords, plus an event name/date/location or equivalent project details.
-- **Optional:** Brand colors, music or a short voiceover. Ask your assistant to check the 13-second timing and audio.
+- **Required:** 4 photos you own or may use — JPG or PNG; keep the important subject clear of the edges.
+- **Required:** 3 short keywords — one for each poster composition.
+- **Required:** A short information block — event name, date and location, or equivalent project details.
+- **Optional:** Your preferred language and brand colors, if you want to change the default look.
+- **Optional:** Optional music or a short voiceover. Ask the assistant to check timing and usage rights before adding audio.
 
-Fits exhibitions, portfolios and photo stories. This template uses four photos, three compositions and a landscape layout.
+Exhibition & event announcements · Creative portfolios · Photo stories & moodboards.
 
 ## Let your assistant guide you
 
@@ -39,7 +41,9 @@ Guide me to make a video with this template. Help me prepare the materials and g
 
 ## Production setup
 
-Use an assistant or compatible runner with local file access. A chat-only assistant can prepare the brief and material list. This template family uses **Python, Node.js, Playwright/Chromium and FFmpeg**; exact versions and setup come from the downloaded package.
+- A computer and an assistant or runner that can work with local files. A chat-only assistant can help prepare your brief and hand it off.
+- The downloaded package determines the exact setup. This template family uses a Python adapter, Node.js, Chromium via Playwright, and FFmpeg for export.
+- Use the package's dependency lock and setup/check steps. Explain missing tools and expected downloads, follow the user's authorization and the assistant's host policies, and reuse the environment afterward.
 
 First-time setup can take a while. Have the assistant check existing tools, install only missing requirements, verify a short preview, and reuse the environment next time.
 

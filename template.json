@@ -73,10 +73,6 @@
     {
       "en": "Use the package's dependency lock and setup/check steps. Explain missing tools and expected downloads, follow the user's authorization and the assistant's host policies, and reuse the environment afterward.",
       "zh": "按包内依赖锁和 setup/check 流程检查环境。说明缺少的工具与预计下载，按用户授权和助手宿主规则操作，后续复用环境。"
-    },
-    {
-      "en": "First-time setup may take a while: the assistant checks your operating system and existing tools, installs only missing requirements from the package lock, verifies a short preview, and reuses the environment next time. You can prepare your photos and text while it works.",
-      "zh": "首次配置可能较久：助手先检查系统和已有工具，只按包内依赖锁补齐缺少的项，验证短预览；后续复用环境。等待时可以继续准备照片与文字。"
     }
   ],
   "goodFor": {
