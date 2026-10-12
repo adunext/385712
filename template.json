@@ -31,7 +31,8 @@
   "demo": {
     "en": "https://media.openaicut.com/previews/617/draft-en-b232ff8db7c6.mp4",
     "zh": "https://motiongit.com/@prism-studio/visual-art-c-collage?lang=zh",
-    "poster": "https://motiongit.com/media/covers/617/draft-en-e7e87af228a4.jpg"
+    "poster": "https://motiongit.com/media/covers/617/draft-en-e7e87af228a4.jpg",
+    "nativeVideoUrl": "https://github.com/user-attachments/assets/4173457f-0f42-426f-a999-e46cebe9e33d"
   },
   "materials": [
     {
@@ -70,8 +71,8 @@
       "zh": "以下载包要求为准安装具体版本。这套模板使用 Python 适配器、Node.js、Playwright 的 Chromium 浏览器和 FFmpeg 导出。"
     },
     {
-      "en": "Use the package's dependency lock and setup/check steps. Ask the user before installing dependencies; do not install from this introduction page alone.",
-      "zh": "按包内依赖锁和 setup/check 流程检查环境。安装依赖前先说明并获得用户同意，不仅凭介绍页安装。"
+      "en": "Use the package's dependency lock and setup/check steps. Explain missing tools and expected downloads, follow the user's authorization and the assistant's host policies, and reuse the environment afterward.",
+      "zh": "按包内依赖锁和 setup/check 流程检查环境。说明缺少的工具与预计下载，按用户授权和助手宿主规则操作，后续复用环境。"
     },
     {
       "en": "First-time setup may take a while: the assistant checks your operating system and existing tools, installs only missing requirements from the package lock, verifies a short preview, and reuses the environment next time. You can prepare your photos and text while it works.",
