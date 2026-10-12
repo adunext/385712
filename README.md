@@ -12,7 +12,9 @@ Turn your own photos into a Bauhaus-inspired animated poster. Circles, strips an
 
 ## Demo
 
-https://github.com/user-attachments/assets/4173457f-0f42-426f-a999-e46cebe9e33d
+
+https://github.com/user-attachments/assets/d45fb633-5c79-4671-b067-371baddb73c4
+
 
 [Watch the original demo](https://media.openaicut.com/previews/617/draft-en-b232ff8db7c6.mp4)
 
