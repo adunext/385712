@@ -1,5 +1,7 @@
 # .motion: a reusable recipe for your video
 
+![From materials and template to your video](assets/workflow.svg)
+
 MP4 is a finished result. A .motion package preserves the animation project, editable content slots, materials, dependencies, presets and instructions so you can make another video with your own content.
 
 The open format separates template content, runtime adapters and optional personal delivery. MotionGit personal downloads follow the website's delivery contract and are obtained with the user's own account. Never post a personal download or its account credentials in this public repository.
