@@ -1,0 +1,6575 @@
+{
+  "profile": "kinetic-text-slots/1",
+  "fields": [
+    {
+      "id": "A.text001",
+      "unit": "A",
+      "context": "html-text / lab",
+      "source": "broll.js:1310",
+      "uses": [
+        "broll.js:1310"
+      ],
+      "label": "A / html-text / lab",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "A.text002",
+      "unit": "A",
+      "context": "html-text / lab",
+      "source": "broll.js:1360",
+      "uses": [
+        "broll.js:1360"
+      ],
+      "label": "A / html-text / lab",
+      "maxChars": 27,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "A.text003",
+      "unit": "A",
+      "context": "html-text / lab",
+      "source": "broll.js:1433",
+      "uses": [
+        "broll.js:1433"
+      ],
+      "label": "A / html-text / lab",
+      "maxChars": 16,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "A.text004",
+      "unit": "A",
+      "context": "html-text / tag",
+      "source": "broll.js:1590",
+      "uses": [
+        "broll.js:1590"
+      ],
+      "label": "A / html-text / tag",
+      "maxChars": 15,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "A.text005",
+      "unit": "A",
+      "context": "html-text / tag",
+      "source": "broll.js:1590",
+      "uses": [
+        "broll.js:1590"
+      ],
+      "label": "A / html-text / tag",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "A.text006",
+      "unit": "A",
+      "context": "html-text / tag",
+      "source": "broll.js:1590",
+      "uses": [
+        "broll.js:1590"
+      ],
+      "label": "A / html-text / tag",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text001",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:5773",
+      "uses": [
+        "broll.js:5773"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 27,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text002",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:5818",
+      "uses": [
+        "broll.js:5818"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 31,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text003",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:5867",
+      "uses": [
+        "broll.js:5867"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 31,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text004",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:5916",
+      "uses": [
+        "broll.js:5916"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 24,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text005",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:5962",
+      "uses": [
+        "broll.js:5962"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 29,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text006",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:6009",
+      "uses": [
+        "broll.js:6009"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 22,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text007",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:6049",
+      "uses": [
+        "broll.js:6049"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 26,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text008",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:6093",
+      "uses": [
+        "broll.js:6093"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 31,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text009",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:6146",
+      "uses": [
+        "broll.js:6146"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 30,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text010",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:6194",
+      "uses": [
+        "broll.js:6194"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 24,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text011",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:6236",
+      "uses": [
+        "broll.js:6236"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 20,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text012",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:6274",
+      "uses": [
+        "broll.js:6274"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 29,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text013",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:6321",
+      "uses": [
+        "broll.js:6321"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 24,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text014",
+      "unit": "B",
+      "context": "literal-text / CL",
+      "source": "broll.js:6363",
+      "uses": [
+        "broll.js:6363"
+      ],
+      "label": "B / literal-text / CL",
+      "maxChars": 29,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "B.text015",
+      "unit": "B",
+      "context": "html-text / brand",
+      "source": "broll.js:7770",
+      "uses": [
+        "broll.js:7770"
+      ],
+      "label": "B / html-text / brand",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "C.text001",
+      "unit": "C",
+      "context": "html-text / inline",
+      "source": "broll.js:10875",
+      "uses": [
+        "broll.js:10875"
+      ],
+      "label": "C / html-text / inline",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "C.text002",
+      "unit": "C",
+      "context": "html-text / cnt",
+      "source": "broll.js:11244",
+      "uses": [
+        "broll.js:11244"
+      ],
+      "label": "C / html-text / cnt",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "C.text003",
+      "unit": "C",
+      "context": "html-text / cnt",
+      "source": "broll.js:11290",
+      "uses": [
+        "broll.js:11290"
+      ],
+      "label": "C / html-text / cnt",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text001",
+      "unit": "D",
+      "context": "literal-text / v1",
+      "source": "broll.js:14143",
+      "uses": [
+        "broll.js:14143"
+      ],
+      "label": "D / literal-text / v1",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text002",
+      "unit": "D",
+      "context": "literal-text / v1",
+      "source": "broll.js:14168",
+      "uses": [
+        "broll.js:14168"
+      ],
+      "label": "D / literal-text / v1",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text003",
+      "unit": "D",
+      "context": "literal-text / v2",
+      "source": "broll.js:14220",
+      "uses": [
+        "broll.js:14220"
+      ],
+      "label": "D / literal-text / v2",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text004",
+      "unit": "D",
+      "context": "literal-text / v2",
+      "source": "broll.js:14245",
+      "uses": [
+        "broll.js:14245"
+      ],
+      "label": "D / literal-text / v2",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text005",
+      "unit": "D",
+      "context": "html-text / date",
+      "source": "broll.js:14368",
+      "uses": [
+        "broll.js:14368"
+      ],
+      "label": "D / html-text / date",
+      "maxChars": 22,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text006",
+      "unit": "D",
+      "context": "html-text / date",
+      "source": "broll.js:14452",
+      "uses": [
+        "broll.js:14452"
+      ],
+      "label": "D / html-text / date",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text007",
+      "unit": "D",
+      "context": "html-text / date",
+      "source": "broll.js:14510",
+      "uses": [
+        "broll.js:14510"
+      ],
+      "label": "D / html-text / date",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text008",
+      "unit": "D",
+      "context": "html-text / card",
+      "source": "broll.js:14838",
+      "uses": [
+        "broll.js:14838"
+      ],
+      "label": "D / html-text / card",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text009",
+      "unit": "D",
+      "context": "html-text / card",
+      "source": "broll.js:14914",
+      "uses": [
+        "broll.js:14914"
+      ],
+      "label": "D / html-text / card",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text010",
+      "unit": "D",
+      "context": "html-text / card",
+      "source": "broll.js:14988",
+      "uses": [
+        "broll.js:14988"
+      ],
+      "label": "D / html-text / card",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text011",
+      "unit": "D",
+      "context": "html-text / bye",
+      "source": "broll.js:15259",
+      "uses": [
+        "broll.js:15259"
+      ],
+      "label": "D / html-text / bye",
+      "maxChars": 26,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text012",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15343",
+      "uses": [
+        "broll.js:15343"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text013",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15353",
+      "uses": [
+        "broll.js:15353"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text014",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15363",
+      "uses": [
+        "broll.js:15363"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text015",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15373",
+      "uses": [
+        "broll.js:15373"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text016",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15383",
+      "uses": [
+        "broll.js:15383"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text017",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15393",
+      "uses": [
+        "broll.js:15393"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text018",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15403",
+      "uses": [
+        "broll.js:15403"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text019",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15413",
+      "uses": [
+        "broll.js:15413"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text020",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15423",
+      "uses": [
+        "broll.js:15423"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text021",
+      "unit": "D",
+      "context": "literal-text / DAYS",
+      "source": "broll.js:15433",
+      "uses": [
+        "broll.js:15433"
+      ],
+      "label": "D / literal-text / DAYS",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text022",
+      "unit": "D",
+      "context": "literal-text / inline",
+      "source": "broll.js:15893",
+      "uses": [
+        "broll.js:15893"
+      ],
+      "label": "D / literal-text / inline",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "D.text023",
+      "unit": "D",
+      "context": "literal-text / inline",
+      "source": "broll.js:15980",
+      "uses": [
+        "broll.js:15980"
+      ],
+      "label": "D / literal-text / inline",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "F.text001",
+      "unit": "F",
+      "context": "html-text / lab",
+      "source": "broll.js:18010",
+      "uses": [
+        "broll.js:18010"
+      ],
+      "label": "F / html-text / lab",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "F.text002",
+      "unit": "F",
+      "context": "html-text / lab",
+      "source": "broll.js:18072",
+      "uses": [
+        "broll.js:18072"
+      ],
+      "label": "F / html-text / lab",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "F.text003",
+      "unit": "F",
+      "context": "html-text / lab",
+      "source": "broll.js:18138",
+      "uses": [
+        "broll.js:18138"
+      ],
+      "label": "F / html-text / lab",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "F.text004",
+      "unit": "F",
+      "context": "html-text / src",
+      "source": "broll.js:18280",
+      "uses": [
+        "broll.js:18280"
+      ],
+      "label": "F / html-text / src",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text001",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1030",
+      "uses": [
+        "s01.js:1030"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text002",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1050",
+      "uses": [
+        "s01.js:1050"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text003",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1070",
+      "uses": [
+        "s01.js:1070"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text004",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1089",
+      "uses": [
+        "s01.js:1089"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text005",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1110",
+      "uses": [
+        "s01.js:1110"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text006",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1129",
+      "uses": [
+        "s01.js:1129"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text007",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1148",
+      "uses": [
+        "s01.js:1148"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text008",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1168",
+      "uses": [
+        "s01.js:1168"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text009",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1185",
+      "uses": [
+        "s01.js:1185"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text010",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1203",
+      "uses": [
+        "s01.js:1203"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text011",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1219",
+      "uses": [
+        "s01.js:1219"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text012",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1237",
+      "uses": [
+        "s01.js:1237"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text013",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1253",
+      "uses": [
+        "s01.js:1253"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text014",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1272",
+      "uses": [
+        "s01.js:1272"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text015",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1291",
+      "uses": [
+        "s01.js:1291"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text016",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1310",
+      "uses": [
+        "s01.js:1310"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text017",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1324",
+      "uses": [
+        "s01.js:1324"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text018",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1338",
+      "uses": [
+        "s01.js:1338"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text019",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1356",
+      "uses": [
+        "s01.js:1356"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text020",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1373",
+      "uses": [
+        "s01.js:1373"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text021",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1392",
+      "uses": [
+        "s01.js:1392"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text022",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1408",
+      "uses": [
+        "s01.js:1408"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text023",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1425",
+      "uses": [
+        "s01.js:1425"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text024",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1438",
+      "uses": [
+        "s01.js:1438"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text025",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1451",
+      "uses": [
+        "s01.js:1451"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text026",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1465",
+      "uses": [
+        "s01.js:1465"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text027",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1482",
+      "uses": [
+        "s01.js:1482"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text028",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1497",
+      "uses": [
+        "s01.js:1497"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text029",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1513",
+      "uses": [
+        "s01.js:1513"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text030",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1531",
+      "uses": [
+        "s01.js:1531"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text031",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1546",
+      "uses": [
+        "s01.js:1546"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text032",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1565",
+      "uses": [
+        "s01.js:1565"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text033",
+      "unit": "S01",
+      "context": "literal-text / NAME",
+      "source": "s01.js:1581",
+      "uses": [
+        "s01.js:1581"
+      ],
+      "label": "S01 / literal-text / NAME",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text034",
+      "unit": "S01",
+      "context": "html-text / inline",
+      "source": "s01.js:2967",
+      "uses": [
+        "s01.js:2967"
+      ],
+      "label": "S01 / html-text / inline",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text035",
+      "unit": "S01",
+      "context": "literal-text / tBro",
+      "source": "s01.js:4492",
+      "uses": [
+        "s01.js:4492"
+      ],
+      "label": "S01 / literal-text / tBro",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text036",
+      "unit": "S01",
+      "context": "literal-text / pills",
+      "source": "s01.js:4547",
+      "uses": [
+        "s01.js:4547"
+      ],
+      "label": "S01 / literal-text / pills",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text037",
+      "unit": "S01",
+      "context": "literal-text / pills",
+      "source": "s01.js:4553",
+      "uses": [
+        "s01.js:4553"
+      ],
+      "label": "S01 / literal-text / pills",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text038",
+      "unit": "S01",
+      "context": "literal-text / pills",
+      "source": "s01.js:4559",
+      "uses": [
+        "s01.js:4559"
+      ],
+      "label": "S01 / literal-text / pills",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text039",
+      "unit": "S01",
+      "context": "literal-text / sup",
+      "source": "s01.js:4883",
+      "uses": [
+        "s01.js:4883"
+      ],
+      "label": "S01 / literal-text / sup",
+      "maxChars": 16,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text040",
+      "unit": "S01",
+      "context": "html-text / tTop",
+      "source": "s01.js:5029",
+      "uses": [
+        "s01.js:5029",
+        "s01.js:5116"
+      ],
+      "label": "S01 / html-text / tTop",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text041",
+      "unit": "S01",
+      "context": "literal-text / tUp1",
+      "source": "s01.js:5481",
+      "uses": [
+        "s01.js:5481"
+      ],
+      "label": "S01 / literal-text / tUp1",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text042",
+      "unit": "S01",
+      "context": "html-text / tUp2",
+      "source": "s01.js:5585",
+      "uses": [
+        "s01.js:5585"
+      ],
+      "label": "S01 / html-text / tUp2",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text043",
+      "unit": "S01",
+      "context": "literal-text / upTag",
+      "source": "s01.js:5653",
+      "uses": [
+        "s01.js:5653"
+      ],
+      "label": "S01 / literal-text / upTag",
+      "maxChars": 30,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text044",
+      "unit": "S01",
+      "context": "html-text / era1",
+      "source": "s01.js:6100",
+      "uses": [
+        "s01.js:6100"
+      ],
+      "label": "S01 / html-text / era1",
+      "maxChars": 22,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text045",
+      "unit": "S01",
+      "context": "html-text / era2",
+      "source": "s01.js:6228",
+      "uses": [
+        "s01.js:6228"
+      ],
+      "label": "S01 / html-text / era2",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text046",
+      "unit": "S01",
+      "context": "html-text / era3",
+      "source": "s01.js:6336",
+      "uses": [
+        "s01.js:6336"
+      ],
+      "label": "S01 / html-text / era3",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text047",
+      "unit": "S01",
+      "context": "literal-text / eraLine",
+      "source": "s01.js:6438",
+      "uses": [
+        "s01.js:6438"
+      ],
+      "label": "S01 / literal-text / eraLine",
+      "maxChars": 30,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text048",
+      "unit": "S01",
+      "context": "html-text / name",
+      "source": "s01.js:6613",
+      "uses": [
+        "s01.js:6613"
+      ],
+      "label": "S01 / html-text / name",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text049",
+      "unit": "S01",
+      "context": "html-text / name",
+      "source": "s01.js:6683",
+      "uses": [
+        "s01.js:6683"
+      ],
+      "label": "S01 / html-text / name",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text050",
+      "unit": "S01",
+      "context": "html-text / name",
+      "source": "s01.js:6746",
+      "uses": [
+        "s01.js:6746"
+      ],
+      "label": "S01 / html-text / name",
+      "maxChars": 20,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text051",
+      "unit": "S01",
+      "context": "literal-text / scrambleAt",
+      "source": "s01.js:10920",
+      "uses": [
+        "s01.js:10920"
+      ],
+      "label": "S01 / literal-text / scrambleAt",
+      "maxChars": 30,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S01.text052",
+      "unit": "S01",
+      "context": "literal-text / scrambleAt",
+      "source": "s01.js:11577",
+      "uses": [
+        "s01.js:11577"
+      ],
+      "label": "S01 / literal-text / scrambleAt",
+      "maxChars": 20,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text001",
+      "unit": "S02",
+      "context": "literal-text / OWN",
+      "source": "s02_04.js:1024",
+      "uses": [
+        "s02_04.js:1024"
+      ],
+      "label": "S02 / literal-text / OWN",
+      "maxChars": 18,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text002",
+      "unit": "S02",
+      "context": "literal-text / OWN",
+      "source": "s02_04.js:1059",
+      "uses": [
+        "s02_04.js:1059"
+      ],
+      "label": "S02 / literal-text / OWN",
+      "maxChars": 19,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text003",
+      "unit": "S02",
+      "context": "literal-text / OWN",
+      "source": "s02_04.js:1095",
+      "uses": [
+        "s02_04.js:1095"
+      ],
+      "label": "S02 / literal-text / OWN",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text004",
+      "unit": "S02",
+      "context": "literal-text / OWN",
+      "source": "s02_04.js:1129",
+      "uses": [
+        "s02_04.js:1129"
+      ],
+      "label": "S02 / literal-text / OWN",
+      "maxChars": 18,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text005",
+      "unit": "S02",
+      "context": "literal-text / OWN",
+      "source": "s02_04.js:1163",
+      "uses": [
+        "s02_04.js:1163"
+      ],
+      "label": "S02 / literal-text / OWN",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text006",
+      "unit": "S02",
+      "context": "literal-text / OWN",
+      "source": "s02_04.js:1197",
+      "uses": [
+        "s02_04.js:1197"
+      ],
+      "label": "S02 / literal-text / OWN",
+      "maxChars": 19,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text007",
+      "unit": "S02",
+      "context": "html-text / stLab",
+      "source": "s02_04.js:2441",
+      "uses": [
+        "s02_04.js:2441"
+      ],
+      "label": "S02 / html-text / stLab",
+      "maxChars": 15,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text008",
+      "unit": "S02",
+      "context": "html-text / stLab",
+      "source": "s02_04.js:2497",
+      "uses": [
+        "s02_04.js:2497"
+      ],
+      "label": "S02 / html-text / stLab",
+      "maxChars": 18,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text009",
+      "unit": "S02",
+      "context": "html-text / repo",
+      "source": "s02_04.js:2836",
+      "uses": [
+        "s02_04.js:2836"
+      ],
+      "label": "S02 / html-text / repo",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text010",
+      "unit": "S02",
+      "context": "html-text / repo",
+      "source": "s02_04.js:3127",
+      "uses": [
+        "s02_04.js:3127"
+      ],
+      "label": "S02 / html-text / repo",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text011",
+      "unit": "S02",
+      "context": "html-text / repo",
+      "source": "s02_04.js:3206",
+      "uses": [
+        "s02_04.js:3206"
+      ],
+      "label": "S02 / html-text / repo",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text012",
+      "unit": "S02",
+      "context": "html-text / repo",
+      "source": "s02_04.js:3206",
+      "uses": [
+        "s02_04.js:3206"
+      ],
+      "label": "S02 / html-text / repo",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text013",
+      "unit": "S02",
+      "context": "html-text / repo",
+      "source": "s02_04.js:3588",
+      "uses": [
+        "s02_04.js:3588"
+      ],
+      "label": "S02 / html-text / repo",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text014",
+      "unit": "S02",
+      "context": "html-text / repo",
+      "source": "s02_04.js:3641",
+      "uses": [
+        "s02_04.js:3641"
+      ],
+      "label": "S02 / html-text / repo",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text015",
+      "unit": "S02",
+      "context": "html-text / repo",
+      "source": "s02_04.js:3685",
+      "uses": [
+        "s02_04.js:3685"
+      ],
+      "label": "S02 / html-text / repo",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text016",
+      "unit": "S02",
+      "context": "literal-text / os",
+      "source": "s02_04.js:3844",
+      "uses": [
+        "s02_04.js:3844"
+      ],
+      "label": "S02 / literal-text / os",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text017",
+      "unit": "S02",
+      "context": "literal-text / os",
+      "source": "s02_04.js:3878",
+      "uses": [
+        "s02_04.js:3878"
+      ],
+      "label": "S02 / literal-text / os",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text018",
+      "unit": "S02",
+      "context": "literal-text / CAP",
+      "source": "s02_04.js:3922",
+      "uses": [
+        "s02_04.js:3922"
+      ],
+      "label": "S02 / literal-text / CAP",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text019",
+      "unit": "S02",
+      "context": "literal-text / CAP",
+      "source": "s02_04.js:3928",
+      "uses": [
+        "s02_04.js:3928"
+      ],
+      "label": "S02 / literal-text / CAP",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text020",
+      "unit": "S02",
+      "context": "literal-text / CAP",
+      "source": "s02_04.js:3934",
+      "uses": [
+        "s02_04.js:3934"
+      ],
+      "label": "S02 / literal-text / CAP",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text021",
+      "unit": "S02",
+      "context": "literal-text / CAP",
+      "source": "s02_04.js:3940",
+      "uses": [
+        "s02_04.js:3940"
+      ],
+      "label": "S02 / literal-text / CAP",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text022",
+      "unit": "S02",
+      "context": "literal-text / caps",
+      "source": "s02_04.js:4652",
+      "uses": [
+        "s02_04.js:4652"
+      ],
+      "label": "S02 / literal-text / caps",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text023",
+      "unit": "S02",
+      "context": "literal-text / caps",
+      "source": "s02_04.js:4672",
+      "uses": [
+        "s02_04.js:4672"
+      ],
+      "label": "S02 / literal-text / caps",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text024",
+      "unit": "S02",
+      "context": "html-text / patch",
+      "source": "s02_04.js:4978",
+      "uses": [
+        "s02_04.js:4978"
+      ],
+      "label": "S02 / html-text / patch",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text025",
+      "unit": "S02",
+      "context": "html-text / gapT",
+      "source": "s02_04.js:5132",
+      "uses": [
+        "s02_04.js:5132"
+      ],
+      "label": "S02 / html-text / gapT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text026",
+      "unit": "S02",
+      "context": "html-text / gapT",
+      "source": "s02_04.js:5157",
+      "uses": [
+        "s02_04.js:5157"
+      ],
+      "label": "S02 / html-text / gapT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text027",
+      "unit": "S02",
+      "context": "literal-text / kNum",
+      "source": "s02_04.js:5813",
+      "uses": [
+        "s02_04.js:5813"
+      ],
+      "label": "S02 / literal-text / kNum",
+      "maxChars": 5,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text028",
+      "unit": "S02",
+      "context": "html-text / kLab",
+      "source": "s02_04.js:5956",
+      "uses": [
+        "s02_04.js:5956"
+      ],
+      "label": "S02 / html-text / kLab",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text029",
+      "unit": "S02",
+      "context": "html-text / kLab",
+      "source": "s02_04.js:5982",
+      "uses": [
+        "s02_04.js:5982"
+      ],
+      "label": "S02 / html-text / kLab",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text030",
+      "unit": "S02",
+      "context": "html-text / kLab",
+      "source": "s02_04.js:6034",
+      "uses": [
+        "s02_04.js:6034"
+      ],
+      "label": "S02 / html-text / kLab",
+      "maxChars": 24,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S02.text031",
+      "unit": "S02",
+      "context": "literal-text / typeAt",
+      "source": "s02_04.js:7083",
+      "uses": [
+        "s02_04.js:7083"
+      ],
+      "label": "S02 / literal-text / typeAt",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text001",
+      "unit": "S03",
+      "context": "literal-text / d1",
+      "source": "s02_04.js:10337",
+      "uses": [
+        "s02_04.js:10337"
+      ],
+      "label": "S03 / literal-text / d1",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text002",
+      "unit": "S03",
+      "context": "literal-text / d2",
+      "source": "s02_04.js:10397",
+      "uses": [
+        "s02_04.js:10397"
+      ],
+      "label": "S03 / literal-text / d2",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text003",
+      "unit": "S03",
+      "context": "literal-text / d3",
+      "source": "s02_04.js:10475",
+      "uses": [
+        "s02_04.js:10475"
+      ],
+      "label": "S03 / literal-text / d3",
+      "maxChars": 11,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text004",
+      "unit": "S03",
+      "context": "literal-text / d4",
+      "source": "s02_04.js:10542",
+      "uses": [
+        "s02_04.js:10542"
+      ],
+      "label": "S03 / literal-text / d4",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text005",
+      "unit": "S03",
+      "context": "html-text / pol",
+      "source": "s02_04.js:10621",
+      "uses": [
+        "s02_04.js:10621"
+      ],
+      "label": "S03 / html-text / pol",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text006",
+      "unit": "S03",
+      "context": "literal-text / topW",
+      "source": "s02_04.js:10695",
+      "uses": [
+        "s02_04.js:10695"
+      ],
+      "label": "S03 / literal-text / topW",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text007",
+      "unit": "S03",
+      "context": "html-text / stdW",
+      "source": "s02_04.js:10800",
+      "uses": [
+        "s02_04.js:10800"
+      ],
+      "label": "S03 / html-text / stdW",
+      "maxChars": 25,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text008",
+      "unit": "S03",
+      "context": "literal-text / fanN",
+      "source": "s02_04.js:11101",
+      "uses": [
+        "s02_04.js:11101"
+      ],
+      "label": "S03 / literal-text / fanN",
+      "maxChars": 6,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text009",
+      "unit": "S03",
+      "context": "html-text / fanL",
+      "source": "s02_04.js:11491",
+      "uses": [
+        "s02_04.js:11491"
+      ],
+      "label": "S03 / html-text / fanL",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text010",
+      "unit": "S03",
+      "context": "html-text / fanL",
+      "source": "s02_04.js:11491",
+      "uses": [
+        "s02_04.js:11491"
+      ],
+      "label": "S03 / html-text / fanL",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text011",
+      "unit": "S03",
+      "context": "html-text / thx",
+      "source": "s02_04.js:11676",
+      "uses": [
+        "s02_04.js:11676"
+      ],
+      "label": "S03 / html-text / thx",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S03.text012",
+      "unit": "S03",
+      "context": "html-text / thx",
+      "source": "s02_04.js:11704",
+      "uses": [
+        "s02_04.js:11704"
+      ],
+      "label": "S03 / html-text / thx",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text001",
+      "unit": "S04",
+      "context": "literal-text / big",
+      "source": "s02_04.js:14905",
+      "uses": [
+        "s02_04.js:14905"
+      ],
+      "label": "S04 / literal-text / big",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text002",
+      "unit": "S04",
+      "context": "html-text / bTag",
+      "source": "s02_04.js:15013",
+      "uses": [
+        "s02_04.js:15013"
+      ],
+      "label": "S04 / html-text / bTag",
+      "maxChars": 15,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text003",
+      "unit": "S04",
+      "context": "html-text / svLab",
+      "source": "s02_04.js:15198",
+      "uses": [
+        "s02_04.js:15198"
+      ],
+      "label": "S04 / html-text / svLab",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text004",
+      "unit": "S04",
+      "context": "html-text / svLab",
+      "source": "s02_04.js:15254",
+      "uses": [
+        "s02_04.js:15254"
+      ],
+      "label": "S04 / html-text / svLab",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text005",
+      "unit": "S04",
+      "context": "html-text / svLab",
+      "source": "s02_04.js:15279",
+      "uses": [
+        "s02_04.js:15279"
+      ],
+      "label": "S04 / html-text / svLab",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text006",
+      "unit": "S04",
+      "context": "html-text / svLab",
+      "source": "s02_04.js:15279",
+      "uses": [
+        "s02_04.js:15279"
+      ],
+      "label": "S04 / html-text / svLab",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text007",
+      "unit": "S04",
+      "context": "html-text / svLab",
+      "source": "s02_04.js:15331",
+      "uses": [
+        "s02_04.js:15331"
+      ],
+      "label": "S04 / html-text / svLab",
+      "maxChars": 19,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text008",
+      "unit": "S04",
+      "context": "html-text / note",
+      "source": "s02_04.js:15650",
+      "uses": [
+        "s02_04.js:15650"
+      ],
+      "label": "S04 / html-text / note",
+      "maxChars": 19,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text009",
+      "unit": "S04",
+      "context": "html-text / note",
+      "source": "s02_04.js:15650",
+      "uses": [
+        "s02_04.js:15650"
+      ],
+      "label": "S04 / html-text / note",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text010",
+      "unit": "S04",
+      "context": "html-text / note",
+      "source": "s02_04.js:15764",
+      "uses": [
+        "s02_04.js:15764"
+      ],
+      "label": "S04 / html-text / note",
+      "maxChars": 23,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text011",
+      "unit": "S04",
+      "context": "html-text / note",
+      "source": "s02_04.js:15858",
+      "uses": [
+        "s02_04.js:15858"
+      ],
+      "label": "S04 / html-text / note",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text012",
+      "unit": "S04",
+      "context": "html-text / note",
+      "source": "s02_04.js:15924",
+      "uses": [
+        "s02_04.js:15924"
+      ],
+      "label": "S04 / html-text / note",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text013",
+      "unit": "S04",
+      "context": "html-text / co",
+      "source": "s02_04.js:16074",
+      "uses": [
+        "s02_04.js:16074"
+      ],
+      "label": "S04 / html-text / co",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text014",
+      "unit": "S04",
+      "context": "html-text / co",
+      "source": "s02_04.js:16104",
+      "uses": [
+        "s02_04.js:16104"
+      ],
+      "label": "S04 / html-text / co",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S04.text015",
+      "unit": "S04",
+      "context": "html-text / fmtL",
+      "source": "s02_04.js:16743",
+      "uses": [
+        "s02_04.js:16743"
+      ],
+      "label": "S04 / html-text / fmtL",
+      "maxChars": 24,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text001",
+      "unit": "S05",
+      "context": "html-text / word",
+      "source": "s05_07.js:1589",
+      "uses": [
+        "s05_07.js:1589"
+      ],
+      "label": "S05 / html-text / word",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text002",
+      "unit": "S05",
+      "context": "literal-text / tags",
+      "source": "s05_07.js:1776",
+      "uses": [
+        "s05_07.js:1776"
+      ],
+      "label": "S05 / literal-text / tags",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text003",
+      "unit": "S05",
+      "context": "literal-text / tags",
+      "source": "s05_07.js:1794",
+      "uses": [
+        "s05_07.js:1794"
+      ],
+      "label": "S05 / literal-text / tags",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text004",
+      "unit": "S05",
+      "context": "literal-text / tags",
+      "source": "s05_07.js:1807",
+      "uses": [
+        "s05_07.js:1807"
+      ],
+      "label": "S05 / literal-text / tags",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text005",
+      "unit": "S05",
+      "context": "html-text / hdr",
+      "source": "s05_07.js:1967",
+      "uses": [
+        "s05_07.js:1967"
+      ],
+      "label": "S05 / html-text / hdr",
+      "maxChars": 26,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text006",
+      "unit": "S05",
+      "context": "literal-text / LAYERS",
+      "source": "s05_07.js:2100",
+      "uses": [
+        "s05_07.js:2100"
+      ],
+      "label": "S05 / literal-text / LAYERS",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text007",
+      "unit": "S05",
+      "context": "literal-text / LAYERS",
+      "source": "s05_07.js:2141",
+      "uses": [
+        "s05_07.js:2141"
+      ],
+      "label": "S05 / literal-text / LAYERS",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text008",
+      "unit": "S05",
+      "context": "literal-text / LAYERS",
+      "source": "s05_07.js:2187",
+      "uses": [
+        "s05_07.js:2187"
+      ],
+      "label": "S05 / literal-text / LAYERS",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text009",
+      "unit": "S05",
+      "context": "literal-text / LAYERS",
+      "source": "s05_07.js:2219",
+      "uses": [
+        "s05_07.js:2219"
+      ],
+      "label": "S05 / literal-text / LAYERS",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text010",
+      "unit": "S05",
+      "context": "literal-text / LAYERS",
+      "source": "s05_07.js:2235",
+      "uses": [
+        "s05_07.js:2235"
+      ],
+      "label": "S05 / literal-text / LAYERS",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text011",
+      "unit": "S05",
+      "context": "html-text / layers",
+      "source": "s05_07.js:2844",
+      "uses": [
+        "s05_07.js:2844"
+      ],
+      "label": "S05 / html-text / layers",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text012",
+      "unit": "S05",
+      "context": "html-text / editT",
+      "source": "s05_07.js:3012",
+      "uses": [
+        "s05_07.js:3012"
+      ],
+      "label": "S05 / html-text / editT",
+      "maxChars": 33,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text013",
+      "unit": "S05",
+      "context": "html-text / editT",
+      "source": "s05_07.js:3110",
+      "uses": [
+        "s05_07.js:3110"
+      ],
+      "label": "S05 / html-text / editT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text014",
+      "unit": "S05",
+      "context": "html-text / editT",
+      "source": "s05_07.js:3110",
+      "uses": [
+        "s05_07.js:3110"
+      ],
+      "label": "S05 / html-text / editT",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text015",
+      "unit": "S05",
+      "context": "html-text / mp4",
+      "source": "s05_07.js:3604",
+      "uses": [
+        "s05_07.js:3604"
+      ],
+      "label": "S05 / html-text / mp4",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text016",
+      "unit": "S05",
+      "context": "html-text / mp4",
+      "source": "s05_07.js:3693",
+      "uses": [
+        "s05_07.js:3693"
+      ],
+      "label": "S05 / html-text / mp4",
+      "maxChars": 16,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text017",
+      "unit": "S05",
+      "context": "html-text / vs",
+      "source": "s05_07.js:3912",
+      "uses": [
+        "s05_07.js:3912"
+      ],
+      "label": "S05 / html-text / vs",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text018",
+      "unit": "S05",
+      "context": "html-text / diffT",
+      "source": "s05_07.js:4007",
+      "uses": [
+        "s05_07.js:4007"
+      ],
+      "label": "S05 / html-text / diffT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text019",
+      "unit": "S05",
+      "context": "html-text / diffT",
+      "source": "s05_07.js:4032",
+      "uses": [
+        "s05_07.js:4032"
+      ],
+      "label": "S05 / html-text / diffT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text020",
+      "unit": "S05",
+      "context": "literal-text / vid",
+      "source": "s05_07.js:4200",
+      "uses": [
+        "s05_07.js:4200"
+      ],
+      "label": "S05 / literal-text / vid",
+      "maxChars": 19,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text021",
+      "unit": "S05",
+      "context": "literal-text / vid",
+      "source": "s05_07.js:4230",
+      "uses": [
+        "s05_07.js:4230"
+      ],
+      "label": "S05 / literal-text / vid",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text022",
+      "unit": "S05",
+      "context": "html-text / exBtn",
+      "source": "s05_07.js:4577",
+      "uses": [
+        "s05_07.js:4577"
+      ],
+      "label": "S05 / html-text / exBtn",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text023",
+      "unit": "S05",
+      "context": "html-text / fileLab",
+      "source": "s05_07.js:4919",
+      "uses": [
+        "s05_07.js:4919"
+      ],
+      "label": "S05 / html-text / fileLab",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text024",
+      "unit": "S05",
+      "context": "html-text / fileLab",
+      "source": "s05_07.js:4984",
+      "uses": [
+        "s05_07.js:4984"
+      ],
+      "label": "S05 / html-text / fileLab",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text025",
+      "unit": "S05",
+      "context": "literal-text / TABS",
+      "source": "s05_07.js:5096",
+      "uses": [
+        "s05_07.js:5096"
+      ],
+      "label": "S05 / literal-text / TABS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text026",
+      "unit": "S05",
+      "context": "literal-text / TABS",
+      "source": "s05_07.js:5102",
+      "uses": [
+        "s05_07.js:5102"
+      ],
+      "label": "S05 / literal-text / TABS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text027",
+      "unit": "S05",
+      "context": "literal-text / TABS",
+      "source": "s05_07.js:5108",
+      "uses": [
+        "s05_07.js:5108"
+      ],
+      "label": "S05 / literal-text / TABS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text028",
+      "unit": "S05",
+      "context": "html-text / chat",
+      "source": "s05_07.js:5645",
+      "uses": [
+        "s05_07.js:5645"
+      ],
+      "label": "S05 / html-text / chat",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text029",
+      "unit": "S05",
+      "context": "html-text / chat",
+      "source": "s05_07.js:7008",
+      "uses": [
+        "s05_07.js:7008"
+      ],
+      "label": "S05 / html-text / chat",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text030",
+      "unit": "S05",
+      "context": "html-text / chat",
+      "source": "s05_07.js:7960",
+      "uses": [
+        "s05_07.js:7960"
+      ],
+      "label": "S05 / html-text / chat",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text031",
+      "unit": "S05",
+      "context": "html-text / chat",
+      "source": "s05_07.js:8008",
+      "uses": [
+        "s05_07.js:8008"
+      ],
+      "label": "S05 / html-text / chat",
+      "maxChars": 20,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text032",
+      "unit": "S05",
+      "context": "html-text / chat",
+      "source": "s05_07.js:8069",
+      "uses": [
+        "s05_07.js:8069"
+      ],
+      "label": "S05 / html-text / chat",
+      "maxChars": 16,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text033",
+      "unit": "S05",
+      "context": "literal-text / chat",
+      "source": "s05_07.js:6043",
+      "uses": [
+        "s05_07.js:6043"
+      ],
+      "label": "S05 / literal-text / chat",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text034",
+      "unit": "S05",
+      "context": "literal-text / chat",
+      "source": "s05_07.js:6067",
+      "uses": [
+        "s05_07.js:6067"
+      ],
+      "label": "S05 / literal-text / chat",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text035",
+      "unit": "S05",
+      "context": "literal-text / chat",
+      "source": "s05_07.js:6092",
+      "uses": [
+        "s05_07.js:6092"
+      ],
+      "label": "S05 / literal-text / chat",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text036",
+      "unit": "S05",
+      "context": "literal-text / chat",
+      "source": "s05_07.js:7149",
+      "uses": [
+        "s05_07.js:7149"
+      ],
+      "label": "S05 / literal-text / chat",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text037",
+      "unit": "S05",
+      "context": "literal-text / chat",
+      "source": "s05_07.js:7166",
+      "uses": [
+        "s05_07.js:7166"
+      ],
+      "label": "S05 / literal-text / chat",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text038",
+      "unit": "S05",
+      "context": "literal-text / chat",
+      "source": "s05_07.js:7177",
+      "uses": [
+        "s05_07.js:7177"
+      ],
+      "label": "S05 / literal-text / chat",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text039",
+      "unit": "S05",
+      "context": "literal-text / chat",
+      "source": "s05_07.js:7188",
+      "uses": [
+        "s05_07.js:7188"
+      ],
+      "label": "S05 / literal-text / chat",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text040",
+      "unit": "S05",
+      "context": "html-text / reT",
+      "source": "s05_07.js:8557",
+      "uses": [
+        "s05_07.js:8557"
+      ],
+      "label": "S05 / html-text / reT",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text041",
+      "unit": "S05",
+      "context": "html-text / reT",
+      "source": "s05_07.js:8587",
+      "uses": [
+        "s05_07.js:8587"
+      ],
+      "label": "S05 / html-text / reT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text042",
+      "unit": "S05",
+      "context": "literal-text / openS",
+      "source": "s05_07.js:8804",
+      "uses": [
+        "s05_07.js:8804"
+      ],
+      "label": "S05 / literal-text / openS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text043",
+      "unit": "S05",
+      "context": "literal-text / openS",
+      "source": "s05_07.js:8836",
+      "uses": [
+        "s05_07.js:8836"
+      ],
+      "label": "S05 / literal-text / openS",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text044",
+      "unit": "S05",
+      "context": "html-text / limT",
+      "source": "s05_07.js:8906",
+      "uses": [
+        "s05_07.js:8906"
+      ],
+      "label": "S05 / html-text / limT",
+      "maxChars": 18,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text045",
+      "unit": "S05",
+      "context": "html-text / limT",
+      "source": "s05_07.js:8983",
+      "uses": [
+        "s05_07.js:8983"
+      ],
+      "label": "S05 / html-text / limT",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text046",
+      "unit": "S05",
+      "context": "literal-text / scrambleAt",
+      "source": "s05_07.js:9442",
+      "uses": [
+        "s05_07.js:9442"
+      ],
+      "label": "S05 / literal-text / scrambleAt",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text047",
+      "unit": "S05",
+      "context": "literal-text / inline",
+      "source": "s05_07.js:12944",
+      "uses": [
+        "s05_07.js:12944"
+      ],
+      "label": "S05 / literal-text / inline",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text048",
+      "unit": "S05",
+      "context": "literal-text / inline",
+      "source": "s05_07.js:12961",
+      "uses": [
+        "s05_07.js:12961"
+      ],
+      "label": "S05 / literal-text / inline",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text049",
+      "unit": "S05",
+      "context": "literal-text / inline",
+      "source": "s05_07.js:12967",
+      "uses": [
+        "s05_07.js:12967"
+      ],
+      "label": "S05 / literal-text / inline",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text050",
+      "unit": "S05",
+      "context": "literal-text / inline",
+      "source": "s05_07.js:12973",
+      "uses": [
+        "s05_07.js:12973"
+      ],
+      "label": "S05 / literal-text / inline",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S05.text051",
+      "unit": "S05",
+      "context": "literal-text / typeAt",
+      "source": "s05_07.js:13256",
+      "uses": [
+        "s05_07.js:13256"
+      ],
+      "label": "S05 / literal-text / typeAt",
+      "maxChars": 19,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text001",
+      "unit": "S06",
+      "context": "literal-text / ROWS",
+      "source": "s05_07.js:16887",
+      "uses": [
+        "s05_07.js:16887"
+      ],
+      "label": "S06 / literal-text / ROWS",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text002",
+      "unit": "S06",
+      "context": "literal-text / ROWS",
+      "source": "s05_07.js:16914",
+      "uses": [
+        "s05_07.js:16914"
+      ],
+      "label": "S06 / literal-text / ROWS",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text003",
+      "unit": "S06",
+      "context": "literal-text / ROWS",
+      "source": "s05_07.js:16926",
+      "uses": [
+        "s05_07.js:16926"
+      ],
+      "label": "S06 / literal-text / ROWS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text004",
+      "unit": "S06",
+      "context": "literal-text / ROWS",
+      "source": "s05_07.js:16941",
+      "uses": [
+        "s05_07.js:16941"
+      ],
+      "label": "S06 / literal-text / ROWS",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text005",
+      "unit": "S06",
+      "context": "literal-text / ROWS",
+      "source": "s05_07.js:16952",
+      "uses": [
+        "s05_07.js:16952"
+      ],
+      "label": "S06 / literal-text / ROWS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text006",
+      "unit": "S06",
+      "context": "literal-text / ROWS",
+      "source": "s05_07.js:16965",
+      "uses": [
+        "s05_07.js:16965"
+      ],
+      "label": "S06 / literal-text / ROWS",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text007",
+      "unit": "S06",
+      "context": "literal-text / ROWS",
+      "source": "s05_07.js:16978",
+      "uses": [
+        "s05_07.js:16978"
+      ],
+      "label": "S06 / literal-text / ROWS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text008",
+      "unit": "S06",
+      "context": "html-text / panel",
+      "source": "s05_07.js:17133",
+      "uses": [
+        "s05_07.js:17133"
+      ],
+      "label": "S06 / html-text / panel",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text009",
+      "unit": "S06",
+      "context": "html-text / panel",
+      "source": "s05_07.js:17453",
+      "uses": [
+        "s05_07.js:17453"
+      ],
+      "label": "S06 / html-text / panel",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text010",
+      "unit": "S06",
+      "context": "html-text / panel",
+      "source": "s05_07.js:17542",
+      "uses": [
+        "s05_07.js:17542"
+      ],
+      "label": "S06 / html-text / panel",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text011",
+      "unit": "S06",
+      "context": "html-text / boxSvg",
+      "source": "s05_07.js:18244",
+      "uses": [
+        "s05_07.js:18244"
+      ],
+      "label": "S06 / html-text / boxSvg",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text012",
+      "unit": "S06",
+      "context": "literal-text / ICS",
+      "source": "s05_07.js:18376",
+      "uses": [
+        "s05_07.js:18376"
+      ],
+      "label": "S06 / literal-text / ICS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text013",
+      "unit": "S06",
+      "context": "literal-text / ICS",
+      "source": "s05_07.js:18392",
+      "uses": [
+        "s05_07.js:18392"
+      ],
+      "label": "S06 / literal-text / ICS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text014",
+      "unit": "S06",
+      "context": "literal-text / ICS",
+      "source": "s05_07.js:18407",
+      "uses": [
+        "s05_07.js:18407"
+      ],
+      "label": "S06 / literal-text / ICS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text015",
+      "unit": "S06",
+      "context": "literal-text / ICS",
+      "source": "s05_07.js:18424",
+      "uses": [
+        "s05_07.js:18424"
+      ],
+      "label": "S06 / literal-text / ICS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text016",
+      "unit": "S06",
+      "context": "html-text / topT",
+      "source": "s05_07.js:18886",
+      "uses": [
+        "s05_07.js:18886"
+      ],
+      "label": "S06 / html-text / topT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text017",
+      "unit": "S06",
+      "context": "html-text / qTag",
+      "source": "s05_07.js:18985",
+      "uses": [
+        "s05_07.js:18985"
+      ],
+      "label": "S06 / html-text / qTag",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text018",
+      "unit": "S06",
+      "context": "html-text / quiet",
+      "source": "s05_07.js:19083",
+      "uses": [
+        "s05_07.js:19083"
+      ],
+      "label": "S06 / html-text / quiet",
+      "maxChars": 33,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text019",
+      "unit": "S06",
+      "context": "html-text / upW",
+      "source": "s05_07.js:19359",
+      "uses": [
+        "s05_07.js:19359"
+      ],
+      "label": "S06 / html-text / upW",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text020",
+      "unit": "S06",
+      "context": "html-text / upW",
+      "source": "s05_07.js:19435",
+      "uses": [
+        "s05_07.js:19435"
+      ],
+      "label": "S06 / html-text / upW",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text021",
+      "unit": "S06",
+      "context": "html-text / upW",
+      "source": "s05_07.js:19495",
+      "uses": [
+        "s05_07.js:19495"
+      ],
+      "label": "S06 / html-text / upW",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S06.text022",
+      "unit": "S06",
+      "context": "literal-text / inline",
+      "source": "s05_07.js:21047",
+      "uses": [
+        "s05_07.js:21047"
+      ],
+      "label": "S06 / literal-text / inline",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text001",
+      "unit": "S07",
+      "context": "html-text / wall",
+      "source": "s05_07.js:24494",
+      "uses": [
+        "s05_07.js:24494"
+      ],
+      "label": "S07 / html-text / wall",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text002",
+      "unit": "S07",
+      "context": "html-text / upT",
+      "source": "s05_07.js:24969",
+      "uses": [
+        "s05_07.js:24969"
+      ],
+      "label": "S07 / html-text / upT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text003",
+      "unit": "S07",
+      "context": "html-text / upT",
+      "source": "s05_07.js:25044",
+      "uses": [
+        "s05_07.js:25044"
+      ],
+      "label": "S07 / html-text / upT",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text004",
+      "unit": "S07",
+      "context": "literal-text / k1",
+      "source": "s05_07.js:25156",
+      "uses": [
+        "s05_07.js:25156"
+      ],
+      "label": "S07 / literal-text / k1",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text005",
+      "unit": "S07",
+      "context": "literal-text / k1",
+      "source": "s05_07.js:25198",
+      "uses": [
+        "s05_07.js:25198"
+      ],
+      "label": "S07 / literal-text / k1",
+      "maxChars": 18,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text006",
+      "unit": "S07",
+      "context": "literal-text / k2",
+      "source": "s05_07.js:25255",
+      "uses": [
+        "s05_07.js:25255"
+      ],
+      "label": "S07 / literal-text / k2",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text007",
+      "unit": "S07",
+      "context": "literal-text / k2",
+      "source": "s05_07.js:25295",
+      "uses": [
+        "s05_07.js:25295"
+      ],
+      "label": "S07 / literal-text / k2",
+      "maxChars": 22,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text008",
+      "unit": "S07",
+      "context": "literal-text / k3",
+      "source": "s05_07.js:25356",
+      "uses": [
+        "s05_07.js:25356"
+      ],
+      "label": "S07 / literal-text / k3",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text009",
+      "unit": "S07",
+      "context": "literal-text / k3",
+      "source": "s05_07.js:25396",
+      "uses": [
+        "s05_07.js:25396"
+      ],
+      "label": "S07 / literal-text / k3",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text010",
+      "unit": "S07",
+      "context": "literal-text / PAIRS",
+      "source": "s05_07.js:25684",
+      "uses": [
+        "s05_07.js:25684"
+      ],
+      "label": "S07 / literal-text / PAIRS",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text011",
+      "unit": "S07",
+      "context": "literal-text / PAIRS",
+      "source": "s05_07.js:25722",
+      "uses": [
+        "s05_07.js:25722"
+      ],
+      "label": "S07 / literal-text / PAIRS",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text012",
+      "unit": "S07",
+      "context": "literal-text / PAIRS",
+      "source": "s05_07.js:25755",
+      "uses": [
+        "s05_07.js:25755"
+      ],
+      "label": "S07 / literal-text / PAIRS",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text013",
+      "unit": "S07",
+      "context": "literal-text / CATS",
+      "source": "s05_07.js:27083",
+      "uses": [
+        "s05_07.js:27083"
+      ],
+      "label": "S07 / literal-text / CATS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text014",
+      "unit": "S07",
+      "context": "literal-text / CATS",
+      "source": "s05_07.js:27091",
+      "uses": [
+        "s05_07.js:27091"
+      ],
+      "label": "S07 / literal-text / CATS",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text015",
+      "unit": "S07",
+      "context": "literal-text / CATS",
+      "source": "s05_07.js:27126",
+      "uses": [
+        "s05_07.js:27126"
+      ],
+      "label": "S07 / literal-text / CATS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text016",
+      "unit": "S07",
+      "context": "literal-text / CATS",
+      "source": "s05_07.js:27134",
+      "uses": [
+        "s05_07.js:27134"
+      ],
+      "label": "S07 / literal-text / CATS",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text017",
+      "unit": "S07",
+      "context": "literal-text / CATS",
+      "source": "s05_07.js:27170",
+      "uses": [
+        "s05_07.js:27170"
+      ],
+      "label": "S07 / literal-text / CATS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text018",
+      "unit": "S07",
+      "context": "literal-text / CATS",
+      "source": "s05_07.js:27178",
+      "uses": [
+        "s05_07.js:27178"
+      ],
+      "label": "S07 / literal-text / CATS",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text019",
+      "unit": "S07",
+      "context": "literal-text / CATS",
+      "source": "s05_07.js:27210",
+      "uses": [
+        "s05_07.js:27210"
+      ],
+      "label": "S07 / literal-text / CATS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text020",
+      "unit": "S07",
+      "context": "literal-text / CATS",
+      "source": "s05_07.js:27218",
+      "uses": [
+        "s05_07.js:27218"
+      ],
+      "label": "S07 / literal-text / CATS",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text021",
+      "unit": "S07",
+      "context": "html-text / e",
+      "source": "s05_07.js:27903",
+      "uses": [
+        "s05_07.js:27903"
+      ],
+      "label": "S07 / html-text / e",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text022",
+      "unit": "S07",
+      "context": "html-text / e",
+      "source": "s05_07.js:28142",
+      "uses": [
+        "s05_07.js:28142"
+      ],
+      "label": "S07 / html-text / e",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text023",
+      "unit": "S07",
+      "context": "html-text / newT",
+      "source": "s05_07.js:28294",
+      "uses": [
+        "s05_07.js:28294"
+      ],
+      "label": "S07 / html-text / newT",
+      "maxChars": 28,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text024",
+      "unit": "S07",
+      "context": "html-text / knT",
+      "source": "s05_07.js:28687",
+      "uses": [
+        "s05_07.js:28687"
+      ],
+      "label": "S07 / html-text / knT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text025",
+      "unit": "S07",
+      "context": "html-text / knT",
+      "source": "s05_07.js:28733",
+      "uses": [
+        "s05_07.js:28733"
+      ],
+      "label": "S07 / html-text / knT",
+      "maxChars": 21,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text026",
+      "unit": "S07",
+      "context": "literal-text / INDS",
+      "source": "s05_07.js:28837",
+      "uses": [
+        "s05_07.js:28837"
+      ],
+      "label": "S07 / literal-text / INDS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text027",
+      "unit": "S07",
+      "context": "literal-text / INDS",
+      "source": "s05_07.js:28849",
+      "uses": [
+        "s05_07.js:28849"
+      ],
+      "label": "S07 / literal-text / INDS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text028",
+      "unit": "S07",
+      "context": "literal-text / INDS",
+      "source": "s05_07.js:28862",
+      "uses": [
+        "s05_07.js:28862"
+      ],
+      "label": "S07 / literal-text / INDS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text029",
+      "unit": "S07",
+      "context": "literal-text / INDS",
+      "source": "s05_07.js:28875",
+      "uses": [
+        "s05_07.js:28875"
+      ],
+      "label": "S07 / literal-text / INDS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text030",
+      "unit": "S07",
+      "context": "literal-text / INDS",
+      "source": "s05_07.js:28888",
+      "uses": [
+        "s05_07.js:28888"
+      ],
+      "label": "S07 / literal-text / INDS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text031",
+      "unit": "S07",
+      "context": "literal-text / INDS",
+      "source": "s05_07.js:28901",
+      "uses": [
+        "s05_07.js:28901"
+      ],
+      "label": "S07 / literal-text / INDS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text032",
+      "unit": "S07",
+      "context": "html-text / inds",
+      "source": "s05_07.js:29396",
+      "uses": [
+        "s05_07.js:29396"
+      ],
+      "label": "S07 / html-text / inds",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text033",
+      "unit": "S07",
+      "context": "html-text / indT",
+      "source": "s05_07.js:29589",
+      "uses": [
+        "s05_07.js:29589"
+      ],
+      "label": "S07 / html-text / indT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text034",
+      "unit": "S07",
+      "context": "html-text / indT",
+      "source": "s05_07.js:29642",
+      "uses": [
+        "s05_07.js:29642"
+      ],
+      "label": "S07 / html-text / indT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text035",
+      "unit": "S07",
+      "context": "html-text / indT",
+      "source": "s05_07.js:29687",
+      "uses": [
+        "s05_07.js:29687"
+      ],
+      "label": "S07 / html-text / indT",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S07.text036",
+      "unit": "S07",
+      "context": "literal-text / inline",
+      "source": "s05_07.js:31917",
+      "uses": [
+        "s05_07.js:31917"
+      ],
+      "label": "S07 / literal-text / inline",
+      "maxChars": 18,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text001",
+      "unit": "S08",
+      "context": "html-text / sure",
+      "source": "s08_11.js:816",
+      "uses": [
+        "s08_11.js:816"
+      ],
+      "label": "S08 / html-text / sure",
+      "maxChars": 16,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text002",
+      "unit": "S08",
+      "context": "html-text / sure",
+      "source": "s08_11.js:883",
+      "uses": [
+        "s08_11.js:883"
+      ],
+      "label": "S08 / html-text / sure",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text003",
+      "unit": "S08",
+      "context": "literal-text / rail",
+      "source": "s08_11.js:1176",
+      "uses": [
+        "s08_11.js:1176"
+      ],
+      "label": "S08 / literal-text / rail",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text004",
+      "unit": "S08",
+      "context": "literal-text / SK",
+      "source": "s08_11.js:1482",
+      "uses": [
+        "s08_11.js:1482",
+        "s08_11.js:1506",
+        "s08_11.js:1530",
+        "s08_11.js:1554"
+      ],
+      "label": "S08 / literal-text / SK",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text005",
+      "unit": "S08",
+      "context": "literal-text / SK",
+      "source": "s08_11.js:1582",
+      "uses": [
+        "s08_11.js:1582"
+      ],
+      "label": "S08 / literal-text / SK",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text006",
+      "unit": "S08",
+      "context": "html-text / wLab",
+      "source": "s08_11.js:3160",
+      "uses": [
+        "s08_11.js:3160"
+      ],
+      "label": "S08 / html-text / wLab",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text007",
+      "unit": "S08",
+      "context": "literal-text / stamp",
+      "source": "s08_11.js:3237",
+      "uses": [
+        "s08_11.js:3237"
+      ],
+      "label": "S08 / literal-text / stamp",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text008",
+      "unit": "S08",
+      "context": "literal-text / stamp",
+      "source": "s08_11.js:3268",
+      "uses": [
+        "s08_11.js:3268"
+      ],
+      "label": "S08 / literal-text / stamp",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text009",
+      "unit": "S08",
+      "context": "html-text / outT",
+      "source": "s08_11.js:3333",
+      "uses": [
+        "s08_11.js:3333"
+      ],
+      "label": "S08 / html-text / outT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text010",
+      "unit": "S08",
+      "context": "html-text / outT",
+      "source": "s08_11.js:3364",
+      "uses": [
+        "s08_11.js:3364"
+      ],
+      "label": "S08 / html-text / outT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S08.text011",
+      "unit": "S08",
+      "context": "html-text / mine",
+      "source": "s08_11.js:3468",
+      "uses": [
+        "s08_11.js:3468"
+      ],
+      "label": "S08 / html-text / mine",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text001",
+      "unit": "S09",
+      "context": "literal-text / work",
+      "source": "s08_11.js:6852",
+      "uses": [
+        "s08_11.js:6852"
+      ],
+      "label": "S09 / literal-text / work",
+      "maxChars": 16,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text002",
+      "unit": "S09",
+      "context": "literal-text / work",
+      "source": "s08_11.js:6879",
+      "uses": [
+        "s08_11.js:6879"
+      ],
+      "label": "S09 / literal-text / work",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text003",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7247",
+      "uses": [
+        "s08_11.js:7247"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 30,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text004",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7281",
+      "uses": [
+        "s08_11.js:7281"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 22,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text005",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7307",
+      "uses": [
+        "s08_11.js:7307"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 25,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text006",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7336",
+      "uses": [
+        "s08_11.js:7336"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 27,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text007",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7367",
+      "uses": [
+        "s08_11.js:7367"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 24,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text008",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7395",
+      "uses": [
+        "s08_11.js:7395"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 26,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text009",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7425",
+      "uses": [
+        "s08_11.js:7425"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 23,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text010",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7452",
+      "uses": [
+        "s08_11.js:7452"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 20,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text011",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7476",
+      "uses": [
+        "s08_11.js:7476"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 24,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text012",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7504",
+      "uses": [
+        "s08_11.js:7504"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 24,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text013",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7532",
+      "uses": [
+        "s08_11.js:7532"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 19,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text014",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7555",
+      "uses": [
+        "s08_11.js:7555"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 23,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text015",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7582",
+      "uses": [
+        "s08_11.js:7582"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text016",
+      "unit": "S09",
+      "context": "literal-text / LOG",
+      "source": "s08_11.js:7603",
+      "uses": [
+        "s08_11.js:7603"
+      ],
+      "label": "S09 / literal-text / LOG",
+      "maxChars": 15,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text017",
+      "unit": "S09",
+      "context": "html-text / heart",
+      "source": "s08_11.js:7882",
+      "uses": [
+        "s08_11.js:7882"
+      ],
+      "label": "S09 / html-text / heart",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text018",
+      "unit": "S09",
+      "context": "html-text / heart",
+      "source": "s08_11.js:7948",
+      "uses": [
+        "s08_11.js:7948"
+      ],
+      "label": "S09 / html-text / heart",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text019",
+      "unit": "S09",
+      "context": "html-text / commits",
+      "source": "s08_11.js:8114",
+      "uses": [
+        "s08_11.js:8114"
+      ],
+      "label": "S09 / html-text / commits",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text020",
+      "unit": "S09",
+      "context": "html-text / commits",
+      "source": "s08_11.js:8183",
+      "uses": [
+        "s08_11.js:8183"
+      ],
+      "label": "S09 / html-text / commits",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text021",
+      "unit": "S09",
+      "context": "html-text / commits",
+      "source": "s08_11.js:8225",
+      "uses": [
+        "s08_11.js:8225"
+      ],
+      "label": "S09 / html-text / commits",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text022",
+      "unit": "S09",
+      "context": "html-text / curve",
+      "source": "s08_11.js:8692",
+      "uses": [
+        "s08_11.js:8692"
+      ],
+      "label": "S09 / html-text / curve",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text023",
+      "unit": "S09",
+      "context": "html-text / bye1",
+      "source": "s08_11.js:8932",
+      "uses": [
+        "s08_11.js:8932"
+      ],
+      "label": "S09 / html-text / bye1",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text024",
+      "unit": "S09",
+      "context": "html-text / bye2",
+      "source": "s08_11.js:9050",
+      "uses": [
+        "s08_11.js:9050"
+      ],
+      "label": "S09 / html-text / bye2",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text025",
+      "unit": "S09",
+      "context": "html-text / byeTag",
+      "source": "s08_11.js:9157",
+      "uses": [
+        "s08_11.js:9157"
+      ],
+      "label": "S09 / html-text / byeTag",
+      "maxChars": 22,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text026",
+      "unit": "S09",
+      "context": "html-text / evenT",
+      "source": "s08_11.js:9633",
+      "uses": [
+        "s08_11.js:9633"
+      ],
+      "label": "S09 / html-text / evenT",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text027",
+      "unit": "S09",
+      "context": "html-text / evenT",
+      "source": "s08_11.js:9689",
+      "uses": [
+        "s08_11.js:9689"
+      ],
+      "label": "S09 / html-text / evenT",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S09.text028",
+      "unit": "S09",
+      "context": "html-text / evenT",
+      "source": "s08_11.js:9718",
+      "uses": [
+        "s08_11.js:9718"
+      ],
+      "label": "S09 / html-text / evenT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S10.text001",
+      "unit": "S10",
+      "context": "html-text / dLab",
+      "source": "s08_11.js:14325",
+      "uses": [
+        "s08_11.js:14325"
+      ],
+      "label": "S10 / html-text / dLab",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S10.text002",
+      "unit": "S10",
+      "context": "html-text / con",
+      "source": "s08_11.js:14972",
+      "uses": [
+        "s08_11.js:14972"
+      ],
+      "label": "S10 / html-text / con",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S10.text003",
+      "unit": "S10",
+      "context": "html-text / con",
+      "source": "s08_11.js:15032",
+      "uses": [
+        "s08_11.js:15032"
+      ],
+      "label": "S10 / html-text / con",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S10.text004",
+      "unit": "S10",
+      "context": "html-text / slow",
+      "source": "s08_11.js:15143",
+      "uses": [
+        "s08_11.js:15143"
+      ],
+      "label": "S10 / html-text / slow",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S10.text005",
+      "unit": "S10",
+      "context": "html-text / slow",
+      "source": "s08_11.js:15173",
+      "uses": [
+        "s08_11.js:15173"
+      ],
+      "label": "S10 / html-text / slow",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S10.text006",
+      "unit": "S10",
+      "context": "html-text / one",
+      "source": "s08_11.js:15359",
+      "uses": [
+        "s08_11.js:15359"
+      ],
+      "label": "S10 / html-text / one",
+      "maxChars": 29,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S10.text007",
+      "unit": "S10",
+      "context": "html-text / one",
+      "source": "s08_11.js:15440",
+      "uses": [
+        "s08_11.js:15440"
+      ],
+      "label": "S10 / html-text / one",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S10.text008",
+      "unit": "S10",
+      "context": "html-text / notYet",
+      "source": "s08_11.js:15548",
+      "uses": [
+        "s08_11.js:15548"
+      ],
+      "label": "S10 / html-text / notYet",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S10.text009",
+      "unit": "S10",
+      "context": "html-text / notYet",
+      "source": "s08_11.js:15579",
+      "uses": [
+        "s08_11.js:15579"
+      ],
+      "label": "S10 / html-text / notYet",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text001",
+      "unit": "S11",
+      "context": "literal-text / NODES",
+      "source": "s08_11.js:19229",
+      "uses": [
+        "s08_11.js:19229"
+      ],
+      "label": "S11 / literal-text / NODES",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text002",
+      "unit": "S11",
+      "context": "literal-text / NODES",
+      "source": "s08_11.js:19252",
+      "uses": [
+        "s08_11.js:19252"
+      ],
+      "label": "S11 / literal-text / NODES",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text003",
+      "unit": "S11",
+      "context": "literal-text / NODES",
+      "source": "s08_11.js:19277",
+      "uses": [
+        "s08_11.js:19277"
+      ],
+      "label": "S11 / literal-text / NODES",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text004",
+      "unit": "S11",
+      "context": "literal-text / NODES",
+      "source": "s08_11.js:19299",
+      "uses": [
+        "s08_11.js:19299"
+      ],
+      "label": "S11 / literal-text / NODES",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text005",
+      "unit": "S11",
+      "context": "html-text / nodes",
+      "source": "s08_11.js:20893",
+      "uses": [
+        "s08_11.js:20893"
+      ],
+      "label": "S11 / html-text / nodes",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text006",
+      "unit": "S11",
+      "context": "html-text / price",
+      "source": "s08_11.js:21279",
+      "uses": [
+        "s08_11.js:21279"
+      ],
+      "label": "S11 / html-text / price",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text007",
+      "unit": "S11",
+      "context": "html-text / center",
+      "source": "s08_11.js:21413",
+      "uses": [
+        "s08_11.js:21413"
+      ],
+      "label": "S11 / html-text / center",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text008",
+      "unit": "S11",
+      "context": "html-text / center",
+      "source": "s08_11.js:21479",
+      "uses": [
+        "s08_11.js:21479"
+      ],
+      "label": "S11 / html-text / center",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text009",
+      "unit": "S11",
+      "context": "html-text / side",
+      "source": "s08_11.js:21675",
+      "uses": [
+        "s08_11.js:21675"
+      ],
+      "label": "S11 / html-text / side",
+      "maxChars": 15,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text010",
+      "unit": "S11",
+      "context": "html-text / side",
+      "source": "s08_11.js:21739",
+      "uses": [
+        "s08_11.js:21739"
+      ],
+      "label": "S11 / html-text / side",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text011",
+      "unit": "S11",
+      "context": "html-text / side",
+      "source": "s08_11.js:21739",
+      "uses": [
+        "s08_11.js:21739"
+      ],
+      "label": "S11 / html-text / side",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S11.text012",
+      "unit": "S11",
+      "context": "html-text / side",
+      "source": "s08_11.js:21739",
+      "uses": [
+        "s08_11.js:21739"
+      ],
+      "label": "S11 / html-text / side",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text001",
+      "unit": "S12",
+      "context": "html-text / day",
+      "source": "s12_14.js:3073",
+      "uses": [
+        "s12_14.js:3073"
+      ],
+      "label": "S12 / html-text / day",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text002",
+      "unit": "S12",
+      "context": "html-text / day",
+      "source": "s12_14.js:3127",
+      "uses": [
+        "s12_14.js:3127"
+      ],
+      "label": "S12 / html-text / day",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text003",
+      "unit": "S12",
+      "context": "html-text / whyL",
+      "source": "s12_14.js:3246",
+      "uses": [
+        "s12_14.js:3246"
+      ],
+      "label": "S12 / html-text / whyL",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text004",
+      "unit": "S12",
+      "context": "html-text / whyR",
+      "source": "s12_14.js:3344",
+      "uses": [
+        "s12_14.js:3344"
+      ],
+      "label": "S12 / html-text / whyR",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text005",
+      "unit": "S12",
+      "context": "html-text / whyR",
+      "source": "s12_14.js:3344",
+      "uses": [
+        "s12_14.js:3344"
+      ],
+      "label": "S12 / html-text / whyR",
+      "maxChars": 16,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text006",
+      "unit": "S12",
+      "context": "html-text / tlLab",
+      "source": "s12_14.js:3612",
+      "uses": [
+        "s12_14.js:3612"
+      ],
+      "label": "S12 / html-text / tlLab",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text007",
+      "unit": "S12",
+      "context": "html-text / tlLab",
+      "source": "s12_14.js:3658",
+      "uses": [
+        "s12_14.js:3658"
+      ],
+      "label": "S12 / html-text / tlLab",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text008",
+      "unit": "S12",
+      "context": "html-text / mad",
+      "source": "s12_14.js:3771",
+      "uses": [
+        "s12_14.js:3771"
+      ],
+      "label": "S12 / html-text / mad",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text009",
+      "unit": "S12",
+      "context": "html-text / thr",
+      "source": "s12_14.js:4386",
+      "uses": [
+        "s12_14.js:4386"
+      ],
+      "label": "S12 / html-text / thr",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text010",
+      "unit": "S12",
+      "context": "html-text / clean",
+      "source": "s12_14.js:4670",
+      "uses": [
+        "s12_14.js:4670"
+      ],
+      "label": "S12 / html-text / clean",
+      "maxChars": 18,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text011",
+      "unit": "S12",
+      "context": "html-text / free",
+      "source": "s12_14.js:6277",
+      "uses": [
+        "s12_14.js:6277"
+      ],
+      "label": "S12 / html-text / free",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text012",
+      "unit": "S12",
+      "context": "html-text / free",
+      "source": "s12_14.js:6382",
+      "uses": [
+        "s12_14.js:6382"
+      ],
+      "label": "S12 / html-text / free",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text013",
+      "unit": "S12",
+      "context": "html-text / free",
+      "source": "s12_14.js:6484",
+      "uses": [
+        "s12_14.js:6484"
+      ],
+      "label": "S12 / html-text / free",
+      "maxChars": 19,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text014",
+      "unit": "S12",
+      "context": "html-text / prog",
+      "source": "s12_14.js:7249",
+      "uses": [
+        "s12_14.js:7249"
+      ],
+      "label": "S12 / html-text / prog",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text015",
+      "unit": "S12",
+      "context": "html-text / prog",
+      "source": "s12_14.js:7332",
+      "uses": [
+        "s12_14.js:7332"
+      ],
+      "label": "S12 / html-text / prog",
+      "maxChars": 5,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text016",
+      "unit": "S12",
+      "context": "html-text / teach",
+      "source": "s12_14.js:7571",
+      "uses": [
+        "s12_14.js:7571"
+      ],
+      "label": "S12 / html-text / teach",
+      "maxChars": 15,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text017",
+      "unit": "S12",
+      "context": "html-text / teach",
+      "source": "s12_14.js:7628",
+      "uses": [
+        "s12_14.js:7628"
+      ],
+      "label": "S12 / html-text / teach",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text018",
+      "unit": "S12",
+      "context": "html-text / teach",
+      "source": "s12_14.js:7653",
+      "uses": [
+        "s12_14.js:7653"
+      ],
+      "label": "S12 / html-text / teach",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text019",
+      "unit": "S12",
+      "context": "html-text / this1",
+      "source": "s12_14.js:7827",
+      "uses": [
+        "s12_14.js:7827"
+      ],
+      "label": "S12 / html-text / this1",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S12.text020",
+      "unit": "S12",
+      "context": "literal-text / inline",
+      "source": "s12_14.js:8913",
+      "uses": [
+        "s12_14.js:8913"
+      ],
+      "label": "S12 / literal-text / inline",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text001",
+      "unit": "S13",
+      "context": "literal-text / STEP",
+      "source": "s12_14.js:13336",
+      "uses": [
+        "s12_14.js:13336"
+      ],
+      "label": "S13 / literal-text / STEP",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text002",
+      "unit": "S13",
+      "context": "literal-text / STEP",
+      "source": "s12_14.js:13351",
+      "uses": [
+        "s12_14.js:13351"
+      ],
+      "label": "S13 / literal-text / STEP",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text003",
+      "unit": "S13",
+      "context": "literal-text / STEP",
+      "source": "s12_14.js:13370",
+      "uses": [
+        "s12_14.js:13370"
+      ],
+      "label": "S13 / literal-text / STEP",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text004",
+      "unit": "S13",
+      "context": "html-text / steps",
+      "source": "s12_14.js:13728",
+      "uses": [
+        "s12_14.js:13728"
+      ],
+      "label": "S13 / html-text / steps",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text005",
+      "unit": "S13",
+      "context": "html-text / simple",
+      "source": "s12_14.js:13999",
+      "uses": [
+        "s12_14.js:13999"
+      ],
+      "label": "S13 / html-text / simple",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text006",
+      "unit": "S13",
+      "context": "html-text / simple",
+      "source": "s12_14.js:14024",
+      "uses": [
+        "s12_14.js:14024"
+      ],
+      "label": "S13 / html-text / simple",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text007",
+      "unit": "S13",
+      "context": "html-text / gauge",
+      "source": "s12_14.js:15096",
+      "uses": [
+        "s12_14.js:15096"
+      ],
+      "label": "S13 / html-text / gauge",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text008",
+      "unit": "S13",
+      "context": "html-text / gauge",
+      "source": "s12_14.js:15196",
+      "uses": [
+        "s12_14.js:15196"
+      ],
+      "label": "S13 / html-text / gauge",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text009",
+      "unit": "S13",
+      "context": "html-text / halfN",
+      "source": "s12_14.js:15464",
+      "uses": [
+        "s12_14.js:15464"
+      ],
+      "label": "S13 / html-text / halfN",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text010",
+      "unit": "S13",
+      "context": "html-text / halfN",
+      "source": "s12_14.js:15535",
+      "uses": [
+        "s12_14.js:15535"
+      ],
+      "label": "S13 / html-text / halfN",
+      "maxChars": 4,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text011",
+      "unit": "S13",
+      "context": "html-text / halfN",
+      "source": "s12_14.js:15576",
+      "uses": [
+        "s12_14.js:15576"
+      ],
+      "label": "S13 / html-text / halfN",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text012",
+      "unit": "S13",
+      "context": "html-text / months",
+      "source": "s12_14.js:15698",
+      "uses": [
+        "s12_14.js:15698"
+      ],
+      "label": "S13 / html-text / months",
+      "maxChars": 22,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text013",
+      "unit": "S13",
+      "context": "html-text / quote",
+      "source": "s12_14.js:16074",
+      "uses": [
+        "s12_14.js:16074"
+      ],
+      "label": "S13 / html-text / quote",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text014",
+      "unit": "S13",
+      "context": "html-text / quote",
+      "source": "s12_14.js:16271",
+      "uses": [
+        "s12_14.js:16271"
+      ],
+      "label": "S13 / html-text / quote",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text015",
+      "unit": "S13",
+      "context": "html-text / quote",
+      "source": "s12_14.js:16321",
+      "uses": [
+        "s12_14.js:16321"
+      ],
+      "label": "S13 / html-text / quote",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text016",
+      "unit": "S13",
+      "context": "html-text / quote",
+      "source": "s12_14.js:16321",
+      "uses": [
+        "s12_14.js:16321"
+      ],
+      "label": "S13 / html-text / quote",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text017",
+      "unit": "S13",
+      "context": "html-text / box",
+      "source": "s12_14.js:16780",
+      "uses": [
+        "s12_14.js:16780"
+      ],
+      "label": "S13 / html-text / box",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text018",
+      "unit": "S13",
+      "context": "html-text / box",
+      "source": "s12_14.js:16909",
+      "uses": [
+        "s12_14.js:16909"
+      ],
+      "label": "S13 / html-text / box",
+      "maxChars": 5,
+      "format": "numeric-text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text019",
+      "unit": "S13",
+      "context": "literal-text / outV",
+      "source": "s12_14.js:17381",
+      "uses": [
+        "s12_14.js:17381"
+      ],
+      "label": "S13 / literal-text / outV",
+      "maxChars": 23,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text020",
+      "unit": "S13",
+      "context": "literal-text / outV",
+      "source": "s12_14.js:17415",
+      "uses": [
+        "s12_14.js:17415"
+      ],
+      "label": "S13 / literal-text / outV",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text021",
+      "unit": "S13",
+      "context": "html-text / min30",
+      "source": "s12_14.js:17498",
+      "uses": [
+        "s12_14.js:17498"
+      ],
+      "label": "S13 / html-text / min30",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text022",
+      "unit": "S13",
+      "context": "html-text / nle",
+      "source": "s12_14.js:18130",
+      "uses": [
+        "s12_14.js:18130"
+      ],
+      "label": "S13 / html-text / nle",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S13.text023",
+      "unit": "S13",
+      "context": "html-text / noBack",
+      "source": "s12_14.js:19127",
+      "uses": [
+        "s12_14.js:19127"
+      ],
+      "label": "S13 / html-text / noBack",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text001",
+      "unit": "S14",
+      "context": "literal-text / NAMES",
+      "source": "s12_14.js:22925",
+      "uses": [
+        "s12_14.js:22925"
+      ],
+      "label": "S14 / literal-text / NAMES",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text002",
+      "unit": "S14",
+      "context": "literal-text / NAMES",
+      "source": "s12_14.js:22956",
+      "uses": [
+        "s12_14.js:22956"
+      ],
+      "label": "S14 / literal-text / NAMES",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text003",
+      "unit": "S14",
+      "context": "literal-text / NAMES",
+      "source": "s12_14.js:22987",
+      "uses": [
+        "s12_14.js:22987"
+      ],
+      "label": "S14 / literal-text / NAMES",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text004",
+      "unit": "S14",
+      "context": "literal-text / NAMES",
+      "source": "s12_14.js:23020",
+      "uses": [
+        "s12_14.js:23020"
+      ],
+      "label": "S14 / literal-text / NAMES",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text005",
+      "unit": "S14",
+      "context": "literal-text / panel",
+      "source": "s12_14.js:24025",
+      "uses": [
+        "s12_14.js:24025"
+      ],
+      "label": "S14 / literal-text / panel",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text006",
+      "unit": "S14",
+      "context": "literal-text / panel",
+      "source": "s12_14.js:24043",
+      "uses": [
+        "s12_14.js:24043"
+      ],
+      "label": "S14 / literal-text / panel",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text007",
+      "unit": "S14",
+      "context": "literal-text / pA",
+      "source": "s12_14.js:24120",
+      "uses": [
+        "s12_14.js:24120"
+      ],
+      "label": "S14 / literal-text / pA",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text008",
+      "unit": "S14",
+      "context": "literal-text / pA",
+      "source": "s12_14.js:24128",
+      "uses": [
+        "s12_14.js:24128"
+      ],
+      "label": "S14 / literal-text / pA",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text009",
+      "unit": "S14",
+      "context": "literal-text / pB",
+      "source": "s12_14.js:24170",
+      "uses": [
+        "s12_14.js:24170"
+      ],
+      "label": "S14 / literal-text / pB",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text010",
+      "unit": "S14",
+      "context": "literal-text / pB",
+      "source": "s12_14.js:24178",
+      "uses": [
+        "s12_14.js:24178"
+      ],
+      "label": "S14 / literal-text / pB",
+      "maxChars": 8,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text011",
+      "unit": "S14",
+      "context": "html-text / okT",
+      "source": "s12_14.js:24489",
+      "uses": [
+        "s12_14.js:24489"
+      ],
+      "label": "S14 / html-text / okT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text012",
+      "unit": "S14",
+      "context": "html-text / site",
+      "source": "s12_14.js:25321",
+      "uses": [
+        "s12_14.js:25321"
+      ],
+      "label": "S14 / html-text / site",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text013",
+      "unit": "S14",
+      "context": "literal-text / TOOLS",
+      "source": "s12_14.js:25844",
+      "uses": [
+        "s12_14.js:25844"
+      ],
+      "label": "S14 / literal-text / TOOLS",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text014",
+      "unit": "S14",
+      "context": "literal-text / TOOLS",
+      "source": "s12_14.js:25882",
+      "uses": [
+        "s12_14.js:25882"
+      ],
+      "label": "S14 / literal-text / TOOLS",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text015",
+      "unit": "S14",
+      "context": "html-text / siteTag",
+      "source": "s12_14.js:26120",
+      "uses": [
+        "s12_14.js:26120"
+      ],
+      "label": "S14 / html-text / siteTag",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text016",
+      "unit": "S14",
+      "context": "html-text / siteTag",
+      "source": "s12_14.js:26176",
+      "uses": [
+        "s12_14.js:26176"
+      ],
+      "label": "S14 / html-text / siteTag",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text017",
+      "unit": "S14",
+      "context": "html-text / siteTag",
+      "source": "s12_14.js:26208",
+      "uses": [
+        "s12_14.js:26208"
+      ],
+      "label": "S14 / html-text / siteTag",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text018",
+      "unit": "S14",
+      "context": "html-text / siteTag",
+      "source": "s12_14.js:26208",
+      "uses": [
+        "s12_14.js:26208"
+      ],
+      "label": "S14 / html-text / siteTag",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text019",
+      "unit": "S14",
+      "context": "html-text / siteSrc",
+      "source": "s12_14.js:26325",
+      "uses": [
+        "s12_14.js:26325"
+      ],
+      "label": "S14 / html-text / siteSrc",
+      "maxChars": 15,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text020",
+      "unit": "S14",
+      "context": "html-text / nights",
+      "source": "s12_14.js:27416",
+      "uses": [
+        "s12_14.js:27416"
+      ],
+      "label": "S14 / html-text / nights",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text021",
+      "unit": "S14",
+      "context": "html-text / nights",
+      "source": "s12_14.js:27443",
+      "uses": [
+        "s12_14.js:27443"
+      ],
+      "label": "S14 / html-text / nights",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text022",
+      "unit": "S14",
+      "context": "html-text / nights",
+      "source": "s12_14.js:27504",
+      "uses": [
+        "s12_14.js:27504"
+      ],
+      "label": "S14 / html-text / nights",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text023",
+      "unit": "S14",
+      "context": "html-text / brk",
+      "source": "s12_14.js:28169",
+      "uses": [
+        "s12_14.js:28169"
+      ],
+      "label": "S14 / html-text / brk",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text024",
+      "unit": "S14",
+      "context": "html-text / brk",
+      "source": "s12_14.js:28197",
+      "uses": [
+        "s12_14.js:28197"
+      ],
+      "label": "S14 / html-text / brk",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text025",
+      "unit": "S14",
+      "context": "html-text / allT",
+      "source": "s12_14.js:28941",
+      "uses": [
+        "s12_14.js:28941"
+      ],
+      "label": "S14 / html-text / allT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text026",
+      "unit": "S14",
+      "context": "html-text / allT",
+      "source": "s12_14.js:28969",
+      "uses": [
+        "s12_14.js:28969"
+      ],
+      "label": "S14 / html-text / allT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text027",
+      "unit": "S14",
+      "context": "html-text / bars",
+      "source": "s12_14.js:29112",
+      "uses": [
+        "s12_14.js:29112"
+      ],
+      "label": "S14 / html-text / bars",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text028",
+      "unit": "S14",
+      "context": "literal-text / bars",
+      "source": "s12_14.js:29161",
+      "uses": [
+        "s12_14.js:29161"
+      ],
+      "label": "S14 / literal-text / bars",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text029",
+      "unit": "S14",
+      "context": "literal-text / bars",
+      "source": "s12_14.js:29183",
+      "uses": [
+        "s12_14.js:29183"
+      ],
+      "label": "S14 / literal-text / bars",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text030",
+      "unit": "S14",
+      "context": "html-text / better",
+      "source": "s12_14.js:29703",
+      "uses": [
+        "s12_14.js:29703"
+      ],
+      "label": "S14 / html-text / better",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text031",
+      "unit": "S14",
+      "context": "html-text / better",
+      "source": "s12_14.js:29728",
+      "uses": [
+        "s12_14.js:29728"
+      ],
+      "label": "S14 / html-text / better",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text032",
+      "unit": "S14",
+      "context": "literal-text / inline",
+      "source": "s12_14.js:30395",
+      "uses": [
+        "s12_14.js:30395"
+      ],
+      "label": "S14 / literal-text / inline",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text033",
+      "unit": "S14",
+      "context": "literal-text / inline",
+      "source": "s12_14.js:30410",
+      "uses": [
+        "s12_14.js:30410"
+      ],
+      "label": "S14 / literal-text / inline",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text034",
+      "unit": "S14",
+      "context": "literal-text / inline",
+      "source": "s12_14.js:32578",
+      "uses": [
+        "s12_14.js:32578"
+      ],
+      "label": "S14 / literal-text / inline",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S14.text035",
+      "unit": "S14",
+      "context": "literal-text / inline",
+      "source": "s12_14.js:32651",
+      "uses": [
+        "s12_14.js:32651"
+      ],
+      "label": "S14 / literal-text / inline",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text001",
+      "unit": "S15",
+      "context": "html-text / effT",
+      "source": "s15_17.js:761",
+      "uses": [
+        "s15_17.js:761"
+      ],
+      "label": "S15 / html-text / effT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text002",
+      "unit": "S15",
+      "context": "html-text / effT",
+      "source": "s15_17.js:786",
+      "uses": [
+        "s15_17.js:786"
+      ],
+      "label": "S15 / html-text / effT",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text003",
+      "unit": "S15",
+      "context": "html-text / tip",
+      "source": "s15_17.js:1140",
+      "uses": [
+        "s15_17.js:1140"
+      ],
+      "label": "S15 / html-text / tip",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text004",
+      "unit": "S15",
+      "context": "html-text / sw",
+      "source": "s15_17.js:1418",
+      "uses": [
+        "s15_17.js:1418"
+      ],
+      "label": "S15 / html-text / sw",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text005",
+      "unit": "S15",
+      "context": "html-text / sw",
+      "source": "s15_17.js:1461",
+      "uses": [
+        "s15_17.js:1461"
+      ],
+      "label": "S15 / html-text / sw",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text006",
+      "unit": "S15",
+      "context": "html-text / sw",
+      "source": "s15_17.js:1551",
+      "uses": [
+        "s15_17.js:1551"
+      ],
+      "label": "S15 / html-text / sw",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text007",
+      "unit": "S15",
+      "context": "literal-text / LV",
+      "source": "s15_17.js:2137",
+      "uses": [
+        "s15_17.js:2137"
+      ],
+      "label": "S15 / literal-text / LV",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text008",
+      "unit": "S15",
+      "context": "literal-text / LV",
+      "source": "s15_17.js:2144",
+      "uses": [
+        "s15_17.js:2144"
+      ],
+      "label": "S15 / literal-text / LV",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text009",
+      "unit": "S15",
+      "context": "literal-text / LV",
+      "source": "s15_17.js:2151",
+      "uses": [
+        "s15_17.js:2151"
+      ],
+      "label": "S15 / literal-text / LV",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text010",
+      "unit": "S15",
+      "context": "literal-text / LV",
+      "source": "s15_17.js:2159",
+      "uses": [
+        "s15_17.js:2159"
+      ],
+      "label": "S15 / literal-text / LV",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text011",
+      "unit": "S15",
+      "context": "html-text / tier",
+      "source": "s15_17.js:2394",
+      "uses": [
+        "s15_17.js:2394"
+      ],
+      "label": "S15 / html-text / tier",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text012",
+      "unit": "S15",
+      "context": "html-text / tier",
+      "source": "s15_17.js:2449",
+      "uses": [
+        "s15_17.js:2449"
+      ],
+      "label": "S15 / html-text / tier",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text013",
+      "unit": "S15",
+      "context": "html-text / graph",
+      "source": "s15_17.js:4156",
+      "uses": [
+        "s15_17.js:4156"
+      ],
+      "label": "S15 / html-text / graph",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text014",
+      "unit": "S15",
+      "context": "html-text / graph",
+      "source": "s15_17.js:4265",
+      "uses": [
+        "s15_17.js:4265"
+      ],
+      "label": "S15 / html-text / graph",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text015",
+      "unit": "S15",
+      "context": "html-text / graph",
+      "source": "s15_17.js:4374",
+      "uses": [
+        "s15_17.js:4374"
+      ],
+      "label": "S15 / html-text / graph",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text016",
+      "unit": "S15",
+      "context": "html-text / linked",
+      "source": "s15_17.js:4727",
+      "uses": [
+        "s15_17.js:4727"
+      ],
+      "label": "S15 / html-text / linked",
+      "maxChars": 13,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text017",
+      "unit": "S15",
+      "context": "literal-text / inline",
+      "source": "s15_17.js:5261",
+      "uses": [
+        "s15_17.js:5261"
+      ],
+      "label": "S15 / literal-text / inline",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S15.text018",
+      "unit": "S15",
+      "context": "literal-text / inline",
+      "source": "s15_17.js:5746",
+      "uses": [
+        "s15_17.js:5746"
+      ],
+      "label": "S15 / literal-text / inline",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S16.text001",
+      "unit": "S16",
+      "context": "literal-text / tm",
+      "source": "s15_17.js:7436",
+      "uses": [
+        "s15_17.js:7436"
+      ],
+      "label": "S16 / literal-text / tm",
+      "maxChars": 25,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S16.text002",
+      "unit": "S16",
+      "context": "literal-text / stamp",
+      "source": "s15_17.js:7490",
+      "uses": [
+        "s15_17.js:7490"
+      ],
+      "label": "S16 / literal-text / stamp",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S16.text003",
+      "unit": "S16",
+      "context": "literal-text / stamp",
+      "source": "s15_17.js:7522",
+      "uses": [
+        "s15_17.js:7522"
+      ],
+      "label": "S16 / literal-text / stamp",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S16.text004",
+      "unit": "S16",
+      "context": "html-text / ver",
+      "source": "s15_17.js:7672",
+      "uses": [
+        "s15_17.js:7672"
+      ],
+      "label": "S16 / html-text / ver",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S16.text005",
+      "unit": "S16",
+      "context": "html-text / ver",
+      "source": "s15_17.js:7741",
+      "uses": [
+        "s15_17.js:7741"
+      ],
+      "label": "S16 / html-text / ver",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S16.text006",
+      "unit": "S16",
+      "context": "html-text / fast",
+      "source": "s15_17.js:7893",
+      "uses": [
+        "s15_17.js:7893"
+      ],
+      "label": "S16 / html-text / fast",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text001",
+      "unit": "S17",
+      "context": "html-text / plate",
+      "source": "s15_17.js:11569",
+      "uses": [
+        "s15_17.js:11569"
+      ],
+      "label": "S17 / html-text / plate",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text002",
+      "unit": "S17",
+      "context": "html-text / plate",
+      "source": "s15_17.js:11637",
+      "uses": [
+        "s15_17.js:11637"
+      ],
+      "label": "S17 / html-text / plate",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text003",
+      "unit": "S17",
+      "context": "html-text / plate",
+      "source": "s15_17.js:11703",
+      "uses": [
+        "s15_17.js:11703"
+      ],
+      "label": "S17 / html-text / plate",
+      "maxChars": 25,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text004",
+      "unit": "S17",
+      "context": "literal-text / NEWS",
+      "source": "s15_17.js:11848",
+      "uses": [
+        "s15_17.js:11848"
+      ],
+      "label": "S17 / literal-text / NEWS",
+      "maxChars": 15,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text005",
+      "unit": "S17",
+      "context": "literal-text / NEWS",
+      "source": "s15_17.js:11867",
+      "uses": [
+        "s15_17.js:11867"
+      ],
+      "label": "S17 / literal-text / NEWS",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text006",
+      "unit": "S17",
+      "context": "literal-text / NEWS",
+      "source": "s15_17.js:11883",
+      "uses": [
+        "s15_17.js:11883"
+      ],
+      "label": "S17 / literal-text / NEWS",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text007",
+      "unit": "S17",
+      "context": "literal-text / NEWS",
+      "source": "s15_17.js:11898",
+      "uses": [
+        "s15_17.js:11898"
+      ],
+      "label": "S17 / literal-text / NEWS",
+      "maxChars": 10,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text008",
+      "unit": "S17",
+      "context": "literal-text / NEWS",
+      "source": "s15_17.js:11912",
+      "uses": [
+        "s15_17.js:11912"
+      ],
+      "label": "S17 / literal-text / NEWS",
+      "maxChars": 11,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text009",
+      "unit": "S17",
+      "context": "html-text / news",
+      "source": "s15_17.js:12126",
+      "uses": [
+        "s15_17.js:12126"
+      ],
+      "label": "S17 / html-text / news",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text010",
+      "unit": "S17",
+      "context": "html-text / notOnly",
+      "source": "s15_17.js:12374",
+      "uses": [
+        "s15_17.js:12374"
+      ],
+      "label": "S17 / html-text / notOnly",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text011",
+      "unit": "S17",
+      "context": "html-text / notOnly",
+      "source": "s15_17.js:12403",
+      "uses": [
+        "s15_17.js:12403"
+      ],
+      "label": "S17 / html-text / notOnly",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text012",
+      "unit": "S17",
+      "context": "html-text / tog1",
+      "source": "s15_17.js:12531",
+      "uses": [
+        "s15_17.js:12531"
+      ],
+      "label": "S17 / html-text / tog1",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text013",
+      "unit": "S17",
+      "context": "html-text / tog2",
+      "source": "s15_17.js:12641",
+      "uses": [
+        "s15_17.js:12641"
+      ],
+      "label": "S17 / html-text / tog2",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text014",
+      "unit": "S17",
+      "context": "html-text / fol",
+      "source": "s15_17.js:12855",
+      "uses": [
+        "s15_17.js:12855"
+      ],
+      "label": "S17 / html-text / fol",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text015",
+      "unit": "S17",
+      "context": "html-text / likeN",
+      "source": "s15_17.js:13350",
+      "uses": [
+        "s15_17.js:13350"
+      ],
+      "label": "S17 / html-text / likeN",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text016",
+      "unit": "S17",
+      "context": "html-text / motv",
+      "source": "s15_17.js:13451",
+      "uses": [
+        "s15_17.js:13451"
+      ],
+      "label": "S17 / html-text / motv",
+      "maxChars": 29,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text017",
+      "unit": "S17",
+      "context": "html-text / bye",
+      "source": "s15_17.js:13642",
+      "uses": [
+        "s15_17.js:13642"
+      ],
+      "label": "S17 / html-text / bye",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text018",
+      "unit": "S17",
+      "context": "html-text / bye",
+      "source": "s15_17.js:13697",
+      "uses": [
+        "s15_17.js:13697"
+      ],
+      "label": "S17 / html-text / bye",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text019",
+      "unit": "S17",
+      "context": "html-text / bye",
+      "source": "s15_17.js:13740",
+      "uses": [
+        "s15_17.js:13740"
+      ],
+      "label": "S17 / html-text / bye",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text020",
+      "unit": "S17",
+      "context": "literal-text / scrambleAt",
+      "source": "s15_17.js:14072",
+      "uses": [
+        "s15_17.js:14072"
+      ],
+      "label": "S17 / literal-text / scrambleAt",
+      "maxChars": 25,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text021",
+      "unit": "S17",
+      "context": "literal-text / inline",
+      "source": "s15_17.js:14949",
+      "uses": [
+        "s15_17.js:14949"
+      ],
+      "label": "S17 / literal-text / inline",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "S17.text022",
+      "unit": "S17",
+      "context": "literal-text / inline",
+      "source": "s15_17.js:14957",
+      "uses": [
+        "s15_17.js:14957"
+      ],
+      "label": "S17 / literal-text / inline",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text001",
+      "unit": "END",
+      "context": "html-text / made1",
+      "source": "s15_17.js:17712",
+      "uses": [
+        "s15_17.js:17712"
+      ],
+      "label": "END / html-text / made1",
+      "maxChars": 9,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text002",
+      "unit": "END",
+      "context": "html-text / made2",
+      "source": "s15_17.js:17818",
+      "uses": [
+        "s15_17.js:17818"
+      ],
+      "label": "END / html-text / made2",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text003",
+      "unit": "END",
+      "context": "html-text / made2",
+      "source": "s15_17.js:17847",
+      "uses": [
+        "s15_17.js:17847"
+      ],
+      "label": "END / html-text / made2",
+      "maxChars": 7,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text004",
+      "unit": "END",
+      "context": "html-text / made2",
+      "source": "s15_17.js:17847",
+      "uses": [
+        "s15_17.js:17847"
+      ],
+      "label": "END / html-text / made2",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text005",
+      "unit": "END",
+      "context": "html-text / card",
+      "source": "s15_17.js:18406",
+      "uses": [
+        "s15_17.js:18406"
+      ],
+      "label": "END / html-text / card",
+      "maxChars": 14,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text006",
+      "unit": "END",
+      "context": "html-text / card",
+      "source": "s15_17.js:18469",
+      "uses": [
+        "s15_17.js:18469"
+      ],
+      "label": "END / html-text / card",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text007",
+      "unit": "END",
+      "context": "html-text / card",
+      "source": "s15_17.js:18590",
+      "uses": [
+        "s15_17.js:18590"
+      ],
+      "label": "END / html-text / card",
+      "maxChars": 4,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text008",
+      "unit": "END",
+      "context": "html-text / card",
+      "source": "s15_17.js:18635",
+      "uses": [
+        "s15_17.js:18635"
+      ],
+      "label": "END / html-text / card",
+      "maxChars": 6,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text009",
+      "unit": "END",
+      "context": "html-text / card",
+      "source": "s15_17.js:18809",
+      "uses": [
+        "s15_17.js:18809"
+      ],
+      "label": "END / html-text / card",
+      "maxChars": 21,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text010",
+      "unit": "END",
+      "context": "html-text / card",
+      "source": "s15_17.js:19229",
+      "uses": [
+        "s15_17.js:19229"
+      ],
+      "label": "END / html-text / card",
+      "maxChars": 23,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text011",
+      "unit": "END",
+      "context": "html-text / card",
+      "source": "s15_17.js:19342",
+      "uses": [
+        "s15_17.js:19342"
+      ],
+      "label": "END / html-text / card",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text012",
+      "unit": "END",
+      "context": "literal-text / card",
+      "source": "s15_17.js:19466",
+      "uses": [
+        "s15_17.js:19466"
+      ],
+      "label": "END / literal-text / card",
+      "maxChars": 5,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text013",
+      "unit": "END",
+      "context": "literal-text / card",
+      "source": "s15_17.js:19475",
+      "uses": [
+        "s15_17.js:19475"
+      ],
+      "label": "END / literal-text / card",
+      "maxChars": 17,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text014",
+      "unit": "END",
+      "context": "literal-text / card",
+      "source": "s15_17.js:19496",
+      "uses": [
+        "s15_17.js:19496"
+      ],
+      "label": "END / literal-text / card",
+      "maxChars": 12,
+      "format": "text",
+      "required": true,
+      "default": ""
+    },
+    {
+      "id": "END.text015",
+      "unit": "END",
+      "context": "html-text / shot",
+      "source": "s15_17.js:20472",
+      "uses": [
+        "s15_17.js:20472"
+      ],
+      "label": "END / html-text / shot",
+      "maxChars": 24,
+      "format": "text",
+      "required": true,
+      "default": ""
+    }
+  ]
+}

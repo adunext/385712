@@ -1,0 +1,81 @@
+{
+  "$schema": "https://motiongit.com/schema/motion/0.1.json",
+  "format": "motiongit-template",
+  "specVersion": "0.1.0-draft.1",
+  "template": {
+    "id": "kinetic-tech",
+    "version": "0.2.4-open-beta",
+    "name": "Kinetic Tech",
+    "status": "open-beta"
+  },
+  "runtime": {
+    "profile": "kinetic-user-core/1",
+    "entry": "adapter.py",
+    "dependencyLock": "motion.lock.json"
+  },
+  "parameters": {
+    "schema": "params.schema.json"
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": {
+      "num": 60,
+      "den": 1
+    },
+    "durationPolicy": "fit-content",
+    "layouts": {
+      "landscape": [
+        1920,
+        1080
+      ]
+    }
+  },
+  "license": {
+    "file": "licenses/TEMPLATE-LICENSE.txt"
+  },
+  "assets": {
+    "manifest": "asset-manifest.json"
+  },
+  "permissions": {
+    "network": false,
+    "read": [
+      "package",
+      "instance-inputs"
+    ],
+    "write": [
+      "instance-output"
+    ]
+  },
+  "ai": {
+    "summary": "Silver metal type,amber light and native spatial choreography. Read guide.json and use current user content.",
+    "entry": "guide.json",
+    "guide": "guide.json",
+    "authoring": {
+      "tool": "codex",
+      "client": "codex-desktop",
+      "model": "GPT-6",
+      "date": "2026-10-14"
+    }
+  },
+  "extensions": {
+    "motiongit.com:packaging": {
+      "tool": "codex",
+      "client": "codex-desktop",
+      "model": "GPT-6"
+    },
+    "motiongit.com:extraction": {
+      "coverageComplete": false,
+      "sourceUnits": 23,
+      "sourceAuthor": "unknown",
+      "originalDemoIncluded": false
+    },
+    "motiongit.com:locale": "en",
+    "motiongit.com:open-source": {
+      "repository": "https://github.com/motiontemplates/385712",
+      "apiEnabled": false,
+      "personalIdentityIncluded": false
+    }
+  },
+  "integrity": "integrity.json"
+}

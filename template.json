@@ -1,95 +1,35 @@
 {
-  "format": "motiongit.discovery/1",
+  "format": "motiongit.open-source/1",
   "repositoryId": "385712",
-  "templateId": 617,
-  "owner": "prism-studio",
-  "slug": "visual-art-c-collage",
-  "website": "https://motiongit.com/@prism-studio/visual-art-c-collage",
-  "checkedAt": "2026-10-13",
-  "availability": "download-available",
+  "slug": "kinetic-tech",
+  "version": "0.2.4-open-beta",
   "title": {
-    "en": "Geometric Collage · Animated Poster",
-    "zh": "几何拼贴 · 动态海报"
+    "en": "Kinetic Tech",
+    "zh": "酷炫科技风"
   },
-  "summary": {
-    "en": "Recompose four photos as geometric shapes across three Bauhaus-inspired animated posters.",
-    "zh": "将四张照片裁成几何形状，在三组包豪斯动态海报中重组，适合活动与视觉主题展示。"
-  },
-  "subtitle": {
-    "en": "Geometric Collage · Animated Poster",
-    "zh": "几何拼贴 · 动态海报"
-  },
-  "category": {
-    "en": "art",
-    "zh": "art"
-  },
-  "ratio": "16:9",
-  "width": 1920,
-  "height": 1080,
-  "fps": 60,
-  "durationSeconds": 13,
-  "demo": {
-    "en": "https://media.openaicut.com/previews/617/draft-en-b232ff8db7c6.mp4",
-    "zh": "https://motiongit.com/@prism-studio/visual-art-c-collage?lang=zh",
-    "poster": "https://motiongit.com/media/covers/617/draft-zh-84c721155840.jpg",
-    "nativeVideoUrl": "https://github.com/user-attachments/assets/d45fb633-5c79-4671-b067-371baddb73c4"
-  },
-  "materials": [
-    {
-      "en": "Photos: images, 4 items. Use images you own or have permission to use.",
-      "zh": "Photos：图片，4 项。",
-      "required": true
+  "manualOnly": true,
+  "apiEnabled": false,
+  "credentialsIncluded": false,
+  "website": "https://motiongit.com",
+  "downloads": {
+    "en": {
+      "file": "downloads/kinetic-tech-0.2.4-open-beta-en.motion",
+      "sha256": "ffa09737d7b8d560abcd99e2e768ef241ccf751c634c0e2a02e42f57ba0e0e08",
+      "bytes": 17590463
     },
-    {
-      "en": "Words: text entries, 3 items.",
-      "zh": "Words：文字内容，3 项。",
-      "required": true
-    },
-    {
-      "en": "Info: text entries, 3 items.",
-      "zh": "Info：文字内容，3 项。",
-      "required": true
-    },
-    {
-      "en": "Color palette: 5 colors in #RRGGBB format. You can keep the supplied palette or choose your own.",
-      "zh": "配色：5 个 #RRGGBB 格式颜色。可沿用模板默认配色，也可以准备自己的配色。",
-      "required": false
+    "zh": {
+      "file": "downloads/kinetic-tech-0.2.4-open-beta-zh.motion",
+      "sha256": "810a32cdf7620e778a80b45b6be6b34816c359d4a1c23a153f3f8b72cdeec494",
+      "bytes": 17591652
     }
-  ],
-  "dependencies": [
-    {
-      "en": "The package declares a Python and Node.js host. Check its dependency lock for supported versions and any additional rendering tools.",
-      "zh": "模板声明使用 Python 和 Node.js。具体工具与版本以下载包为准。"
-    },
-    {
-      "en": "Use the package dependency lock and setup/check instructions. Check existing tools first, install only missing requirements and verify a preview.",
-      "zh": "按下载包的依赖锁和 setup/check 说明检查已有工具，只补齐缺项，并验证预览。"
-    }
-  ],
-  "goodFor": {
-    "en": [
-      "Make the user's photos into the existing visual composition; retain every original effect and time cue."
-    ],
-    "zh": [
-      "Make the user's photos into the existing visual composition; retain every original effect and time cue."
-    ]
   },
-  "boundaries": {
-    "en": [
-      "The documented output is 1920 × 1080, 60 fps; default demo duration is 13 seconds.",
-      "Use the actual package parameter bounds; extra materials do not automatically create extra scenes.",
-      "Arbitrary portrait output or scene rearrangement without a separately adapted design."
-    ],
-    "zh": [
-      "已声明输出为 1920 × 1080，60 fps；默认样片 13 秒。",
-      "按实际包的参数边界制作；增加素材不会自动增加场景。"
-    ]
+  "source": "template/",
+  "license": "MIT",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60
   },
-  "capabilities": [
-    {
-      "en": "Optional services require a live catalog, template slot and account check before they can be confirmed.",
-      "zh": "配套服务需核对官网实时能力、模板槽位和账号权限后才能确认。",
-      "status": "check-live"
-    }
-  ]
+  "coverageComplete": false,
+  "testedSystem": "macOS"
 }

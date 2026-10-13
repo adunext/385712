@@ -1,56 +1,60 @@
-<a href="https://motiongit.com/@prism-studio/visual-art-c-collage"><img src="assets/hero.svg" alt="MotionGit · template 385712" width="100%"></a>
+<p align="center"><img src="assets/hero.svg" alt="MotionGit · Kinetic Tech" width="100%"></p>
 
-# Geometric Collage · Animated Poster
+# Kinetic Tech
 
-Recompose four photos as geometric shapes across three Bauhaus-inspired animated posters.
+Silver metal typography, amber light, sparks and mechanical motion for talking videos, tutorials and technical stories. **Open source · no account · no login.** [中文](README.zh-CN.md) · [Format](https://motiongit.com/spec)
 
-**16:9 · 1920 × 1080 · 13s · 60 fps** &nbsp; / &nbsp; [@prism-studio](https://motiongit.com/@prism-studio)
+**Install dependencies → download the `.motion` → make your video.**
 
-[**Get this template on MotionGit ↗**](https://motiongit.com/@prism-studio/visual-art-c-collage) · [简体中文](README.zh-CN.md)
+## 1 · Prepare your tools
 
-> Download available · check the current license on MotionGit. Check the live page for availability. Register/sign in and obtain your own .motion when download opens.
+Ask your assistant to check existing tools first. Install only what is missing; environment setup is reusable.
 
-## Demo
+| Tool | Used for |
+| --- | --- |
+| [Node.js 22+](https://nodejs.org/en/download) | Locked browser-rendering dependency |
+| [Python 3.11+](https://www.python.org/downloads/) + [uv](https://docs.astral.sh/uv/getting-started/installation/) | Planning, input validation and audio mixing |
+| [FFmpeg + ffprobe](https://ffmpeg.org/download.html) | Media preparation and MP4 export |
+| [Chrome](https://www.google.com/chrome/) / Chromium / Edge | Local HTML/Canvas rendering |
 
-https://github.com/user-attachments/assets/d45fb633-5c79-4671-b067-371baddb73c4
+Check `node --version`, `python3 --version`, `uv --version`, `ffmpeg -version` and `ffprobe -version`. On Windows, your Python command may be `python`. First-time dependency downloads need internet; video production uses local files.
 
-[Watch the original demo](https://media.openaicut.com/previews/617/draft-en-b232ff8db7c6.mp4)
+## 2 · Download the template
 
-![Frames from the public demo](assets/compositions.jpg)
+### [↓ Download English .motion](https://github.com/motiontemplates/385712/raw/refs/heads/main/downloads/kinetic-tech-0.2.4-open-beta-en.motion)
 
-## What to prepare
+[Chinese .motion](downloads/kinetic-tech-0.2.4-open-beta-zh.motion) · [SHA256 checksums](downloads/SHA256SUMS) · [Editable source](template/)
 
-- **Required:** Photos: images, 4 items. Use images you own or have permission to use.
-- **Required:** Words: text entries, 3 items.
-- **Required:** Info: text entries, 3 items.
-- **Optional:** Color palette: 5 colors in #RRGGBB format. You can keep the supplied palette or choose your own.
+Save the file, then give it (or its local path) to your assistant. It is a self-contained ZIP; extract it into a **new** folder and read `00-START-HERE.md`. No additional production skill or MotionGit activation is needed. In that extracted folder, run `npm ci` to install the locked Node dependency. The included Python entry declares its dependencies for uv.
 
-Make the user's photos into the existing visual composition; retain every original effect and time cue..
+## 3 · Make your video
 
-## Let your assistant guide you
+Start with your **topic or script**. Add a presenter photo/video, recorded narration, SRT subtitles, screen recording, work samples or licensed music if your story needs them. Text-only animation is supported. Your assistant selects suitable scenes and explains only the materials those scenes need.
 
-Send the repository URL and this request to Codex, Doubao or another assistant:
+It prepares your own input → shows a plan → generates a preview → exports MP4. Native sound effects are included; narration and music use your local files or an explicit “none” choice.
 
-```text
-https://github.com/motiontemplates/385712
-Guide me to make a video with this template. Help me prepare the materials and get my .motion from MotionGit, then check the actual package's dependencies and show a plan and preview before rendering.
-```
+> Send this to Codex, Doubao or another assistant:
+>
+> https://github.com/motiontemplates/385712
+>
+> Guide me to make a video with this template. First check/install dependencies, then help me download the .motion directly from GitHub. Read its real guide, use my topic and materials, and show a plan and preview before export. I do not need to register or log in to MotionGit.
 
-**For assistants:** read [the production handoff](ASSISTANT.md). Guide the user to the exact MotionGit page above to obtain the real package. While download is pending, help prepare the brief and materials.
+[Assistant instructions](ASSISTANT.md) · [Local commands and environment check](QUICKSTART.md)
 
-## Production setup
+## See the style
 
-- The package declares a Python and Node.js host. Check its dependency lock for supported versions and any additional rendering tools.
-- Use the package dependency lock and setup/check instructions. Check existing tools first, install only missing requirements and verify a preview.
+[![Chinese showcase highlights](assets/preview.gif)](assets/demo.mp4)
 
-First-time setup can take a while. Have the assistant check existing tools, install only missing requirements, verify a short preview, and reuse the environment next time.
+[▶ Watch the Chinese demo highlights](https://motiontemplates.github.io/385712/#demo) · [Download MP4](assets/demo.mp4?raw=true). The showcase contains example presenter and audio; those are not bundled as user inputs.
 
-## About .motion
+![Typography, composition and mechanical details](assets/compositions.jpg)
 
-MP4 is the finished video. **.motion is the reusable template**: it brings together the animation project, content slots, materials, dependencies and instructions so you can create again with your own content. [Format specification ↗](https://motiongit.com/spec)
+## What is a .motion?
 
-MotionGit also supports asset matching, image generation, voiceover and music search where appropriate, subject to the actual template slots, account access and pricing.
+A MotionGit `.motion` joins the template's editable code, guide, parameter contract, dependencies and permitted assets in one package. This public source edition is an ordinary ZIP. It supports **1920 × 1080 · 60fps · landscape**, 23 native units and four flexible expression groups. [Read the format specification](https://motiongit.com/spec).
 
----
+## Want the full MotionGit workflow?
 
-This repository contains the introduction and public demo. Get the actual template for production on [MotionGit](https://motiongit.com/@prism-studio/visual-art-c-collage).
+This open-source edition contains **no Key, personal identity or API capability**. For asset matching, generation, voiceover and other platform services, [visit MotionGit](https://motiongit.com) and download the full edition when available. Check its live availability and service terms there.
+
+Open beta: macOS tested; portrait and Windows/Linux execution are pending. Noto Sans SC replaces the internal Chinese font in this public edition, so Chinese lettering can differ from the showcase. Code: [MIT](LICENSE); fonts and brand assets: [separate notices](template/licenses/THIRD-PARTY-NOTICES.md).

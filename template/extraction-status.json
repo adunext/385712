@@ -1,0 +1,23 @@
+{
+  "coverageComplete": false,
+  "extractionStatus": "incomplete-extraction",
+  "nativeUnits": 23,
+  "sourceSFX": 312,
+  "sourceMusicPunctuation": 24,
+  "ordinaryEntry": "implemented; scoped macOS runtime evidence recorded in adjacent same-version audit",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "testedLayouts": [
+    "landscape"
+  ],
+  "portrait": "pending individual layout adaptation",
+  "ownerAcceptedBaseline": "Chinese landscape 0.1.0 only",
+  "publication": "manual GitHub source promotion release",
+  "encryption": false,
+  "validationScope": "Complete native-library regression with schematic inputs, two different new-content expressions and independent user parameters. Full source visual comparison, maximum native capacity and owner look/listen remain pending.",
+  "english": "localized author edition; demo approval is separate from package runtime verification",
+  "sourceWaveformComparison": "Scene-SFX correlation0.9996916 after removing global gain; no byte-equivalence or master-mix equivalence claim",
+  "apiEnabled": false
+}

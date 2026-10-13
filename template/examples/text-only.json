@@ -1,0 +1,32 @@
+{
+  "mode": "user-media",
+  "language": "en",
+  "layout": "landscape",
+  "duration": 8,
+  "title": "Start with an idea",
+  "presenterLabel": "",
+  "scenes": [
+    {
+      "id": "B1",
+      "title": "One idea"
+    }
+  ],
+  "content": {},
+  "basic": {
+    "keyword": "CREATE",
+    "explanation": "Turn your own idea\ninto a clear visual story."
+  },
+  "media": {
+    "presenter": {
+      "mode": "none"
+    },
+    "voice": {
+      "mode": "none"
+    },
+    "music": {
+      "mode": "none"
+    }
+  },
+  "soundEffects": "native",
+  "captions": []
+}

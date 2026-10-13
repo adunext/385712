@@ -1,0 +1,1197 @@
+{
+  "profile": "kinetic-native-catalog/1",
+  "groups": [
+    {
+      "id": "A",
+      "start": 4.65,
+      "end": 10.7833,
+      "purpose": "3D media wall",
+      "fields": [
+        "A.text001",
+        "A.text002",
+        "A.text003",
+        "A.text004",
+        "A.text005",
+        "A.text006"
+      ],
+      "media": [
+        "wall"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "B",
+      "start": 43.3167,
+      "end": 48.233399999999996,
+      "purpose": "Beat-cut media montage",
+      "fields": [
+        "B.text001",
+        "B.text002",
+        "B.text003",
+        "B.text004",
+        "B.text005",
+        "B.text006",
+        "B.text007",
+        "B.text008",
+        "B.text009",
+        "B.text010",
+        "B.text011",
+        "B.text012",
+        "B.text013",
+        "B.text014",
+        "B.text015"
+      ],
+      "media": [
+        "pr591_62",
+        "pr585_30",
+        "pr589_30",
+        "pr587_62",
+        "pr586_30",
+        "pr588_30",
+        "pr591_30",
+        "pr585_62",
+        "pr592_30",
+        "pr588_62",
+        "pr587_30",
+        "pr589_62",
+        "pr590_62",
+        "pr586_62"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "C",
+      "start": 73.8,
+      "end": 78.7167,
+      "purpose": "Accelerating media grid",
+      "fields": [
+        "C.text001",
+        "C.text002",
+        "C.text003"
+      ],
+      "media": [
+        "own_hud2",
+        "wall"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "D",
+      "start": 109.8167,
+      "end": 114.1167,
+      "purpose": "Process cards and dissolve",
+      "fields": [
+        "D.text001",
+        "D.text002",
+        "D.text003",
+        "D.text004",
+        "D.text005",
+        "D.text006",
+        "D.text007",
+        "D.text008",
+        "D.text009",
+        "D.text010",
+        "D.text011",
+        "D.text012",
+        "D.text013",
+        "D.text014",
+        "D.text015",
+        "D.text016",
+        "D.text017",
+        "D.text018",
+        "D.text019",
+        "D.text020",
+        "D.text021",
+        "D.text022",
+        "D.text023"
+      ],
+      "media": [
+        "w6827",
+        "w6813"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "F",
+      "start": 193.45,
+      "end": 198.36669999999998,
+      "purpose": "Two-clip showcase",
+      "fields": [
+        "F.text001",
+        "F.text002",
+        "F.text003",
+        "F.text004"
+      ],
+      "media": [
+        "cmA",
+        "cmB"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 14.333333333333332,
+      "purpose": "Spatial card opening and title",
+      "fields": [
+        "S01.text001",
+        "S01.text002",
+        "S01.text003",
+        "S01.text004",
+        "S01.text005",
+        "S01.text006",
+        "S01.text007",
+        "S01.text008",
+        "S01.text009",
+        "S01.text010",
+        "S01.text011",
+        "S01.text012",
+        "S01.text013",
+        "S01.text014",
+        "S01.text015",
+        "S01.text016",
+        "S01.text017",
+        "S01.text018",
+        "S01.text019",
+        "S01.text020",
+        "S01.text021",
+        "S01.text022",
+        "S01.text023",
+        "S01.text024",
+        "S01.text025",
+        "S01.text026",
+        "S01.text027",
+        "S01.text028",
+        "S01.text029",
+        "S01.text030",
+        "S01.text031",
+        "S01.text032",
+        "S01.text033",
+        "S01.text034",
+        "S01.text035",
+        "S01.text036",
+        "S01.text037",
+        "S01.text038",
+        "S01.text039",
+        "S01.text040",
+        "S01.text041",
+        "S01.text042",
+        "S01.text043",
+        "S01.text044",
+        "S01.text045",
+        "S01.text046",
+        "S01.text047",
+        "S01.text048",
+        "S01.text049",
+        "S01.text050",
+        "S01.text051",
+        "S01.text052"
+      ],
+      "media": [
+        "wall"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S02",
+      "start": 14.333333333333332,
+      "end": 22.883333333333333,
+      "purpose": "Orbiting examples, gap repair and feedback",
+      "fields": [
+        "S02.text001",
+        "S02.text002",
+        "S02.text003",
+        "S02.text004",
+        "S02.text005",
+        "S02.text006",
+        "S02.text007",
+        "S02.text008",
+        "S02.text009",
+        "S02.text010",
+        "S02.text011",
+        "S02.text012",
+        "S02.text013",
+        "S02.text014",
+        "S02.text015",
+        "S02.text016",
+        "S02.text017",
+        "S02.text018",
+        "S02.text019",
+        "S02.text020",
+        "S02.text021",
+        "S02.text022",
+        "S02.text023",
+        "S02.text024",
+        "S02.text025",
+        "S02.text026",
+        "S02.text027",
+        "S02.text028",
+        "S02.text029",
+        "S02.text030",
+        "S02.text031"
+      ],
+      "media": [
+        "own_next",
+        "own_end",
+        "own_mac",
+        "own_hud",
+        "own_db",
+        "own_dev",
+        "feedback"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S03",
+      "start": 22.883333333333333,
+      "end": 30.913333333333334,
+      "purpose": "Path drawing, dimensions and flip digits",
+      "fields": [
+        "S03.text001",
+        "S03.text002",
+        "S03.text003",
+        "S03.text004",
+        "S03.text005",
+        "S03.text006",
+        "S03.text007",
+        "S03.text008",
+        "S03.text009",
+        "S03.text010",
+        "S03.text011",
+        "S03.text012"
+      ],
+      "media": [],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S04",
+      "start": 30.913333333333334,
+      "end": 41.39333333333333,
+      "purpose": "Emphasis, globe connection and merge",
+      "fields": [
+        "S04.text001",
+        "S04.text002",
+        "S04.text003",
+        "S04.text004",
+        "S04.text005",
+        "S04.text006",
+        "S04.text007",
+        "S04.text008",
+        "S04.text009",
+        "S04.text010",
+        "S04.text011",
+        "S04.text012",
+        "S04.text013",
+        "S04.text014",
+        "S04.text015"
+      ],
+      "media": [],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S05",
+      "start": 41.39333333333333,
+      "end": 64.75,
+      "purpose": "Layered file workflow and replacement",
+      "fields": [
+        "S05.text001",
+        "S05.text002",
+        "S05.text003",
+        "S05.text004",
+        "S05.text005",
+        "S05.text006",
+        "S05.text007",
+        "S05.text008",
+        "S05.text009",
+        "S05.text010",
+        "S05.text011",
+        "S05.text012",
+        "S05.text013",
+        "S05.text014",
+        "S05.text015",
+        "S05.text016",
+        "S05.text017",
+        "S05.text018",
+        "S05.text019",
+        "S05.text020",
+        "S05.text021",
+        "S05.text022",
+        "S05.text023",
+        "S05.text024",
+        "S05.text025",
+        "S05.text026",
+        "S05.text027",
+        "S05.text028",
+        "S05.text029",
+        "S05.text030",
+        "S05.text031",
+        "S05.text032",
+        "S05.text033",
+        "S05.text034",
+        "S05.text035",
+        "S05.text036",
+        "S05.text037",
+        "S05.text038",
+        "S05.text039",
+        "S05.text040",
+        "S05.text041",
+        "S05.text042",
+        "S05.text043",
+        "S05.text044",
+        "S05.text045",
+        "S05.text046",
+        "S05.text047",
+        "S05.text048",
+        "S05.text049",
+        "S05.text050",
+        "S05.text051"
+      ],
+      "media": [
+        "pr591_30",
+        "pr585_62",
+        "pr589_30",
+        "d605",
+        "thumbnail"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S06",
+      "start": 64.75,
+      "end": 73.8,
+      "purpose": "Media gathering and focus",
+      "fields": [
+        "S06.text001",
+        "S06.text002",
+        "S06.text003",
+        "S06.text004",
+        "S06.text005",
+        "S06.text006",
+        "S06.text007",
+        "S06.text008",
+        "S06.text009",
+        "S06.text010",
+        "S06.text011",
+        "S06.text012",
+        "S06.text013",
+        "S06.text014",
+        "S06.text015",
+        "S06.text016",
+        "S06.text017",
+        "S06.text018",
+        "S06.text019",
+        "S06.text020",
+        "S06.text021",
+        "S06.text022"
+      ],
+      "media": [],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S07",
+      "start": 78.7167,
+      "end": 90.06666666666666,
+      "purpose": "Keyword cuts, aspect morph and categories",
+      "fields": [
+        "S07.text001",
+        "S07.text002",
+        "S07.text003",
+        "S07.text004",
+        "S07.text005",
+        "S07.text006",
+        "S07.text007",
+        "S07.text008",
+        "S07.text009",
+        "S07.text010",
+        "S07.text011",
+        "S07.text012",
+        "S07.text013",
+        "S07.text014",
+        "S07.text015",
+        "S07.text016",
+        "S07.text017",
+        "S07.text018",
+        "S07.text019",
+        "S07.text020",
+        "S07.text021",
+        "S07.text022",
+        "S07.text023",
+        "S07.text024",
+        "S07.text025",
+        "S07.text026",
+        "S07.text027",
+        "S07.text028",
+        "S07.text029",
+        "S07.text030",
+        "S07.text031",
+        "S07.text032",
+        "S07.text033",
+        "S07.text034",
+        "S07.text035",
+        "S07.text036"
+      ],
+      "media": [
+        "ls605",
+        "pt606",
+        "ls611",
+        "pt612",
+        "ls609",
+        "pt610",
+        "thumbnail",
+        "d605",
+        "d587",
+        "d616",
+        "d593",
+        "d594",
+        "d595",
+        "d596",
+        "d597",
+        "d598",
+        "d599",
+        "d600",
+        "d601",
+        "d602",
+        "d603",
+        "d604"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S08",
+      "start": 90.06666666666666,
+      "end": 99.06666666666666,
+      "purpose": "Scanning choices and fragmentation",
+      "fields": [
+        "S08.text001",
+        "S08.text002",
+        "S08.text003",
+        "S08.text004",
+        "S08.text005",
+        "S08.text006",
+        "S08.text007",
+        "S08.text008",
+        "S08.text009",
+        "S08.text010",
+        "S08.text011"
+      ],
+      "media": [],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S09",
+      "start": 99.06666666666666,
+      "end": 109.8167,
+      "purpose": "Process record and light cut",
+      "fields": [
+        "S09.text001",
+        "S09.text002",
+        "S09.text003",
+        "S09.text004",
+        "S09.text005",
+        "S09.text006",
+        "S09.text007",
+        "S09.text008",
+        "S09.text009",
+        "S09.text010",
+        "S09.text011",
+        "S09.text012",
+        "S09.text013",
+        "S09.text014",
+        "S09.text015",
+        "S09.text016",
+        "S09.text017",
+        "S09.text018",
+        "S09.text019",
+        "S09.text020",
+        "S09.text021",
+        "S09.text022",
+        "S09.text023",
+        "S09.text024",
+        "S09.text025",
+        "S09.text026",
+        "S09.text027",
+        "S09.text028"
+      ],
+      "media": [
+        "w6827",
+        "w6813"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S10",
+      "start": 114.1167,
+      "end": 123.28666666666666,
+      "purpose": "Curved versus direct path",
+      "fields": [
+        "S10.text001",
+        "S10.text002",
+        "S10.text003",
+        "S10.text004",
+        "S10.text005",
+        "S10.text006",
+        "S10.text007",
+        "S10.text008",
+        "S10.text009"
+      ],
+      "media": [],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S11",
+      "start": 123.28666666666666,
+      "end": 133.31666666666666,
+      "purpose": "Four-node circular relationship",
+      "fields": [
+        "S11.text001",
+        "S11.text002",
+        "S11.text003",
+        "S11.text004",
+        "S11.text005",
+        "S11.text006",
+        "S11.text007",
+        "S11.text008",
+        "S11.text009",
+        "S11.text010",
+        "S11.text011",
+        "S11.text012"
+      ],
+      "media": [
+        "thumbnail"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S12",
+      "start": 133.31666666666666,
+      "end": 151.52666666666664,
+      "purpose": "Multitrack timeline and simplification",
+      "fields": [
+        "S12.text001",
+        "S12.text002",
+        "S12.text003",
+        "S12.text004",
+        "S12.text005",
+        "S12.text006",
+        "S12.text007",
+        "S12.text008",
+        "S12.text009",
+        "S12.text010",
+        "S12.text011",
+        "S12.text012",
+        "S12.text013",
+        "S12.text014",
+        "S12.text015",
+        "S12.text016",
+        "S12.text017",
+        "S12.text018",
+        "S12.text019",
+        "S12.text020"
+      ],
+      "media": [
+        "wall"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S13",
+      "start": 151.52666666666664,
+      "end": 166.48666666666668,
+      "purpose": "Three steps, gauge, convergence and timer",
+      "fields": [
+        "S13.text001",
+        "S13.text002",
+        "S13.text003",
+        "S13.text004",
+        "S13.text005",
+        "S13.text006",
+        "S13.text007",
+        "S13.text008",
+        "S13.text009",
+        "S13.text010",
+        "S13.text011",
+        "S13.text012",
+        "S13.text013",
+        "S13.text014",
+        "S13.text015",
+        "S13.text016",
+        "S13.text017",
+        "S13.text018",
+        "S13.text019",
+        "S13.text020",
+        "S13.text021",
+        "S13.text022",
+        "S13.text023"
+      ],
+      "media": [
+        "d605"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S14",
+      "start": 166.48666666666668,
+      "end": 182.18666666666667,
+      "purpose": "Recording focus, state change and comparison",
+      "fields": [
+        "S14.text001",
+        "S14.text002",
+        "S14.text003",
+        "S14.text004",
+        "S14.text005",
+        "S14.text006",
+        "S14.text007",
+        "S14.text008",
+        "S14.text009",
+        "S14.text010",
+        "S14.text011",
+        "S14.text012",
+        "S14.text013",
+        "S14.text014",
+        "S14.text015",
+        "S14.text016",
+        "S14.text017",
+        "S14.text018",
+        "S14.text019",
+        "S14.text020",
+        "S14.text021",
+        "S14.text022",
+        "S14.text023",
+        "S14.text024",
+        "S14.text025",
+        "S14.text026",
+        "S14.text027",
+        "S14.text028",
+        "S14.text029",
+        "S14.text030",
+        "S14.text031",
+        "S14.text032",
+        "S14.text033",
+        "S14.text034",
+        "S14.text035"
+      ],
+      "media": [
+        "banner"
+      ],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S15",
+      "start": 182.18666666666667,
+      "end": 190.08666666666664,
+      "purpose": "Switch, parameters and linked graph",
+      "fields": [
+        "S15.text001",
+        "S15.text002",
+        "S15.text003",
+        "S15.text004",
+        "S15.text005",
+        "S15.text006",
+        "S15.text007",
+        "S15.text008",
+        "S15.text009",
+        "S15.text010",
+        "S15.text011",
+        "S15.text012",
+        "S15.text013",
+        "S15.text014",
+        "S15.text015",
+        "S15.text016",
+        "S15.text017",
+        "S15.text018"
+      ],
+      "media": [],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S16",
+      "start": 190.08666666666664,
+      "end": 201.23333333333335,
+      "purpose": "Terminal confirmation and version race",
+      "fields": [
+        "S16.text001",
+        "S16.text002",
+        "S16.text003",
+        "S16.text004",
+        "S16.text005",
+        "S16.text006"
+      ],
+      "media": [],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "S17",
+      "start": 201.23333333333335,
+      "end": 213.98333333333335,
+      "purpose": "Spotlight, response and closure",
+      "fields": [
+        "S17.text001",
+        "S17.text002",
+        "S17.text003",
+        "S17.text004",
+        "S17.text005",
+        "S17.text006",
+        "S17.text007",
+        "S17.text008",
+        "S17.text009",
+        "S17.text010",
+        "S17.text011",
+        "S17.text012",
+        "S17.text013",
+        "S17.text014",
+        "S17.text015",
+        "S17.text016",
+        "S17.text017",
+        "S17.text018",
+        "S17.text019",
+        "S17.text020",
+        "S17.text021",
+        "S17.text022"
+      ],
+      "media": [],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "END",
+      "start": 213.98333333333335,
+      "end": 223.85,
+      "purpose": "Brand reveal and materials guide",
+      "fields": [
+        "END.text001",
+        "END.text002",
+        "END.text003",
+        "END.text004",
+        "END.text005",
+        "END.text006",
+        "END.text007",
+        "END.text008",
+        "END.text009",
+        "END.text010",
+        "END.text011",
+        "END.text012",
+        "END.text013",
+        "END.text014",
+        "END.text015"
+      ],
+      "media": [],
+      "capacityStatus": "source-size provisional; maximum legal capacity unverified"
+    },
+    {
+      "id": "B1",
+      "start": 250,
+      "end": 258,
+      "purpose": "keyword and explanation",
+      "fields": [],
+      "media": [],
+      "origin": "new same-engine expression; not a source unit",
+      "maxReadingHold": 12,
+      "holdAt": 256.9
+    },
+    {
+      "id": "B2",
+      "start": 260,
+      "end": 270,
+      "purpose": "one to five neutral points",
+      "fields": [],
+      "media": [],
+      "origin": "new same-engine expression; not a source unit",
+      "maxReadingHold": 12,
+      "holdAt": 268.9
+    },
+    {
+      "id": "B3",
+      "start": 272,
+      "end": 282,
+      "purpose": "two perspectives and a conclusion",
+      "fields": [],
+      "media": [],
+      "origin": "new same-engine expression; not a source unit",
+      "maxReadingHold": 12,
+      "holdAt": 280.9
+    },
+    {
+      "id": "B4",
+      "start": 284,
+      "end": 292,
+      "purpose": "summary and next action",
+      "fields": [],
+      "media": [],
+      "origin": "new same-engine expression; not a source unit",
+      "maxReadingHold": 12,
+      "holdAt": 290.9
+    }
+  ],
+  "nativeSourceUnits": 23,
+  "newBasicGroups": 4,
+  "mediaPorts": {
+    "own_next": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 120
+    },
+    "own_end": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 120
+    },
+    "own_mac": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 120
+    },
+    "own_hud": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 120
+    },
+    "own_db": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 120
+    },
+    "own_dev": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 120
+    },
+    "own_hud2": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 96
+    },
+    "w6827": {
+      "kind": "process",
+      "fps": 30,
+      "frameCount": 374
+    },
+    "w6813": {
+      "kind": "process",
+      "fps": 30,
+      "frameCount": 420
+    },
+    "cmA": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 76
+    },
+    "cmB": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 76
+    },
+    "ls605": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 90
+    },
+    "pt606": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 90
+    },
+    "ls611": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 90
+    },
+    "pt612": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 90
+    },
+    "ls609": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 90
+    },
+    "pt610": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 90
+    },
+    "d585": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d586": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d587": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d588": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d589": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d590": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d591": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d592": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d593": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d594": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d595": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d596": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d597": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d598": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d599": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d600": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d601": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d602": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d603": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d604": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 72
+    },
+    "d605": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 90
+    },
+    "d606": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d607": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d608": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d609": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d610": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d611": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d612": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d613": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d614": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d615": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d616": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d617": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d618": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d619": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d620": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d621": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "d622": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr591_62": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr585_30": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr589_30": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr587_62": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr586_30": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr588_30": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr591_30": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr585_62": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr592_30": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr588_62": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr587_30": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr589_62": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr590_62": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "pr586_62": {
+      "kind": "gallery",
+      "fps": 30,
+      "frameCount": 48
+    },
+    "banner": {
+      "kind": "recording",
+      "fps": 30,
+      "frameCount": 420,
+      "focus": {
+        "coordinates": "normalized original frame",
+        "center": [
+          "cx",
+          "cy"
+        ],
+        "highlights": {
+          "min": 1,
+          "max": 5,
+          "fields": [
+            "x",
+            "y",
+            "w",
+            "h"
+          ]
+        },
+        "preparation": "contain/pad to native1600x1028; coordinates transformed with the actual input geometry"
+      }
+    }
+  },
+  "coverageComplete": false
+}
