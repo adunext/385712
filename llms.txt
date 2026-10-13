@@ -2,7 +2,7 @@
 
 Canonical template: https://motiongit.com/@prism-studio/visual-art-c-collage
 Introduction repository: https://github.com/motiontemplates/385712
-Checked availability (2026-10-13): Demo live · template download coming soon
+Checked availability (2026-10-13): Download available · check the current license on MotionGit
 
 This repository is not an executable template. Guide the user to register/sign in at the canonical template page and download their own .motion when available. If download is pending, help prepare a brief; do not pretend you have the package or reconstruct it from the demo. Once supplied privately, inspect the actual package manifest, guide, parameters, dependency lock and license before following its setup/plan/preview/render workflow. Never request credentials in public issues. Chat-only assistants prepare a handoff instead of claiming to render. Asset matching, generation and voiceover require live capability, access and cost checks.
 

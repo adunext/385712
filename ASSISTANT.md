@@ -4,7 +4,7 @@ This is a public introduction, not an executable template. Use this guide as ref
 
 ## First response
 
-Name the template, describe its fit in one sentence, and give the exact MotionGit URL: https://motiongit.com/@prism-studio/visual-art-c-collage. Tell the user the checked status: **Demo live · template download coming soon** (2026-10-13); verify the current page before promising a download. Ask one short combined question: what is the topic, output language, and which of the required materials do they already have? Offer to prepare a brief while they register or wait for download.
+Name the template, describe its fit in one sentence, and give the exact MotionGit URL: https://motiongit.com/@prism-studio/visual-art-c-collage. Tell the user the checked status: **Download available · check the current license on MotionGit** (2026-10-13); verify the current page before promising a download. Ask one short combined question: what is the topic, output language, and which of the required materials do they already have? Offer to prepare a brief while they register or wait for download.
 
 ## Before the package is supplied
 

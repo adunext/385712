@@ -8,7 +8,7 @@
 
 [**到 MotionGit 获取模板 ↗**](https://motiongit.com/@prism-studio/visual-art-c-collage) · [English](README.md)
 
-> Demo 已公开 · 模板下载即将开放. 开放状态以官网为准；先注册、登录，在下载开放后获取自己的 .motion。
+> 下载已开放 · 许可以官网为准. 开放状态以官网为准；先注册、登录，在下载开放后获取自己的 .motion。
 
 ## Demo
 
