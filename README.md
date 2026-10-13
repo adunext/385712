@@ -1,8 +1,8 @@
 <a href="https://motiongit.com/@prism-studio/visual-art-c-collage"><img src="assets/hero.svg" alt="MotionGit · template 385712" width="100%"></a>
 
-# Geometric Collage
+# Geometric Collage · Animated Poster
 
-Turn your own photos into a Bauhaus-inspired animated poster. Circles, strips and blocks reshape four images through three flowing compositions, with your words and event details.
+Recompose four photos as geometric shapes across three Bauhaus-inspired animated posters.
 
 **16:9 · 1920 × 1080 · 13s · 60 fps** &nbsp; / &nbsp; [@prism-studio](https://motiongit.com/@prism-studio)
 
@@ -20,13 +20,12 @@ https://github.com/user-attachments/assets/d45fb633-5c79-4671-b067-371baddb73c4
 
 ## What to prepare
 
-- **Required:** 4 photos you own or may use — JPG or PNG; keep the important subject clear of the edges.
-- **Required:** 3 short keywords — one for each poster composition.
-- **Required:** A short information block — event name, date and location, or equivalent project details.
-- **Optional:** Your preferred language and brand colors, if you want to change the default look.
-- **Optional:** Optional music or a short voiceover. Ask the assistant to check timing and usage rights before adding audio.
+- **Required:** Photos: images, 4 items. Use images you own or have permission to use.
+- **Required:** Words: text entries, 3 items.
+- **Required:** Info: text entries, 3 items.
+- **Optional:** Color palette: 5 colors in #RRGGBB format. You can keep the supplied palette or choose your own.
 
-Exhibition & event announcements · Creative portfolios · Photo stories & moodboards.
+Make the user's photos into the existing visual composition; retain every original effect and time cue..
 
 ## Let your assistant guide you
 
@@ -41,9 +40,8 @@ Guide me to make a video with this template. Help me prepare the materials and g
 
 ## Production setup
 
-- A computer and an assistant or runner that can work with local files. A chat-only assistant can help prepare your brief and hand it off.
-- The downloaded package determines the exact setup. This template family uses a Python adapter, Node.js, Chromium via Playwright, and FFmpeg for export.
-- Use the package's dependency lock and setup/check steps. Explain missing tools and expected downloads, follow the user's authorization and the assistant's host policies, and reuse the environment afterward.
+- The package declares a Python and Node.js host. Check its dependency lock for supported versions and any additional rendering tools.
+- Use the package dependency lock and setup/check instructions. Check existing tools first, install only missing requirements and verify a preview.
 
 First-time setup can take a while. Have the assistant check existing tools, install only missing requirements, verify a short preview, and reuse the environment next time.
 

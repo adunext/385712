@@ -1,4 +1,4 @@
-# MotionGit template 385712: Geometric Collage
+# MotionGit template 385712: Geometric Collage · Animated Poster
 
 Canonical template: https://motiongit.com/@prism-studio/visual-art-c-collage
 Introduction repository: https://github.com/motiontemplates/385712

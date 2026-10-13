@@ -26,32 +26,25 @@ Name the template, describe its fit in one sentence, and give the exact MotionGi
 
 ### Materials
 
-- **Required:** 4 photos you own or may use — JPG or PNG; keep the important subject clear of the edges.
-- **Required:** 3 short keywords — one for each poster composition.
-- **Required:** A short information block — event name, date and location, or equivalent project details.
-- **Optional:** Your preferred language and brand colors, if you want to change the default look.
-- **Optional:** Optional music or a short voiceover. Ask the assistant to check timing and usage rights before adding audio.
+- **Required:** Photos: images, 4 items. Use images you own or have permission to use.
+- **Required:** Words: text entries, 3 items.
+- **Required:** Info: text entries, 3 items.
+- **Optional:** Color palette: 5 colors in #RRGGBB format. You can keep the supplied palette or choose your own.
 
 ### Setup
 
-- A computer and an assistant or runner that can work with local files. A chat-only assistant can help prepare your brief and hand it off.
-- The downloaded package determines the exact setup. This template family uses a Python adapter, Node.js, Chromium via Playwright, and FFmpeg for export.
-- Use the package's dependency lock and setup/check steps. Explain missing tools and expected downloads, follow the user's authorization and the assistant's host policies, and reuse the environment afterward.
+- The package declares a Python and Node.js host. Check its dependency lock for supported versions and any additional rendering tools.
+- Use the package dependency lock and setup/check instructions. Check existing tools first, install only missing requirements and verify a preview.
 
 ### Boundaries
 
-- Four photos and three compositions are the current design; adding more photos does not automatically add scenes.
-- The documented layout is landscape 16:9. Ask about another template if you need native portrait output.
-- Photo slots accept images. Video clips are not interchangeable with photos.
-- The default visual timeline is 13 seconds. A new narration must be checked against the actual package's timing controls.
+- The documented output is 1920 × 1080, 60 fps; default demo duration is 13 seconds.
+- Use the actual package parameter bounds; extra materials do not automatically create extra scenes.
+- Arbitrary portrait output or scene rearrangement without a separately adapted design.
 
 ### Services
 
-- Find fitting images, footage or stickers: ready
-- Generate an image for an empty photo slot: ready
-- Create a voiceover in the chosen language: ready
-- Find music and review its license: ready
-- Generate music, sound effects or video: not-enabled
+- Optional services require a live catalog, template slot and account check before they can be confirmed.: not-enabled
 
 ## Useful addresses
 

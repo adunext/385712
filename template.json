@@ -8,20 +8,20 @@
   "checkedAt": "2026-10-13",
   "availability": "demo-only",
   "title": {
-    "en": "Geometric Collage",
-    "zh": "几何拼贴"
-  },
-  "subtitle": {
-    "en": "Four photos. Three compositions. Your story in motion.",
-    "zh": "四张照片，三组构图，让你的故事动起来。"
+    "en": "Geometric Collage · Animated Poster",
+    "zh": "几何拼贴 · 动态海报"
   },
   "summary": {
-    "en": "Turn your own photos into a Bauhaus-inspired animated poster. Circles, strips and blocks reshape four images through three flowing compositions, with your words and event details.",
-    "zh": "把自己的照片变成包豪斯风格动态海报。圆形、条带与色块在三组构图间变化，结合你的关键词和活动信息。"
+    "en": "Recompose four photos as geometric shapes across three Bauhaus-inspired animated posters.",
+    "zh": "将四张照片裁成几何形状，在三组包豪斯动态海报中重组，适合活动与视觉主题展示。"
+  },
+  "subtitle": {
+    "en": "Geometric Collage · Animated Poster",
+    "zh": "几何拼贴 · 动态海报"
   },
   "category": {
-    "en": "Visual art · Animated posters",
-    "zh": "视觉艺术 · 动态海报"
+    "en": "art",
+    "zh": "art"
   },
   "ratio": "16:9",
   "width": 1920,
@@ -31,100 +31,64 @@
   "demo": {
     "en": "https://media.openaicut.com/previews/617/draft-en-b232ff8db7c6.mp4",
     "zh": "https://motiongit.com/@prism-studio/visual-art-c-collage?lang=zh",
-    "poster": "https://motiongit.com/media/covers/617/draft-en-e7e87af228a4.jpg",
+    "poster": "https://motiongit.com/media/covers/617/draft-zh-84c721155840.jpg",
     "nativeVideoUrl": "https://github.com/user-attachments/assets/d45fb633-5c79-4671-b067-371baddb73c4"
   },
   "materials": [
     {
-      "en": "4 photos you own or may use — JPG or PNG; keep the important subject clear of the edges.",
-      "zh": "4 张拥有使用权的照片：JPG 或 PNG，重要主体不要紧贴边缘。",
+      "en": "Photos: images, 4 items. Use images you own or have permission to use.",
+      "zh": "Photos：图片，4 项。",
       "required": true
     },
     {
-      "en": "3 short keywords — one for each poster composition.",
-      "zh": "3 个简短关键词：对应三组海报构图。",
+      "en": "Words: text entries, 3 items.",
+      "zh": "Words：文字内容，3 项。",
       "required": true
     },
     {
-      "en": "A short information block — event name, date and location, or equivalent project details.",
-      "zh": "一组简短信息：活动名称、日期和地点，也可以换成项目信息。",
+      "en": "Info: text entries, 3 items.",
+      "zh": "Info：文字内容，3 项。",
       "required": true
     },
     {
-      "en": "Your preferred language and brand colors, if you want to change the default look.",
-      "zh": "可选：想使用的语言和品牌配色。",
-      "required": false
-    },
-    {
-      "en": "Optional music or a short voiceover. Ask the assistant to check timing and usage rights before adding audio.",
-      "zh": "可选：配乐或短旁白。加入声音前让助手核对时长与使用权。",
+      "en": "Color palette: 5 colors in #RRGGBB format. You can keep the supplied palette or choose your own.",
+      "zh": "配色：5 个 #RRGGBB 格式颜色。可沿用模板默认配色，也可以准备自己的配色。",
       "required": false
     }
   ],
   "dependencies": [
     {
-      "en": "A computer and an assistant or runner that can work with local files. A chat-only assistant can help prepare your brief and hand it off.",
-      "zh": "一台电脑，以及可以处理本地文件的助手或运行器。纯聊天助手可以准备简报，再转交到本地制作。"
+      "en": "The package declares a Python and Node.js host. Check its dependency lock for supported versions and any additional rendering tools.",
+      "zh": "模板声明使用 Python 和 Node.js。具体工具与版本以下载包为准。"
     },
     {
-      "en": "The downloaded package determines the exact setup. This template family uses a Python adapter, Node.js, Chromium via Playwright, and FFmpeg for export.",
-      "zh": "以下载包要求为准安装具体版本。这套模板使用 Python 适配器、Node.js、Playwright 的 Chromium 浏览器和 FFmpeg 导出。"
-    },
-    {
-      "en": "Use the package's dependency lock and setup/check steps. Explain missing tools and expected downloads, follow the user's authorization and the assistant's host policies, and reuse the environment afterward.",
-      "zh": "按包内依赖锁和 setup/check 流程检查环境。说明缺少的工具与预计下载，按用户授权和助手宿主规则操作，后续复用环境。"
+      "en": "Use the package dependency lock and setup/check instructions. Check existing tools first, install only missing requirements and verify a preview.",
+      "zh": "按下载包的依赖锁和 setup/check 说明检查已有工具，只补齐缺项，并验证预览。"
     }
   ],
   "goodFor": {
     "en": [
-      "Exhibition & event announcements",
-      "Creative portfolios",
-      "Photo stories & moodboards"
+      "Make the user's photos into the existing visual composition; retain every original effect and time cue."
     ],
     "zh": [
-      "展览与活动预告",
-      "创意作品展示",
-      "照片故事与情绪板"
+      "Make the user's photos into the existing visual composition; retain every original effect and time cue."
     ]
   },
   "boundaries": {
     "en": [
-      "Four photos and three compositions are the current design; adding more photos does not automatically add scenes.",
-      "The documented layout is landscape 16:9. Ask about another template if you need native portrait output.",
-      "Photo slots accept images. Video clips are not interchangeable with photos.",
-      "The default visual timeline is 13 seconds. A new narration must be checked against the actual package's timing controls."
+      "The documented output is 1920 × 1080, 60 fps; default demo duration is 13 seconds.",
+      "Use the actual package parameter bounds; extra materials do not automatically create extra scenes.",
+      "Arbitrary portrait output or scene rearrangement without a separately adapted design."
     ],
     "zh": [
-      "现有编舞为四张照片、三组构图；增加照片不会自动增加场景。",
-      "已核实的是 16:9 横屏。需要原生竖屏时，先选择合适的模板。",
-      "照片槽接收图片，不能直接换成视频片段。",
-      "默认画面时间轴为 13 秒。新配音需要按下载包的实际时长控制能力核对。"
+      "已声明输出为 1920 × 1080，60 fps；默认样片 13 秒。",
+      "按实际包的参数边界制作；增加素材不会自动增加场景。"
     ]
   },
   "capabilities": [
     {
-      "en": "Find fitting images, footage or stickers",
-      "zh": "匹配图片、视频素材与贴纸",
-      "status": "ready"
-    },
-    {
-      "en": "Generate an image for an empty photo slot",
-      "zh": "为缺少的照片生成配图",
-      "status": "ready"
-    },
-    {
-      "en": "Create a voiceover in the chosen language",
-      "zh": "按所选语言生成配音",
-      "status": "ready"
-    },
-    {
-      "en": "Find music and review its license",
-      "zh": "查找配乐并核对许可",
-      "status": "ready"
-    },
-    {
-      "en": "Generate music, sound effects or video",
-      "zh": "生成配乐、音效或视频",
+      "en": "Optional services require a live catalog, template slot and account check before they can be confirmed.",
+      "zh": "配套服务需核对官网实时能力、模板槽位和账号权限后才能确认。",
       "status": "not-enabled"
     }
   ]
