@@ -89,7 +89,7 @@
     {
       "en": "Optional services require a live catalog, template slot and account check before they can be confirmed.",
       "zh": "配套服务需核对官网实时能力、模板槽位和账号权限后才能确认。",
-      "status": "not-enabled"
+      "status": "check-live"
     }
   ]
 }

@@ -44,7 +44,7 @@ Name the template, describe its fit in one sentence, and give the exact MotionGi
 
 ### Services
 
-- Optional services require a live catalog, template slot and account check before they can be confirmed.: not-enabled
+- Optional services require a live catalog, template slot and account check before they can be confirmed.: check live availability
 
 ## Useful addresses
 
