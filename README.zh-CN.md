@@ -6,7 +6,7 @@
 
 **准备依赖 → 下载 `.motion` → 用你的内容制作。** 把截图或本页链接交给助手即可；已有文案和素材可以一起发，助手负责准备环境和安排镜头。
 
-> 给助手：先承接用户内容；只有截图时，只问“你想讲什么？把已有文案或素材发我就行”。不要等环境全部准备完才开始交流，也不要先弹出可选素材问卷。[完整引导](ASSISTANT.zh-CN.md)
+> 给助手：先读仓库与[完整引导](ASSISTANT.zh-CN.md)，使用真实模板制作，不把截图当作生视频参考图。先承接用户内容；只有截图时，只问“你想讲什么？把已有文案或素材发我就行”。不要等环境全部准备完才开始交流，也不要先弹出可选素材问卷。
 
 ## 1 · 准备制作工具
 
@@ -21,9 +21,9 @@
 
 ## 2 · 直接下载模板
 
-### [↓ 下载中文 .motion](https://raw.githubusercontent.com/motiontemplates/385712/main/downloads/kinetic-tech-0.2.5-open-beta-zh.motion)
+### [↓ 下载中文 .motion](https://raw.githubusercontent.com/motiontemplates/385712/main/downloads/kinetic-tech-0.2.6-open-beta-zh.motion)
 
-[英文 .motion](downloads/kinetic-tech-0.2.5-open-beta-en.motion) · [当前下载与校验信息](template.json) · [可编辑源码](template/) · [稳定下载及执行步骤](QUICKSTART.md)
+[英文 .motion](downloads/kinetic-tech-0.2.6-open-beta-en.motion) · [当前下载与校验信息](template.json) · [可编辑源码](template/) · [稳定下载及执行步骤](QUICKSTART.md)
 
 把文件或本地路径交给助手，在新目录解压并读取 `00-START-HERE.md`。制作入口、指南、参数和可分发素材都在包内，不用另装制作 Skill。
 
@@ -35,7 +35,7 @@
 
 > https://github.com/motiontemplates/385712
 >
-> 引导我用这个模板开始制作。这是我想讲的内容：……
+> 请先打开这个 GitHub 地址，按仓库指南用这个 .motion 模板制作。这是我想讲的内容：……
 
 ## 看看风格
 

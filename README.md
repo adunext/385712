@@ -6,7 +6,7 @@ Silver metal type, amber light and mechanical motion for your viewpoints, tutori
 
 **Prepare dependencies → download the `.motion` → create with your content.** Send the screenshot or this link to your assistant, along with any script or material you already have. It handles the environment and scene arrangement.
 
-> For assistants: acknowledge current content first. With only a screenshot, ask “What would you like to say? Send your script or existing material.” Do not wait until setup finishes to start the conversation or begin with an optional-media questionnaire. [Full handoff](ASSISTANT.md)
+> For assistants: read this repository and the [handoff](ASSISTANT.md) first; use the real template, not the screenshot as a generative-video reference. Acknowledge current content. With only a screenshot, ask “What would you like to say? Send your script or existing material.” Do not wait until setup finishes or begin with an optional-media questionnaire.
 
 ## 1 · Prepare your tools
 
@@ -21,9 +21,9 @@ Ask your assistant to check existing tools and install only missing dependencies
 
 ## 2 · Download the template
 
-### [↓ Download English .motion](https://raw.githubusercontent.com/motiontemplates/385712/main/downloads/kinetic-tech-0.2.5-open-beta-en.motion)
+### [↓ Download English .motion](https://raw.githubusercontent.com/motiontemplates/385712/main/downloads/kinetic-tech-0.2.6-open-beta-en.motion)
 
-[Chinese .motion](downloads/kinetic-tech-0.2.5-open-beta-zh.motion) · [Current downloads and checksums](template.json) · [Editable source](template/) · [Reliable download and execution](QUICKSTART.md)
+[Chinese .motion](downloads/kinetic-tech-0.2.6-open-beta-zh.motion) · [Current downloads and checksums](template.json) · [Editable source](template/) · [Reliable download and execution](QUICKSTART.md)
 
 Give the file or local path to your assistant. Extract to a new folder and read `00-START-HERE.md`; the entry, guide, parameters and permitted assets are included. No additional production skill is needed.
 
@@ -35,7 +35,7 @@ The workflow is **understand the story → arrange scenes → show a real previe
 
 > https://github.com/motiontemplates/385712
 >
-> Guide me to start creating with this template. Here is what I want to say: …
+> Open this GitHub repository first and follow its guide to create with this .motion template. Here is what I want to say: …
 
 ## See the style
 

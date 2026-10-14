@@ -3,7 +3,7 @@
   "files": {
     "00-START-HERE.md": {
       "role": "method-or-contract",
-      "sha256": "93dda45d1264878f7b37024abe1eeccf9c5cf52af94d53b3017b737caba142ee"
+      "sha256": "f7d5636f701819ec684b744c8ef2f039d23711cb310c7e137a8cec35d5af372e"
     },
     "CREATION.md": {
       "role": "method-or-contract",
@@ -11,7 +11,7 @@
     },
     "README.md": {
       "role": "method-or-contract",
-      "sha256": "93dda45d1264878f7b37024abe1eeccf9c5cf52af94d53b3017b737caba142ee"
+      "sha256": "f7d5636f701819ec684b744c8ef2f039d23711cb310c7e137a8cec35d5af372e"
     },
     "adapter.py": {
       "role": "method-or-contract",
@@ -1263,11 +1263,11 @@
     },
     "guide.en.json": {
       "role": "method-or-contract",
-      "sha256": "60c8ed3bfe93d3d08f0742fc8e952a239221decea8114003c25850193b9f5ee3"
+      "sha256": "8427880148361469244522309c3f9180e35d78bf13c3540614dedab4b56b6a74"
     },
     "guide.json": {
       "role": "method-or-contract",
-      "sha256": "60c8ed3bfe93d3d08f0742fc8e952a239221decea8114003c25850193b9f5ee3"
+      "sha256": "8427880148361469244522309c3f9180e35d78bf13c3540614dedab4b56b6a74"
     },
     "licenses/OFL-Anton.txt": {
       "role": "method-or-contract",
@@ -1295,7 +1295,7 @@
     },
     "motion.json": {
       "role": "method-or-contract",
-      "sha256": "bd97ce8ecf9b4fbc29ae2bbbf7d63089861203a36d485ca2d9becdce4b4b2e8c"
+      "sha256": "d4e4be6a6ac0817489307049b771352ef4739abc799f451e84de6f0c4edc6f91"
     },
     "motion.lock.json": {
       "role": "method-or-contract",

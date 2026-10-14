@@ -2,7 +2,7 @@
   "format": "motiongit.open-source/1",
   "repositoryId": "385712",
   "slug": "kinetic-tech",
-  "version": "0.2.5-open-beta",
+  "version": "0.2.6-open-beta",
   "title": {
     "en": "Kinetic Tech",
     "zh": "酷炫科技风"
@@ -13,14 +13,14 @@
   "website": "https://motiongit.com",
   "downloads": {
     "en": {
-      "file": "downloads/kinetic-tech-0.2.5-open-beta-en.motion",
-      "sha256": "b26da53c60a6cd3fe8f4d7428ae00aced2efa689993acac9b6478115373b9aca",
-      "bytes": 17593798
+      "file": "downloads/kinetic-tech-0.2.6-open-beta-en.motion",
+      "sha256": "227c905a1bf644f9bb00116e086ac992f15681c505a94aa1e95b7732015bf3c1",
+      "bytes": 17594403
     },
     "zh": {
-      "file": "downloads/kinetic-tech-0.2.5-open-beta-zh.motion",
-      "sha256": "e8c5ff765e9a969fd2fc6088fc24af90e07fc9a96f028d512fdd45eb26e3a8b3",
-      "bytes": 17595473
+      "file": "downloads/kinetic-tech-0.2.6-open-beta-zh.motion",
+      "sha256": "85db88944a6278e35bc8b2e22c99359348593d47d4b9473f8f1415d8e86b599b",
+      "bytes": 17596177
     }
   },
   "source": "template/",
@@ -33,6 +33,20 @@
   "coverageComplete": false,
   "testedSystem": "macOS",
   "previousDownloads": [
+    {
+      "file": "downloads/kinetic-tech-0.2.5-open-beta-en.motion",
+      "sha256": "b26da53c60a6cd3fe8f4d7428ae00aced2efa689993acac9b6478115373b9aca",
+      "bytes": 17593798,
+      "language": "en",
+      "version": "0.2.5-open-beta"
+    },
+    {
+      "file": "downloads/kinetic-tech-0.2.5-open-beta-zh.motion",
+      "sha256": "e8c5ff765e9a969fd2fc6088fc24af90e07fc9a96f028d512fdd45eb26e3a8b3",
+      "bytes": 17595473,
+      "language": "zh",
+      "version": "0.2.5-open-beta"
+    },
     {
       "file": "downloads/kinetic-tech-0.2.4-open-beta-en.motion",
       "sha256": "ffa09737d7b8d560abcd99e2e768ef241ccf751c634c0e2a02e42f57ba0e0e08",
@@ -54,6 +68,9 @@
     "firstReplyBeforeEnvironmentSetup": true,
     "reuseSuppliedInformation": true,
     "optionalAudioQuestionnaire": false,
+    "actualTemplateRequired": true,
+    "screenshotRole": "template-identification",
+    "unsupportedHostAction": "local-handoff",
     "customerNoticeStage": "after-completed-video-only",
     "deliveryNotice": "template/delivery.json"
   }

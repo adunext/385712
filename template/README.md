@@ -5,7 +5,7 @@ This editable MotionGit .motion template is an ordinary ZIP: landscape1920×1080
 Start with a short creative response:
 “This is Kinetic Tech. What would you like to say? Send your topic, script or existing material; I will arrange the scenes and show you a plan and preview.”
 
-Reuse supplied content without repeating questions. A reference screenshot identifies the template; it is not automatically the user's presenter or scene material. Do not wait for setup to finish before responding.
+Reuse supplied content without repeating questions. A reference screenshot identifies the template; it is not automatically the user's presenter or scene material. Do not wait for setup to finish before responding. Use the actual template entry; never substitute a generated lookalike, rebuilt demo or invented channel opener. If the host cannot execute, provide a local handoff and respect its safeguards without claiming production.
 
 1. Read only motion.json, guide.json and CREATION.md first. Understand the story, then choose scenes; do not start by scanning all source or469 text fields.
 2. The assistant checks existing Node.js22+, Python3.11+, uv, FFmpeg/ffprobe and Chrome, installing only missing declared dependencies. In a fresh extracted runner use npm ci; uv reads adapter.py. The user need not type commands.

@@ -194,6 +194,7 @@
   ],
   "conversation": [
     "Briefly introduce the style and acknowledge the current content. With only a screenshot/link and no topic, ask one question: what would you like to say? Send a script or existing material. Reuse information already supplied.",
+    "Use the screenshot to identify and open the repository; read README and ASSISTANT before choosing production tools. This task uses the actual template, not a lookalike generated from the screenshot or a rebuilt demo. If the host disallows execution, give a truthful local handoff, never claim template execution or bypass host safeguards.",
     "Give the first creative response before waiting for downloads, dependency installation or a full source scan. Check the environment while the user prepares content; install only missing declared dependencies.",
     "Choose scenes from actual inputs: text/topic uses B1–B4 first; inspect matching native units only when presenter, recording or work samples are supplied. Users do not choose technical workflows, scene IDs or JSON fields.",
     "Ask only for a genuine current gap, usually one question at a time. Do not launch a presenter/voice/music questionnaire. Unrequested optional material does not block creation.",
@@ -247,6 +248,9 @@
     "optionalAudioQuestionnaire": false,
     "environmentExampleByDefault": false,
     "firstReplyBeforeEnvironmentSetup": true,
+    "actualTemplateRequired": true,
+    "screenshotRole": "template-identification",
+    "unsupportedHostAction": "local-handoff",
     "completionNotice": "delivery.json"
   }
 }
