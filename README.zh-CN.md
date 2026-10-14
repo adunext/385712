@@ -10,7 +10,7 @@
 
 ## Start
 
-先下载[中文 .motion](https://github.com/motiontemplates/385712/raw/refs/heads/main/downloads/kinetic-tech-0.2.7-open-beta-zh.motion)，解压到新目录，读取包内 README（有 `00-START-HERE.md` 时先读它），然后按包内指南用用户的内容制作并展示实际预览。沿用已有可用环境，按包内声明补齐实际缺少的依赖。
+先下载[中文 .motion](https://motiontemplates.github.io/385712/downloads/kinetic-tech-0.2.7-open-beta-zh.motion)，解压到新目录，读取包内 README（有 `00-START-HERE.md` 时先读它），然后按包内指南用用户的内容制作并展示实际预览。沿用已有可用环境，按包内声明补齐实际缺少的依赖。
 
 [English template](downloads/kinetic-tech-0.2.7-open-beta-zh.motion) · [Editable source](template/)
 

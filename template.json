@@ -20,6 +20,9 @@
   },
   "coverageComplete": false,
   "testedSystem": "macOS",
+  "fullEdition": {
+    "url": "https://motiongit.com/@adunext/385712"
+  },
   "downloads": {
     "en": {
       "file": "downloads/kinetic-tech-0.2.7-open-beta-en.motion",
@@ -84,8 +87,5 @@
     "profile": "motiongit.package-handoff/1",
     "guideSource": "downloaded-package",
     "externalWorkflow": false
-  },
-  "fullEdition": {
-    "url": "https://motiongit.com/@adunext/385712"
   }
 }

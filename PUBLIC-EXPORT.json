@@ -2,11 +2,11 @@
   "profile": "motiongit.public-export/1",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "AGENTS.md": "1bcfa0d3057da18e73304266770fa9779b7fae1733d6d88bf719e14e1368c2cb",
+    "AGENTS.md": "4de2d7074ae5092af18dbbdae8c4f70163ab0bc660b14a617d9fd1e3688b1a7d",
     "FORMAT.md": "aaebc036a745e7901e912629660408a5baeaf898deed3fb47d0dc1d7c9ab2a72",
     "LICENSE": "8881ef9bfbb1b6eab92a957272ca12b7dfe5b76c751513840c94d9a9842a8d70",
-    "README.md": "26ff3dc9f4535601fd949a6cfb17ad0835dcfa144fcc20c7fdb36e262089c60c",
-    "README.zh-CN.md": "5a8eb4b378fae395688b13661030df078c9dd320c936e215d9b14d19a88178e8",
+    "README.md": "bbdd61c049e55f10232ac35f600a2156a370543c13875529770b1d01ef1c45ef",
+    "README.zh-CN.md": "3624bdc113abad05715afdb1b2c426aac2d93e5416315a3026dad40440aae7d9",
     "assets/compositions.jpg": "9793cb19fc342e0a33c9835e2557b5f7219a1c729e87ac9db0b1618370149fb1",
     "assets/demo.mp4": "f0c6292cdd60a5ecef003adbc353f3a4c54f96cf93d117ce71ade552b38a3197",
     "assets/hero.svg": "50845ab489b10ccb3e0b87ed92b2476417c853157761766887b7b512029925a8",
@@ -22,8 +22,8 @@
     "downloads/kinetic-tech-0.2.6-open-beta-zh.motion": "85db88944a6278e35bc8b2e22c99359348593d47d4b9473f8f1415d8e86b599b",
     "downloads/kinetic-tech-0.2.7-open-beta-en.motion": "533320d081c578cb824dfbc6ce9d4ae3eb1ca190d67ae7185b4a32b02e236255",
     "downloads/kinetic-tech-0.2.7-open-beta-zh.motion": "472a95af35f8e0c09c0f7dc2ca0992b7c9a3405c5aa8063730c347fc4e015c21",
-    "index.html": "acd8c841b5b01c004fda134fe7a9b45ef3b67853a5dc7a59c71e5c40530b097b",
-    "llms.txt": "87406d41919d94905977684799c2f3f85197eb5cf65e036dbaa3f082c8bb1349",
+    "index.html": "f84d669144c32b4f937793f4cef2dc0d67ab369abe6435a2afc41a4fb02f336d",
+    "llms.txt": "5b771d1585eeb763c858960c0b0594ed573622fc89efd829f0f99aa5ad73837f",
     "template/00-START-HERE.md": "f7d5636f701819ec684b744c8ef2f039d23711cb310c7e137a8cec35d5af372e",
     "template/CREATION.md": "7daa73b8ebf58b7d86a4dd14364aeb0c3ef7f08eef9b166460b2fb390a88b435",
     "template/README.md": "f7d5636f701819ec684b744c8ef2f039d23711cb310c7e137a8cec35d5af372e",
@@ -355,7 +355,7 @@
     "template/package.json": "ffc2f0dff21f79a368883cf1822ba2ecf5bf4014b3bb71cc13422ca2ef17cecb",
     "template/params.schema.json": "307c7f85432e03eba5a5e77772d8899497ac9541e2bd53cb800048ff6077fb4b",
     "template/render.mjs": "ea3482a02d24834eb71a668bee37d5db2d99027f9d1c15d283aa5695e53612ff",
-    "template.json": "8aa2d5de7c705cde1453c295933e66ecc6c806a0b16c6aa65ceb70712cfb8d15",
-    "zh.html": "91d4068eed2154b3f3974d61794fdbdef7376d04d7767cef717b10765db6bd20"
+    "template.json": "793347a5727421e4f546772b5635ab564bcde9d23fbe51b68c0e40cf98db2463",
+    "zh.html": "ff326259189a855ea1f8d9b8a30779feb7a48d4139093a6fc4b9074baa0c5ec0"
   }
 }
