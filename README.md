@@ -12,7 +12,7 @@ Silver metal type, amber light and mechanical motion for your own story. **Open 
 
 First download the [English .motion](https://motiontemplates.github.io/385712/downloads/kinetic-tech-0.2.7-open-beta-en.motion), extract it into a new folder, read its README (`00-START-HERE.md` first if present), then follow the included guide to create with the user’s content and show the actual preview. Reuse the working environment and resolve any missing dependency declared by the package.
 
-[中文模板](downloads/kinetic-tech-0.2.7-open-beta-en.motion) · [源码](template/)
+[中文模板](https://motiontemplates.github.io/385712/downloads/kinetic-tech-0.2.7-open-beta-zh.motion) · [Editable source](template/)
 
 > https://github.com/motiontemplates/385712
 >
