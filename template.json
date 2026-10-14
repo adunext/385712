@@ -11,18 +11,6 @@
   "apiEnabled": false,
   "credentialsIncluded": false,
   "website": "https://motiongit.com",
-  "downloads": {
-    "en": {
-      "file": "downloads/kinetic-tech-0.2.6-open-beta-en.motion",
-      "sha256": "227c905a1bf644f9bb00116e086ac992f15681c505a94aa1e95b7732015bf3c1",
-      "bytes": 17594403
-    },
-    "zh": {
-      "file": "downloads/kinetic-tech-0.2.6-open-beta-zh.motion",
-      "sha256": "85db88944a6278e35bc8b2e22c99359348593d47d4b9473f8f1415d8e86b599b",
-      "bytes": 17596177
-    }
-  },
   "source": "template/",
   "license": "MIT",
   "output": {
@@ -32,6 +20,20 @@
   },
   "coverageComplete": false,
   "testedSystem": "macOS",
+  "downloads": {
+    "en": {
+      "file": "downloads/kinetic-tech-0.2.6-open-beta-en.motion",
+      "sha256": "227c905a1bf644f9bb00116e086ac992f15681c505a94aa1e95b7732015bf3c1",
+      "bytes": 17594403,
+      "firstRead": "00-START-HERE.md"
+    },
+    "zh": {
+      "file": "downloads/kinetic-tech-0.2.6-open-beta-zh.motion",
+      "sha256": "85db88944a6278e35bc8b2e22c99359348593d47d4b9473f8f1415d8e86b599b",
+      "bytes": 17596177,
+      "firstRead": "00-START-HERE.md"
+    }
+  },
   "previousDownloads": [
     {
       "file": "downloads/kinetic-tech-0.2.5-open-beta-en.motion",
@@ -63,15 +65,8 @@
     }
   ],
   "onboarding": {
-    "profile": "motiongit.creation-onboarding/1",
-    "firstQuestionMaximum": 1,
-    "firstReplyBeforeEnvironmentSetup": true,
-    "reuseSuppliedInformation": true,
-    "optionalAudioQuestionnaire": false,
-    "actualTemplateRequired": true,
-    "screenshotRole": "template-identification",
-    "unsupportedHostAction": "local-handoff",
-    "customerNoticeStage": "after-completed-video-only",
-    "deliveryNotice": "template/delivery.json"
+    "profile": "motiongit.package-handoff/1",
+    "guideSource": "downloaded-package",
+    "externalWorkflow": false
   }
 }

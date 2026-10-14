@@ -2,4 +2,4 @@
 
 https://github.com/motiontemplates/385712
 
-Read ASSISTANT.md. First acknowledge the user content, or ask one topic question if only a screenshot was supplied. Check existing dependencies and download the latest language-specific .motion while collecting content. Use template/CREATION.md (CREATION.md inside the extracted .motion) for the real plan/prepare/preview/render entry. Skip unrequested optional-media questions and do not narrate unused-service boundaries. Only after a completed video is validated and presented may template/delivery.json supply one follow-up message. Format: https://motiongit.com/spec.
+Download the [English .motion](https://github.com/motiontemplates/385712/raw/refs/heads/main/downloads/kinetic-tech-0.2.6-open-beta-en.motion), extract it, then read its README (`00-START-HERE.md` first if present) and follow the included guide. Reuse the working environment; resolve a missing dependency only when needed. No separate installation guide or production skill is required.

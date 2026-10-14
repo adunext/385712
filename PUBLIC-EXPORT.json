@@ -2,14 +2,11 @@
   "profile": "motiongit.public-export/1",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "AGENTS.md": "97bcf2de95fda52b87dbf0b0303b369a1d70ea2004ff94dc4378b87e7e176d75",
-    "ASSISTANT.md": "9fea74c193ad7100f396a0e61d48f038717b49a1d34c2c0ec9e1ee7928b9f67b",
-    "ASSISTANT.zh-CN.md": "4330487284ff66c1a951842aede635acdaa1c104f8880f2f6fda78fceeec352d",
-    "FORMAT.md": "4fd05419bd9ac799af0566bfb32bb9b392aae6e95a6fb0bbbc22493f615dbef7",
+    "AGENTS.md": "c0ea3a15417403bca68b595e0a63314d72e1553d92140a716c74305198c3477b",
+    "FORMAT.md": "aaebc036a745e7901e912629660408a5baeaf898deed3fb47d0dc1d7c9ab2a72",
     "LICENSE": "8881ef9bfbb1b6eab92a957272ca12b7dfe5b76c751513840c94d9a9842a8d70",
-    "QUICKSTART.md": "6c68d037fb0262a49efcfd01f10e764497eb2f4ab4cd6ec9b26d8d0a41276a25",
-    "README.md": "7b1330495d228f2b1e200107d6acd6d778326c2da0a9665aad58d396da3575e1",
-    "README.zh-CN.md": "4cad31b15504ca19687c9b7971d43bd7cb06929703a2888012b8405cdc5a8366",
+    "README.md": "2d21ce954cd7917384b6b8ef14dd5369b4166f49d181bd7a2cc1a2b44de9b4cd",
+    "README.zh-CN.md": "734a4511e6d5fc068b3c29b52e7432b11d23bce6300b79e93ed5a327180a92f0",
     "assets/compositions.jpg": "9793cb19fc342e0a33c9835e2557b5f7219a1c729e87ac9db0b1618370149fb1",
     "assets/demo.mp4": "f0c6292cdd60a5ecef003adbc353f3a4c54f96cf93d117ce71ade552b38a3197",
     "assets/hero.svg": "50845ab489b10ccb3e0b87ed92b2476417c853157761766887b7b512029925a8",
@@ -23,8 +20,8 @@
     "downloads/kinetic-tech-0.2.5-open-beta-zh.motion": "e8c5ff765e9a969fd2fc6088fc24af90e07fc9a96f028d512fdd45eb26e3a8b3",
     "downloads/kinetic-tech-0.2.6-open-beta-en.motion": "227c905a1bf644f9bb00116e086ac992f15681c505a94aa1e95b7732015bf3c1",
     "downloads/kinetic-tech-0.2.6-open-beta-zh.motion": "85db88944a6278e35bc8b2e22c99359348593d47d4b9473f8f1415d8e86b599b",
-    "index.html": "7655f3f61c9acfbfede8181e1a67457ba3cfc013059c50fe40e9a81c960013bb",
-    "llms.txt": "c46c609072fdac223db7f78a45c93fc58b627da65be3532e02ebfd400ce86e50",
+    "index.html": "efe476b3617eb26c376fc26d5ee466bfa5da1a8ecc8f608c96416c6f4e1b897c",
+    "llms.txt": "aaf18aa76a5c8ba427ef28750966e62722fb672d3f7bf1e787088ddf1f54bbba",
     "template/00-START-HERE.md": "f7d5636f701819ec684b744c8ef2f039d23711cb310c7e137a8cec35d5af372e",
     "template/CREATION.md": "7daa73b8ebf58b7d86a4dd14364aeb0c3ef7f08eef9b166460b2fb390a88b435",
     "template/README.md": "f7d5636f701819ec684b744c8ef2f039d23711cb310c7e137a8cec35d5af372e",
@@ -356,7 +353,7 @@
     "template/package.json": "ffc2f0dff21f79a368883cf1822ba2ecf5bf4014b3bb71cc13422ca2ef17cecb",
     "template/params.schema.json": "307c7f85432e03eba5a5e77772d8899497ac9541e2bd53cb800048ff6077fb4b",
     "template/render.mjs": "ea3482a02d24834eb71a668bee37d5db2d99027f9d1c15d283aa5695e53612ff",
-    "template.json": "b1ae7112d510e52f2ae1480ddd954dfcc7e197fa078ff69e7798023891ca0e76",
-    "zh.html": "7a1f60e520f4887c70cc0d626b670cec3670955fa1607871aca6cf130d975ff4"
+    "template.json": "699562b33f991a3ff283ec63da47b0260aeb1767bcc591970af60e039df840d9",
+    "zh.html": "ea7b0a8b805bdc984429369cedd916034f4f20a1b5c0f3b59d6027f2bf447b46"
   }
 }
