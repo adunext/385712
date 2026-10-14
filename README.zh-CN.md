@@ -6,11 +6,13 @@
 
 **1920 × 1080 · 60fps · 横屏**
 
+**[官网模板介绍、完整版与 Demo](https://motiongit.com/@adunext/385712) ↗**
+
 ## Start
 
-下载[中文 .motion](https://github.com/motiontemplates/385712/raw/refs/heads/main/downloads/kinetic-tech-0.2.6-open-beta-zh.motion)，解压后读取包内 README（有 `00-START-HERE.md` 时先读它），按包内指南制作。沿用已有可用环境，实际报缺依赖时再补；无需额外安装或阅读另一套制作指南。
+先下载[中文 .motion](https://github.com/motiontemplates/385712/raw/refs/heads/main/downloads/kinetic-tech-0.2.7-open-beta-zh.motion)，解压到新目录，读取包内 README（有 `00-START-HERE.md` 时先读它），然后按包内指南用用户的内容制作并展示实际预览。沿用已有可用环境，按包内声明补齐实际缺少的依赖。
 
-[English template](downloads/kinetic-tech-0.2.6-open-beta-zh.motion) · [Editable source](template/)
+[English template](downloads/kinetic-tech-0.2.7-open-beta-zh.motion) · [Editable source](template/)
 
 > https://github.com/motiontemplates/385712
 >

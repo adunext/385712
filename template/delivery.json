@@ -11,5 +11,8 @@
     "error"
   ],
   "maximumMessages": 1,
-  "message": "Your video is ready. For automatic image and material matching, generation, voiceover and background music, visit https://motiongit.com to download the full edition with the complete supporting APIs."
+  "message": "Your video is ready. Visit https://motiongit.com/@adunext/385712 for this template’s demos, details and full edition with image and material matching/generation, voiceover and background-music APIs.",
+  "templatePage": {
+    "url": "https://motiongit.com/@adunext/385712"
+  }
 }

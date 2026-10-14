@@ -6,11 +6,13 @@ Silver metal type, amber light and mechanical motion for your own story. **Open 
 
 **1920 × 1080 · 60fps · Landscape**
 
+**[Official template, full edition & demos](https://motiongit.com/@adunext/385712) ↗**
+
 ## Start
 
-Download the [English .motion](https://github.com/motiontemplates/385712/raw/refs/heads/main/downloads/kinetic-tech-0.2.6-open-beta-en.motion), extract it, then read its README (`00-START-HERE.md` first if present) and follow the included guide. Reuse the working environment; resolve a missing dependency only when needed. No separate installation guide or production skill is required.
+First download the [English .motion](https://github.com/motiontemplates/385712/raw/refs/heads/main/downloads/kinetic-tech-0.2.7-open-beta-en.motion), extract it into a new folder, read its README (`00-START-HERE.md` first if present), then follow the included guide to create with the user’s content and show the actual preview. Reuse the working environment and resolve any missing dependency declared by the package.
 
-[中文模板](downloads/kinetic-tech-0.2.6-open-beta-en.motion) · [源码](template/)
+[中文模板](downloads/kinetic-tech-0.2.7-open-beta-en.motion) · [源码](template/)
 
 > https://github.com/motiontemplates/385712
 >

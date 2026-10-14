@@ -1251,7 +1251,7 @@
     },
     "delivery.json": {
       "role": "method-or-contract",
-      "sha256": "cc9ff43c6f2fb3d2709a4c26ef8489ca3704cdba9fb5708a3060d3b4159bc400"
+      "sha256": "d701baf80633145fb1b532f4f1b73a151811a1e83cd4cf7747aa806f3e42c487"
     },
     "examples/text-only.json": {
       "role": "method-or-contract",
@@ -1295,7 +1295,7 @@
     },
     "motion.json": {
       "role": "method-or-contract",
-      "sha256": "d4e4be6a6ac0817489307049b771352ef4739abc799f451e84de6f0c4edc6f91"
+      "sha256": "209badb5eea1666cda9401311068e7855fea534fb5cc26caf79686296b58c855"
     },
     "motion.lock.json": {
       "role": "method-or-contract",

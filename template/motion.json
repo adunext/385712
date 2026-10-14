@@ -4,7 +4,7 @@
   "specVersion": "0.1.0-draft.1",
   "template": {
     "id": "kinetic-tech",
-    "version": "0.2.6-open-beta",
+    "version": "0.2.7-open-beta",
     "name": "Kinetic Tech",
     "status": "open-beta"
   },

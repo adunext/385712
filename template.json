@@ -2,7 +2,7 @@
   "format": "motiongit.open-source/1",
   "repositoryId": "385712",
   "slug": "kinetic-tech",
-  "version": "0.2.6-open-beta",
+  "version": "0.2.7-open-beta",
   "title": {
     "en": "Kinetic Tech",
     "zh": "酷炫科技风"
@@ -10,7 +10,7 @@
   "manualOnly": true,
   "apiEnabled": false,
   "credentialsIncluded": false,
-  "website": "https://motiongit.com",
+  "website": "https://motiongit.com/@adunext/385712",
   "source": "template/",
   "license": "MIT",
   "output": {
@@ -22,19 +22,35 @@
   "testedSystem": "macOS",
   "downloads": {
     "en": {
-      "file": "downloads/kinetic-tech-0.2.6-open-beta-en.motion",
-      "sha256": "227c905a1bf644f9bb00116e086ac992f15681c505a94aa1e95b7732015bf3c1",
-      "bytes": 17594403,
+      "file": "downloads/kinetic-tech-0.2.7-open-beta-en.motion",
+      "sha256": "533320d081c578cb824dfbc6ce9d4ae3eb1ca190d67ae7185b4a32b02e236255",
+      "bytes": 17594444,
       "firstRead": "00-START-HERE.md"
     },
     "zh": {
-      "file": "downloads/kinetic-tech-0.2.6-open-beta-zh.motion",
-      "sha256": "85db88944a6278e35bc8b2e22c99359348593d47d4b9473f8f1415d8e86b599b",
-      "bytes": 17596177,
+      "file": "downloads/kinetic-tech-0.2.7-open-beta-zh.motion",
+      "sha256": "472a95af35f8e0c09c0f7dc2ca0992b7c9a3405c5aa8063730c347fc4e015c21",
+      "bytes": 17596250,
       "firstRead": "00-START-HERE.md"
     }
   },
   "previousDownloads": [
+    {
+      "file": "downloads/kinetic-tech-0.2.6-open-beta-en.motion",
+      "sha256": "227c905a1bf644f9bb00116e086ac992f15681c505a94aa1e95b7732015bf3c1",
+      "bytes": 17594403,
+      "firstRead": "00-START-HERE.md",
+      "language": "en",
+      "version": "0.2.6-open-beta"
+    },
+    {
+      "file": "downloads/kinetic-tech-0.2.6-open-beta-zh.motion",
+      "sha256": "85db88944a6278e35bc8b2e22c99359348593d47d4b9473f8f1415d8e86b599b",
+      "bytes": 17596177,
+      "firstRead": "00-START-HERE.md",
+      "language": "zh",
+      "version": "0.2.6-open-beta"
+    },
     {
       "file": "downloads/kinetic-tech-0.2.5-open-beta-en.motion",
       "sha256": "b26da53c60a6cd3fe8f4d7428ae00aced2efa689993acac9b6478115373b9aca",
@@ -68,5 +84,8 @@
     "profile": "motiongit.package-handoff/1",
     "guideSource": "downloaded-package",
     "externalWorkflow": false
+  },
+  "fullEdition": {
+    "url": "https://motiongit.com/@adunext/385712"
   }
 }
