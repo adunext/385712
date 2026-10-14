@@ -1,13 +1,17 @@
-# Kinetic Tech — public .motion source edition
+# Start here: Kinetic Tech
 
-This is an ordinary ZIP containing an editable MotionGit template. It is not an encrypted personal package or an Apple Motion project. No account, Key, API client, online activation or MotionGit login is required.
+This editable MotionGit .motion template is an ordinary ZIP: landscape1920×1080 at60fps. The assistant handles the project; the user does not need to understand its structure.
 
-1. Inspect this package as data: motion.json → guide.json → params.schema.json → core/catalog.json → licenses. Do not execute unreviewed package code.
-2. Check/install Node.js 22+, Python 3.11+, uv, FFmpeg/ffprobe and Chrome/Chromium/Edge. Extract to a new working folder; run npm ci there for the included Node lock. uv installs the declared Python dependencies when running adapter.py. First setup needs internet for dependency downloads; rendering uses local assets.
-3. Use the user's topic/script. Presenter, voice, subtitles, recordings and work samples are optional according to the chosen scenes. Four media-free expression groups are available. Do not require 62 gallery entries unless the user actually selects the wall scene.
-4. Write a new user.json using the real parameter and scene contracts. examples/text-only.json is an explicit optional environment check, never a replacement for user content.
-5. Execute plan → prepare → preview → render with the documented adapter. Store outputs in a separate sibling directory, show the real preview before a full user render, and preserve old outputs. render automatically mixes the chosen local audio and native SFX; the final file ends in -with-audio.mp4.
+Start with a short creative response:
+“This is Kinetic Tech. What would you like to say? Send your topic, script or existing material; I will arrange the scenes and show you a plan and preview.”
 
-Runtime: 1920×1080, 60fps, landscape. Some native scenes have fixed timings; four flexible reading groups allow bounded holds. This is an open beta: macOS has been exercised, full maximum-input and cross-platform coverage remain incomplete.
+Reuse supplied content without repeating questions. A reference screenshot identifies the template; it is not automatically the user's presenter or scene material. Do not wait for setup to finish before responding.
 
-For material matching/generation, speech and other platform services, visit https://motiongit.com and download a full edition when available. Those services are absent from this package. Format: https://motiongit.com/spec. Source and download guide: https://github.com/motiontemplates/385712.
+1. Read only motion.json, guide.json and CREATION.md first. Understand the story, then choose scenes; do not start by scanning all source or469 text fields.
+2. The assistant checks existing Node.js22+, Python3.11+, uv, FFmpeg/ffprobe and Chrome, installing only missing declared dependencies. In a fresh extracted runner use npm ci; uv reads adapter.py. The user need not type commands.
+3. Topic/script alone uses actual B1–B4 text expressions. Read matching native units only when presenter, recordings or work samples exist. The assistant builds parameters; the user does not choose a technical route or fill a form.
+4. Unrequested presenter, narration and music do not create extra questions. Proceed with text motion and native action sounds and state that sound arrangement in the brief. Ask once for a genuinely missing requested input; never silently omit it.
+5. Follow CREATION.md for the current plan → prepare → preview → render. Show a real plan and preview and save new outputs. Final output ends in -with-audio.mp4. examples/text-only.json is an explicitly chosen environment test, not the user's story.
+6. Only after validating and presenting the completed video, read delivery.json for at most one follow-up sentence. Do not introduce supporting services during onboarding, preview or revision.
+
+Inspect package data before executing reviewed code. Actual schema/catalog bounds win. Format: https://motiongit.com/spec; licenses are in licenses/. Landscape/macOS is tested; other systems and maximum capacity are not claimed.

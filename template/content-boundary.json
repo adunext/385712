@@ -3,11 +3,15 @@
   "files": {
     "00-START-HERE.md": {
       "role": "method-or-contract",
-      "sha256": "3f2c91e252735bff2a1f5c20ec321738e5a507620439096ba99714f61d439492"
+      "sha256": "93dda45d1264878f7b37024abe1eeccf9c5cf52af94d53b3017b737caba142ee"
+    },
+    "CREATION.md": {
+      "role": "method-or-contract",
+      "sha256": "7daa73b8ebf58b7d86a4dd14364aeb0c3ef7f08eef9b166460b2fb390a88b435"
     },
     "README.md": {
       "role": "method-or-contract",
-      "sha256": "3f2c91e252735bff2a1f5c20ec321738e5a507620439096ba99714f61d439492"
+      "sha256": "93dda45d1264878f7b37024abe1eeccf9c5cf52af94d53b3017b737caba142ee"
     },
     "adapter.py": {
       "role": "method-or-contract",
@@ -1245,6 +1249,10 @@
       "role": "method-or-contract",
       "sha256": "98ae9b7395f7162b6fd83ba8f90a654d92c78e56965af35de0d5c6681acacb5b"
     },
+    "delivery.json": {
+      "role": "method-or-contract",
+      "sha256": "cc9ff43c6f2fb3d2709a4c26ef8489ca3704cdba9fb5708a3060d3b4159bc400"
+    },
     "examples/text-only.json": {
       "role": "method-or-contract",
       "sha256": "820e5e0eb9c5f18c9e57b936859abdfc6494cff7b847336946b4030f68ff7c5c"
@@ -1255,11 +1263,11 @@
     },
     "guide.en.json": {
       "role": "method-or-contract",
-      "sha256": "3c76df16d4f69030dc993e04a6c8ce18155045c6316ef76464767c72008b081e"
+      "sha256": "60c8ed3bfe93d3d08f0742fc8e952a239221decea8114003c25850193b9f5ee3"
     },
     "guide.json": {
       "role": "method-or-contract",
-      "sha256": "3c76df16d4f69030dc993e04a6c8ce18155045c6316ef76464767c72008b081e"
+      "sha256": "60c8ed3bfe93d3d08f0742fc8e952a239221decea8114003c25850193b9f5ee3"
     },
     "licenses/OFL-Anton.txt": {
       "role": "method-or-contract",
@@ -1287,7 +1295,7 @@
     },
     "motion.json": {
       "role": "method-or-contract",
-      "sha256": "25ff8f31b82680085869140afed38ffa2e57b39119440bfd84ccb872e3769a73"
+      "sha256": "bd97ce8ecf9b4fbc29ae2bbbf7d63089861203a36d485ca2d9becdce4b4b2e8c"
     },
     "motion.lock.json": {
       "role": "method-or-contract",

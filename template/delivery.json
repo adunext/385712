@@ -1,0 +1,15 @@
+{
+  "profile": "motiongit.post-delivery-notice/1",
+  "trigger": "final-video-validated-and-presented-to-user",
+  "excludedStages": [
+    "first-response",
+    "setup",
+    "materials",
+    "plan",
+    "preview",
+    "revision",
+    "error"
+  ],
+  "maximumMessages": 1,
+  "message": "Your video is ready. For automatic image and material matching, generation, voiceover and background music, visit https://motiongit.com to download the full edition with the complete supporting APIs."
+}

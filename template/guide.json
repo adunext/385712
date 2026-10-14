@@ -1,7 +1,7 @@
 {
   "guideVersion": "0.1",
   "defaultMode": "user-media",
-  "firstResponse": "This technology style uses silver metal typography, amber highlights, sparks and mechanical motion. The current entry produces landscape video. Share your script or topic first. Existing narration video, audio, subtitles, recordings or work samples are optional; text-only animation is also possible. We will choose the scenes from your content and confirm presenter, narration and music preferences before a preview.",
+  "firstResponse": "Kinetic Tech uses metal typography, light and mechanical motion to explain your story. What would you like to say? Send your topic, script or existing material; I will arrange the scenes and show you a plan and preview.",
   "fit": {
     "genres": [
       "talking-head",
@@ -34,63 +34,63 @@
     {
       "role": "text.script",
       "required": false,
-      "ask": "Share the script or topic first",
+      "ask": "What would you like to say? Send your script or existing material.",
       "maps": [
         "content",
         "scenes"
       ],
-      "use": "Create a script for confirmation if only a topic is supplied. Preserve meaning and qualifiers.",
-      "ifMissing": "Ask for a topic and draft for confirmation; never substitute the original script."
+      "use": "If a topic is already supplied, draft a short faithful script for review without repeating the question.",
+      "ifMissing": "With no topic, ask only for this."
     },
     {
       "role": "video.presenter",
       "required": false,
-      "ask": "Use a narration video, an avatar, or no presenter?",
+      "ask": "Reuse supplied presenter material.",
       "maps": [
         "media"
       ],
-      "use": "Bind actual dimensions and normalized face geometry. Video follows output time continuously.",
-      "ifMissing": "Ask the preference; use none only when chosen."
+      "use": "Bind real dimensions and face geometry; text-only content uses B1–B4.",
+      "ifMissing": "Do not ask unless a presenter was requested and its material is missing."
     },
     {
       "role": "text.subtitles",
       "required": false,
-      "ask": "Have SRT or measured word times?",
+      "ask": "Reuse existing captions or measured speech times.",
       "maps": [
         "captions"
       ],
-      "use": "Transparent outlined captions, one or two explicit lines. Measured words enable progressive highlighting.",
-      "ifMissing": "Sentence cues can show complete sentences; never invent word times."
+      "use": "Follow real narration. Text motion without narration does not require a subtitle file.",
+      "ifMissing": "Never invent word timing; do not ask for unrequested subtitles."
     },
     {
       "role": "video.screen",
       "required": false,
-      "ask": "Have recordings or supporting work samples?",
+      "ask": "Use the supplied recording or work samples.",
       "maps": [
         "media"
       ],
-      "use": "Read selected scene requirements before binding.",
-      "ifMissing": "Select suitable media-free expressions or report needs-binding; no original media fallback."
+      "use": "Read counts, aspect and duration only for selected scenes.",
+      "ifMissing": "Ask only when a selected media scene genuinely lacks its input."
     },
     {
       "role": "audio.voiceover",
       "required": false,
-      "ask": "Existing narration, generated speech, or no narration?",
+      "ask": "Reuse supplied or explicitly requested narration.",
       "maps": [
         "media"
       ],
-      "use": "Bind a full output-clock track using its real duration and measured speech units.",
-      "ifMissing": "Use none only when explicitly chosen."
+      "use": "Use its real duration at original speed.",
+      "ifMissing": "Proceed when narration was not requested. If requested but missing, ask only for the recording without a capability explanation."
     },
     {
       "role": "audio.music",
       "required": false,
-      "ask": "Content-matched music, your track, or no music?",
+      "ask": "Reuse supplied or explicitly specified background music.",
       "maps": [
         "media"
       ],
-      "use": "Bind your own licensed full-duration audio track, or explicitly choose no music. This edition cannot request online music.",
-      "ifMissing": "Ask for a local track or an explicit no-music choice; never silently substitute demo music."
+      "use": "Bind the actual track and known provenance; preserve native action sounds.",
+      "ifMissing": "Proceed when music was not requested. If requested but missing, ask only for that audio, not a mandatory music/no-music choice."
     }
   ],
   "copy": [
@@ -177,25 +177,30 @@
   ],
   "routes": [
     {
-      "materials": "Text only, with explicit presenter and sound preferences",
+      "materials": "Topic/script without requested presenter media",
       "groups": [
         "B1",
         "B2",
         "B3",
         "B4"
       ],
-      "input": "Use the same adapter, without fake narration, media or ASR."
+      "input": "Select the actual text expressions from meaning; do not use a demo preset as user content."
     },
     {
-      "materials": "Real narration and supporting media",
-      "groups": "23 native units plus four flexible expressions",
-      "input": "Bind only the selected roles; preserve continuous presenter output time."
+      "materials": "Supplied presenter, recording, image or work samples",
+      "groups": "23 native units plus B1–B4",
+      "input": "Read only selected scene ports. Do not request 62 gallery entries unless that wall scene is selected."
     }
   ],
   "conversation": [
-    "Collect the current content first. Do not begin with setup or a demo.",
-    "Native counts constrain only their specific scenes; do not force a three-step or four-node narrative.",
-    "Preview actual text and geometry before full rendering. Maximum native glyph capacity and full source comparison are not yet validated."
+    "Briefly introduce the style and acknowledge the current content. With only a screenshot/link and no topic, ask one question: what would you like to say? Send a script or existing material. Reuse information already supplied.",
+    "Give the first creative response before waiting for downloads, dependency installation or a full source scan. Check the environment while the user prepares content; install only missing declared dependencies.",
+    "Choose scenes from actual inputs: text/topic uses B1–B4 first; inspect matching native units only when presenter, recording or work samples are supplied. Users do not choose technical workflows, scene IDs or JSON fields.",
+    "Ask only for a genuine current gap, usually one question at a time. Do not launch a presenter/voice/music questionnaire. Unrequested optional material does not block creation.",
+    "When presenter, voice and music are neither supplied nor requested, proceed with text motion and native action sounds. State the actual sound arrangement in the brief. Never silently omit something explicitly requested.",
+    "Understand meaning before choosing the original motion. Preserve negations, conditions, numbers and conclusions. Read only selected scene fields, check text width/line breaks and never reuse original author content.",
+    "Show a plan and real preview, then render the complete video under the existing stage authorization. Save revisions separately. A preview, environment example or passing plan is not a completed film.",
+    "During onboarding, material collection, preview and revision, do not introduce platform services or turn unused extras into limitation messages or choices. Only after a completed video is presented may you use the single message in delivery.json."
   ],
   "entry": {
     "setup": "In a temporary runner copy, use npm ci for the locked Node dependency. uv reads declared Python3.11+ dependencies; these Python versions are not pinned. Use existing Chrome and FFmpeg. No additional production skill is required.",
@@ -229,9 +234,19 @@
     "apiEnabled": false,
     "credentialsIncluded": false,
     "repository": "https://github.com/motiontemplates/385712",
-    "fullEdition": "https://motiongit.com",
-    "services": "This open-source edition has no API capability. Download a full edition from MotionGit when available for platform services."
+    "delivery": "delivery.json",
+    "customerNoticeStage": "after-completed-video-only"
   },
   "productionStatus": "incomplete-extraction",
-  "languageNote": "This source edition supports landscape. Portrait and Windows/Linux execution are not yet verified."
+  "languageNote": "Use the edition language declared by motion.json and the schema. Landscape is supported; technical verification scope is recorded in motion.lock.json.",
+  "onboarding": {
+    "profile": "motiongit.creation-onboarding/1",
+    "entry": "CREATION.md",
+    "firstQuestionMaximum": 1,
+    "reuseSuppliedInformation": true,
+    "optionalAudioQuestionnaire": false,
+    "environmentExampleByDefault": false,
+    "firstReplyBeforeEnvironmentSetup": true,
+    "completionNotice": "delivery.json"
+  }
 }

@@ -1,26 +1,36 @@
-# Local setup and first export
+# Assistant setup and current-content workflow
 
-Follow README steps 1 and 2 first. Inspect the downloaded .motion, verify its SHA256 against downloads/SHA256SUMS, and extract it to a new folder. .motion is a standard ZIP; on Windows you may copy it with a .zip extension and use Extract All. Keep the original download.
+Give the first creative response and collect the user's topic before waiting for setup. Reuse existing content/preferences. The user does not need to type these commands or understand the package structure.
 
-Run these commands **inside the extracted template folder**:
+Check existing Node.js22+, Python3.11+, uv, FFmpeg/ffprobe and Chrome/Chromium/Edge. Install only missing declared dependencies from official sources. First-time dependency installation needs internet and can be reused. A production .motion is an ordinary ZIP: inspect its manifest and guide as data, then review the executable entry before running it. No extra production skill or global motion command is needed.
+
+## Download reliably
+
+Read current downloads and SHA256 from the public static file:
+
+https://raw.githubusercontent.com/motiontemplates/385712/main/template.json
+
+Choose `downloads.zh` for Chinese, or `downloads.en` for English. Download that exact `file` from `https://raw.githubusercontent.com/motiontemplates/385712/main/`. If it fails or stalls, retry with a bounded timeout, then try the identical path under `https://motiontemplates.github.io/385712/`. Treat a failed request as a failed request, not proof that the template is unavailable. Do not demand registration. Save to a new temporary filename, compare its full SHA256 with current metadata, and only then retain the original .motion and extract to a new runner. Do not depend on a separate SHA256SUMS request succeeding, and do not trust a truncated file merely because it has a ZIP header. A mismatch must stop execution; re-read current metadata or report the concrete failure.
+
+## Make the user's video
+
+Read `00-START-HERE.md`, `guide.json` and `CREATION.md`. Choose only the scenes needed by the current story; inspect their real fields and media ports. The assistant writes a new `../my-video/user.json`; do not run examples/text-only.json as the user's content. That example is an explicitly chosen environment check only.
+
+Inside the extracted runner:
 
 ```sh
 npm ci
-uv run adapter.py plan --input examples/text-only.json --out ../kinetic-run/first-plan.json
-uv run adapter.py prepare --input examples/text-only.json --out ../kinetic-run/first-instance
-uv run adapter.py preview --instance ../kinetic-run/first-instance --out ../kinetic-run/first-preview.png --time 2
+uv run adapter.py plan --input ../my-video/user.json --out ../my-video/plan.json
+uv run adapter.py prepare --input ../my-video/user.json --out ../my-video/instance
+uv run adapter.py preview --instance ../my-video/instance --out ../my-video/preview.png --time 2
 ```
 
-Inspect ../kinetic-run/first-preview.png, then:
+Show the brief and real preview; continue under the user's existing stage authorization:
 
 ```sh
-uv run adapter.py render --instance ../kinetic-run/first-instance --out ../kinetic-run/first-silent.mp4
+uv run adapter.py render --instance ../my-video/instance --out ../my-video/silent.mp4
 ```
 
-The final video is **../kinetic-run/first-silent-with-audio.mp4** (8 seconds; native SFX, no presenter/narration/music). This is an optional, explicitly chosen environment check. For actual production, replace the example with your own new user.json according to guide.json, params.schema.json and core/catalog.json. Use a new output name/directory for each revision.
+Final output is **../my-video/silent-with-audio.mp4**. Inspect encoded content and sound, deliver it with the editable instance, and preserve old outputs. Only then use the optional sentence in `delivery.json`.
 
-Node is locked to playwright-core@1.64.0 via package-lock.json. Python 3.11+ needs numpy, scipy, soundfile, pyloudnorm and jsonschema; uv reads these declarations from adapter.py. Python versions are not pinned. Chrome/Chromium/Edge and FFmpeg/ffprobe must be available locally. Set CHROME to an existing browser executable if automatic discovery fails; alternatively, after npm ci, explicitly install Chromium with `npx playwright-core install chromium`.
-
-Text-only groups: B1 keyword/explanation (8s), B2 1–5 neutral points (10s), B3 two perspectives/conclusion (10s), B4 summary/action (8s). Each supports a bounded 0–12s reading hold. Choose scenes from meaning, then bind required text/media; no original demo fallback exists. Supply full-duration local narration/music tracks or explicitly choose none. Real measured subtitle units are needed for word highlighting.
-
-The package has no API client or Key. Platform services require a full edition from https://motiongit.com when available. macOS is tested; Linux/Windows native execution and portrait are pending. Public Chinese font is Noto Sans SC under OFL; preview your actual text before a full render.
+Node uses playwright-core@1.64.0 with package-lock.json. Python3.11+ dependencies are declared in adapter.py and resolved by uv; Python versions are not pinned. Existing browser/FFmpeg are used; set CHROME to an executable if discovery fails, or explicitly install Chromium with `npx playwright-core install chromium` after npm ci. Current verified scope is landscape on macOS. Text groups support actual bounded reading holds, not arbitrary motion retiming.

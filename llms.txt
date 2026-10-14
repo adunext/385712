@@ -2,4 +2,4 @@
 
 https://github.com/motiontemplates/385712
 
-Install dependencies → download .motion directly from GitHub → create with local user assets. No account, Key or API capability. Read README.md, ASSISTANT.md and the package contract. Full platform edition: https://motiongit.com. Format: https://motiongit.com/spec.
+Read ASSISTANT.md. First acknowledge the user content, or ask one topic question if only a screenshot was supplied. Check existing dependencies and download the latest language-specific .motion while collecting content. Use template/CREATION.md (CREATION.md inside the extracted .motion) for the real plan/prepare/preview/render entry. Skip unrequested optional-media questions and do not narrate unused-service boundaries. Only after a completed video is validated and presented may template/delivery.json supply one follow-up message. Format: https://motiongit.com/spec.
