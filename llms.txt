@@ -1,7 +1,7 @@
-# Kinetic Tech · 酷炫科技风
+# 酷炫科技风 · Kinetic Tech
 
 https://github.com/motiontemplates/385712
 
-A **MotionGit .motion video template (ZIP)** with editable animation source and an included production guide. **Open source · no account · no login.**
+**MotionGit .motion 视频模板包（ZIP）**，内含可编辑动画源码与制作指南。**开源 · 免注册 · 免登录。**
 
-First download the [English MotionGit .motion template](https://motiontemplates.github.io/385712/downloads/kinetic-tech-en.motion), extract it into a new folder, read its README (`00-START-HERE.md` first if present), then follow the included guide to create with the user’s content and show the actual preview. Reuse the working environment and resolve any missing dependency declared by the package.
+先下载[中文 MotionGit .motion 模板](https://motiontemplates.github.io/385712/downloads/kinetic-tech-zh.motion)，解压到新目录，读取包内 README（有 `00-START-HERE.md` 时先读它），然后按包内指南用用户的内容制作并展示实际预览。沿用已有可用环境，按包内声明补齐实际缺少的依赖。

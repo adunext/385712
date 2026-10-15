@@ -23,20 +23,6 @@
   "fullEdition": {
     "url": "https://motiongit.com/@adunext/385712"
   },
-  "downloads": {
-    "en": {
-      "file": "downloads/kinetic-tech-0.2.7-open-beta-en.motion",
-      "sha256": "533320d081c578cb824dfbc6ce9d4ae3eb1ca190d67ae7185b4a32b02e236255",
-      "bytes": 17594444,
-      "firstRead": "00-START-HERE.md"
-    },
-    "zh": {
-      "file": "downloads/kinetic-tech-0.2.7-open-beta-zh.motion",
-      "sha256": "472a95af35f8e0c09c0f7dc2ca0992b7c9a3405c5aa8063730c347fc4e015c21",
-      "bytes": 17596250,
-      "firstRead": "00-START-HERE.md"
-    }
-  },
   "downloadAliases": {
     "en": {
       "file": "downloads/kinetic-tech-en.motion",
@@ -52,6 +38,21 @@
     }
   },
   "container": "zip",
+  "defaultLanguage": "zh-CN",
+  "downloads": {
+    "en": {
+      "file": "downloads/kinetic-tech-0.2.7-open-beta-en.motion",
+      "sha256": "533320d081c578cb824dfbc6ce9d4ae3eb1ca190d67ae7185b4a32b02e236255",
+      "bytes": 17594444,
+      "firstRead": "00-START-HERE.md"
+    },
+    "zh": {
+      "file": "downloads/kinetic-tech-0.2.7-open-beta-zh.motion",
+      "sha256": "472a95af35f8e0c09c0f7dc2ca0992b7c9a3405c5aa8063730c347fc4e015c21",
+      "bytes": 17596250,
+      "firstRead": "00-START-HERE.md"
+    }
+  },
   "previousDownloads": [
     {
       "file": "downloads/kinetic-tech-0.2.6-open-beta-en.motion",

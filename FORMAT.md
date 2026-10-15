@@ -1,5 +1,5 @@
-# MotionGit .motion video template (ZIP)
+# MotionGit .motion 视频模板包（ZIP）
 
-Official specification: https://motiongit.com/spec
+官方格式协议：https://motiongit.com/spec
 
-This open-source ZIP contains editable animation source, assets, parameters, dependency declarations and its production guide. Extract it and read the included README (00-START-HERE.md first when present).
+这个开源 ZIP 包含可编辑动画源码、素材、参数、依赖声明和制作指南。解压后读取包内 README（存在 00-START-HERE.md 时先读它）。
