@@ -1,8 +1,8 @@
-<p align="center"><img src="assets/hero.svg" alt="MotionGit · Kinetic Tech" width="100%"></p>
+<p align="center"><img src="assets/hero.svg" alt="MotionGit · Kinetic Tech · 酷炫科技风" width="100%"></p>
 
-# Kinetic Tech
+# Kinetic Tech · 酷炫科技风
 
-Silver metal type, amber light and mechanical motion for your own story. **Open source · no account · no login.** [中文](README.zh-CN.md) · [.motion](https://motiongit.com/spec)
+A **MotionGit .motion video template (ZIP)** with editable animation source and an included production guide. **Open source · no account · no login.** [中文](README.zh-CN.md) · [.motion](https://motiongit.com/spec)
 
 **1920 × 1080 · 60fps · Landscape**
 
@@ -10,9 +10,9 @@ Silver metal type, amber light and mechanical motion for your own story. **Open 
 
 ## Start
 
-First download the [English .motion](https://motiontemplates.github.io/385712/downloads/kinetic-tech-0.2.7-open-beta-en.motion), extract it into a new folder, read its README (`00-START-HERE.md` first if present), then follow the included guide to create with the user’s content and show the actual preview. Reuse the working environment and resolve any missing dependency declared by the package.
+First download the [English MotionGit .motion template](https://motiontemplates.github.io/385712/downloads/kinetic-tech-en.motion), extract it into a new folder, read its README (`00-START-HERE.md` first if present), then follow the included guide to create with the user’s content and show the actual preview. Reuse the working environment and resolve any missing dependency declared by the package.
 
-[中文模板](https://motiontemplates.github.io/385712/downloads/kinetic-tech-0.2.7-open-beta-zh.motion) · [Editable source](template/)
+[中文模板](https://motiontemplates.github.io/385712/downloads/kinetic-tech-zh.motion) · [Editable source](template/)
 
 > https://github.com/motiontemplates/385712
 >
