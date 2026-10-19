@@ -6,7 +6,7 @@ A **MotionGit .motion video template (ZIP)** with editable animation source and 
 
 **1920 × 1080 · 60fps · Landscape**
 
-**[Official template, full edition & demos](https://motiongit.com/@adunext/385712) ↗**
+**[Recommended official download · asset matching, updates & demos](https://motiongit.com/@adunext/385712) ↗**
 
 ## Start
 
@@ -30,9 +30,9 @@ The downloaded package is the production guide. This page introduces the templat
 
 ## Official source and asset services
 
-The .motion template source downloaded from MotionGit is also 100% open source; see the code license inside the package. The official edition also provides online matching for footage, stickers, background music and other assets to enrich your video. Follow the included guide for local production with this direct download; after completing your video, explore the official edition if you need these services.
+Template 385712 is available for direct download and testing. Follow the included guide to get started. We recommend downloading from MotionGit for connected asset matching, stickers, background music, and automatic template update checks and upgrades, making asset preparation and ongoing creation smoother. The template source in official downloads is also 100% open source, with its code license and production guide included.
 
-**[Official template, full edition & demos](https://motiongit.com/@adunext/385712) ↗**
+**[Recommended official download · asset matching, updates & demos](https://motiongit.com/@adunext/385712) ↗**
 
 ## About .motion
 
