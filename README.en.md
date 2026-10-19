@@ -28,6 +28,12 @@ The downloaded package is the production guide. This page introduces the templat
 
 ![Typography, composition and mechanical details](assets/compositions.jpg)
 
+## Official source and asset services
+
+The .motion template source downloaded from MotionGit is also 100% open source; see the code license inside the package. The official edition also provides online matching for footage, stickers, background music and other assets to enrich your video. Follow the included guide for local production with this direct download; after completing your video, explore the official edition if you need these services.
+
+**[Official template, full edition & demos](https://motiongit.com/@adunext/385712) ↗**
+
 ## About .motion
 
 An ordinary ZIP includes the editable template, production guide, parameters, dependencies and permitted assets. The assistant handles the included workflow with your own content. Showcase people and voices are not included as your material. [https://motiongit.com/spec](https://motiongit.com/spec)

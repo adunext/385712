@@ -5,9 +5,9 @@
     "AGENTS.md": "f59a81607f395f356aacbeeaeba17c7bc9d0f8fe30eaadf350b6d4626bd722f6",
     "FORMAT.md": "ef765320d7af32ce84f2d610a5dffa2e3beb062af8767c1f42dd91d82b15e385",
     "LICENSE": "8881ef9bfbb1b6eab92a957272ca12b7dfe5b76c751513840c94d9a9842a8d70",
-    "README.en.md": "a41f1a6e43777d7ffc8e3931cce4d5f854c1b977eb467413ad03c17ca54ab86c",
-    "README.md": "0b4f52fdd18c2ff721a155f71c573130907a4faed2c11c9892a5827b33c29652",
-    "README.zh-CN.md": "0b4f52fdd18c2ff721a155f71c573130907a4faed2c11c9892a5827b33c29652",
+    "README.en.md": "3f4b86e40a1c64c9b98be8014b8919f61e1dfb994191bf011d359628e9fe2a2e",
+    "README.md": "277992355e4bb1f6e29732742c00cf38ae4ba8254c984001ca5e1752f9203749",
+    "README.zh-CN.md": "277992355e4bb1f6e29732742c00cf38ae4ba8254c984001ca5e1752f9203749",
     "assets/compositions.jpg": "9793cb19fc342e0a33c9835e2557b5f7219a1c729e87ac9db0b1618370149fb1",
     "assets/demo.mp4": "f0c6292cdd60a5ecef003adbc353f3a4c54f96cf93d117ce71ade552b38a3197",
     "assets/hero.svg": "50845ab489b10ccb3e0b87ed92b2476417c853157761766887b7b512029925a8",
@@ -25,8 +25,8 @@
     "downloads/kinetic-tech-0.2.7-open-beta-zh.motion": "472a95af35f8e0c09c0f7dc2ca0992b7c9a3405c5aa8063730c347fc4e015c21",
     "downloads/kinetic-tech-en.motion": "533320d081c578cb824dfbc6ce9d4ae3eb1ca190d67ae7185b4a32b02e236255",
     "downloads/kinetic-tech-zh.motion": "472a95af35f8e0c09c0f7dc2ca0992b7c9a3405c5aa8063730c347fc4e015c21",
-    "en.html": "212816cfe5e6adc7d3cbf116e8390fab0d63baf7b102ee26f557e2cf03594b8a",
-    "index.html": "03458648612e027de7f030981ce4848fc864829fcb22fa8c6311eb2c6abbb3a6",
+    "en.html": "2e3af5c7da5e20632cdd12be6820b2f2d5f19fda138e7ef372190fb5d7670d20",
+    "index.html": "5a73935a464459c8ae911d7762ddf4201704dfec221184f4aaffd2196ffe8fc8",
     "llms.txt": "6c245fba77e3c82c6803ab3bae2efa9972da88c030eb3d3929c394f3e52b2bcd",
     "template/00-START-HERE.md": "f7d5636f701819ec684b744c8ef2f039d23711cb310c7e137a8cec35d5af372e",
     "template/CREATION.md": "7daa73b8ebf58b7d86a4dd14364aeb0c3ef7f08eef9b166460b2fb390a88b435",
@@ -360,6 +360,6 @@
     "template/params.schema.json": "307c7f85432e03eba5a5e77772d8899497ac9541e2bd53cb800048ff6077fb4b",
     "template/render.mjs": "ea3482a02d24834eb71a668bee37d5db2d99027f9d1c15d283aa5695e53612ff",
     "template.json": "4e3494621bb30aa5ee3a59790641d71ad07de328640d5ad784db3e0fa72fdb28",
-    "zh.html": "03458648612e027de7f030981ce4848fc864829fcb22fa8c6311eb2c6abbb3a6"
+    "zh.html": "5a73935a464459c8ae911d7762ddf4201704dfec221184f4aaffd2196ffe8fc8"
   }
 }
