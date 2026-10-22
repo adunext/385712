@@ -6,7 +6,21 @@
 from pathlib import Path
 from statistics import median
 import json
+import shutil
 import subprocess
+
+
+def _load_cascade(cv2):
+    """Keep OpenCV's C++ file loader away from Unicode installation paths."""
+    xml = (Path(cv2.data.haarcascades) / 'haarcascade_frontalface_default.xml').read_text(encoding='utf-8')
+    storage = cv2.FileStorage(xml, cv2.FILE_STORAGE_READ | cv2.FILE_STORAGE_MEMORY)
+    try:
+        cascade = cv2.CascadeClassifier()
+        if not storage.isOpened() or not cascade.read(storage.getFirstTopLevelNode()) or cascade.empty():
+            raise ValueError('Local face detector unavailable')
+        return cascade
+    finally:
+        storage.release()
 
 
 def approximate_face(file, mode, duration=0):
@@ -16,37 +30,58 @@ def approximate_face(file, mode, duration=0):
     try:
         import cv2
         import numpy as np
-        cascade = cv2.CascadeClassifier(str(Path(cv2.data.haarcascades) / 'haarcascade_frontalface_default.xml'))
-        if cascade.empty():
-            raise ValueError('Local face detector unavailable')
-        times = [0] if mode == 'image' else [max(0, duration - .1) * p for p in [.05, .25, .5, .75, .95]]
-        rows = []
-        for time in times:
-            command = ['ffmpeg', '-v', 'error']
+    except (ImportError, OSError) as error:
+        report.update(errorCode='FACE_DEPENDENCY_UNAVAILABLE', errorType=type(error).__name__,
+                      reason='Local OpenCV dependency unavailable in the preparation interpreter; use centered cover without extra zoom and review the preview.')
+        return fallback, report
+    ffmpeg = shutil.which('ffmpeg')
+    if ffmpeg is None:
+        report.update(errorCode='FACE_FFMPEG_UNAVAILABLE',
+                      reason='FFmpeg unavailable in the preparation environment; use centered cover without extra zoom and review the preview.')
+        return fallback, report
+    try:
+        cascade = _load_cascade(cv2)
+    except (OSError, ValueError, AttributeError, cv2.error) as error:
+        report.update(errorCode='FACE_DETECTOR_UNAVAILABLE', errorType=type(error).__name__,
+                      reason='Local face detector could not load; use centered cover without extra zoom and review the preview.')
+        return fallback, report
+    times = [0] if mode == 'image' else [max(0, duration - .1) * p for p in [.05, .25, .5, .75, .95]]
+    rows, errors = [], []
+    report['attemptedSamples'] = 0
+    for time in times:
+        report['attemptedSamples'] += 1
+        stage = 'extract'
+        try:
+            command = [ffmpeg, '-v', 'error', '-nostdin']
             if mode == 'video':
                 command += ['-ss', str(round(time, 3))]
             command += ['-i', str(file), '-vf', 'scale=1280:1280:force_original_aspect_ratio=decrease',
                         '-frames:v', '1', '-f', 'image2pipe', '-vcodec', 'png', 'pipe:1']
             result = subprocess.run(command, capture_output=True, timeout=30, check=True)
+            stage = 'decode'
             pixels = cv2.imdecode(np.frombuffer(result.stdout, dtype=np.uint8), cv2.IMREAD_GRAYSCALE)
-            report['sampleCount'] += 1
             if pixels is None:
-                continue
+                raise ValueError('Empty decoded face sample')
+            report['sampleCount'] += 1
             height, width = pixels.shape
-            faces = cascade.detectMultiScale(pixels, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
+            stage = 'detect'
+            faces = cascade.detectMultiScale(pixels, scaleFactor=1.1, minNeighbors=7, minSize=(24, 24))
             if not len(faces):
                 continue
             x, y, w, h = max(faces, key=lambda b: int(b[2]) * int(b[3]))
             rows.append({'time': round(time, 3), 'cx': float((x + w / 2) / width),
                          'cy': float((y + h / 2) / height), 'w': float(w / width), 'h': float(h / height)})
-        report.update(detectedSamples=len(rows), samples=rows)
-        if rows:
-            face = {key: round(median(row[key] for row in rows), 6) for key in ['cx', 'cy', 'w', 'h']}
-            report['status'] = 'approximate'
-            return face, report
-        report['reason'] = 'No frontal face found; use centered cover without extra zoom. A manual face hint can override it.'
-    except (ImportError, OSError, ValueError, AttributeError, subprocess.SubprocessError):
-        report['reason'] = 'Local detector unavailable; use centered cover without extra zoom. A manual face hint can override it.'
+        except (OSError, ValueError, cv2.error, subprocess.SubprocessError) as error:
+            errors.append({'time': round(time, 3), 'stage': stage, 'errorType': type(error).__name__})
+    report.update(detectedSamples=len(rows), samples=rows)
+    if errors:
+        report['sampleErrors'] = errors
+    if rows:
+        face = {key: round(median(row[key] for row in rows), 6) for key in ['cx', 'cy', 'w', 'h']}
+        report['status'] = 'approximate'
+        return face, report
+    report['errorCode'] = 'FACE_SAMPLE_FAILED' if errors else 'FACE_NOT_FOUND'
+    report['reason'] = 'No usable frontal face sample; use centered cover without extra zoom. A manual face hint can override it.'
     return fallback, report
 
 

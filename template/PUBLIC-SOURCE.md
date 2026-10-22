@@ -1,8 +1,8 @@
-# Public source edition / 公开源码版 · 0.2.30-open-beta
+# Public source edition / 公开源码版 · 0.2.31-open-beta
 
-This is the no-Key ordinary source package, synchronized from official release **626 / 722**. Run the extracted source directly with `python3 -B kinetic_bootstrap.py`; this archive does not include `assistant/motion.mjs`, personal identity, API credentials or signed personal updates. First read PUBLIC-SOURCE.md, motion.json, guide.json (English: guide.en.json), and STARTUP.md. Runtime code, native media, fonts, dependencies and timing contracts match the released author source; only public documentation, guide entry and integrity metadata are adapted.
+This is the no-Key ordinary source package, synchronized from official release **626 / 736**. Run the extracted source directly with `python3 -B kinetic_bootstrap.py`; this archive does not include `assistant/motion.mjs`, personal identity, API credentials or signed personal updates. First read PUBLIC-SOURCE.md, motion.json, guide.json (English: guide.en.json), and STARTUP.md. Runtime code, native media, fonts, dependencies and timing contracts match the released author source; only public documentation, guide entry and integrity metadata are adapted.
 
-本包是免登录、无 Key 的普通公开源码包，同步官网 **626 / 722** 的修复。解压到新目录后使用 `python3 -B kinetic_bootstrap.py` 正常制作；不需要个人包。官网个人下载与 API/增量更新请使用 https://motiongit.com/@adunext/385712，本包不包含这些身份。先读 PUBLIC-SOURCE.md 与实际参数合同，不把旧版本说明或演示当作本期内容。保留原包、工程与原始字幕时间。
+本包是免登录、无 Key 的普通公开源码包，同步官网 **626 / 736** 的修复。解压到新目录后使用 `python3 -B kinetic_bootstrap.py` 正常制作；不需要个人包。官网个人下载与 API/增量更新请使用 https://motiongit.com/@adunext/385712，本包不包含这些身份。先读 PUBLIC-SOURCE.md 与实际参数合同，不把旧版本说明或演示当作本期内容。保留原包、工程与原始字幕时间。
 
 ## Start / 开始
 
@@ -28,16 +28,24 @@ Default portrait narration moves the bottom-right presenter to the middle (centr
 
 显式 captionPosition 和人物位置优先；过长字幕应按实际容量提示，不截断内容或伪造时轴。
 
+## Platform validation
+
+0.2.31 的粗略静态人脸居中已在 Windows 11 的中文及空格目录通过正常制作入口实测，覆盖 setup、doctor、plan、prepare、preview、render 和成片完整解码。本次测试使用管理员权限；完整原生场景库、普通权限和真实中文 Windows 用户名未扩大验收。图像只定位一次，视频最多取 5 帧形成固定锚点。
+
+The 0.2.31 coarse fixed face-centering workflow was tested on Windows 11 in Chinese and space-containing folders through normal setup, doctor, plan, prepare, preview, render and full movie decode. The test used administrator permissions; the complete native scene library, ordinary permissions and a real Chinese Windows username were outside this acceptance scope. It uses one image or at most five video samples for a fixed anchor.
+
+Earlier source-stage notices in motion.json, extraction-status.json, motion.lock.json and dependency declarations are preserved as historical provenance. They do not redefine current platform support. Runtime, media, fonts, schemas and dependency/lock bytes remain identical to the tested ordinary author archive. The two frozen acceptance report SHA256 values are `54e9f9d8606b6d60337431c528bcbce6c48b1f8434bb21cdeefeb192302e1b5a` and `99d5f669e8f54ba902719b7638aae37a2d1f5b677ba66975c13eb2800c4fb139`.
+
 ## Languages and layouts / 语言与画幅
 
 - Chinese: declared landscape 1920×1080 and portrait 1080×1920, 60fps, native units and B1–B4.
 - English: declared landscape native units and B1–B4; portrait supports B1–B4 only.
 - 中文默认说明：guide.json；English guide: guide.en.json. Both archives contain the same bilingual runtime.
-- Full extraction coverage and Windows native visual acceptance are not claimed. Actual source-specific limitations remain in motion.json and the guides.
+- Full extraction coverage remains incomplete. The 0.2.31 Windows 11 fixed face-centering normal workflow was tested in Chinese/spaces folders; see Platform validation below for its exact scope. Actual source-specific limitations remain in motion.json and the guides.
 
 ## Official personal edition / 官网个人版
 
 For connected asset/API services and verified personal updates, obtain your own personal package from https://motiongit.com/@adunext/385712 and follow its bundled verified assistant. This public source package has no Key, does not authenticate as a personal package, and is not a signed incremental update. Never copy credentials between packages or commit a personal package. Older named GitHub downloads remain available as history; the unversioned aliases point to this release.
 
-Upstream author archive SHA256: `c502364502cc8560fef05683d1c69c919db3f90771962946ecca9bb1c2aa3d25`.
+Upstream author archive SHA256: `740fde784be1a51bfcb2c6ff8ec583d9d57dfa7ec80c25676c7eb4044e499f2f`.
 The public ZIP has a separate checksum because public entry documentation and integrity metadata are adapted. Executable source, assets, fonts, dependency locks, parameters and timing/layout behavior are unchanged from that upstream author archive. MIT and third-party notices are retained byte-for-byte in licenses/.

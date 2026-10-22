@@ -4,7 +4,7 @@
   "specVersion": "0.1.0-draft.1",
   "template": {
     "id": "385712",
-    "version": "0.2.30-open-beta",
+    "version": "0.2.31-open-beta",
     "name": "酷炫科技风 · 口播讲解"
   },
   "runtime": {
@@ -200,23 +200,41 @@
     },
     "motiongit.com:render-runtime-upgrade": {
       "profile": "motiongit.render-runtime-upgrade/1",
-      "sourceVersion": "0.2.29-open-beta",
-      "authorSourceSha256": "61581ded3174b941b24ca2af3d8fbf027599db2da1573fd5a94b9d6af26c5670",
+      "sourceVersion": "0.2.30-open-beta",
+      "authorSourceSha256": "c502364502cc8560fef05683d1c69c919db3f90771962946ecca9bb1c2aa3d25",
       "components": [
-        "kinetic_portrait_composition_patch"
+        "static_face_kinetic_patch"
       ],
       "preserveOriginalPackagesAndProjects": true,
       "acceptanceEvidence": "Recorded separately for this exact author archive; no platform or assistant acceptance is implied by this metadata."
     },
     "motiongit.com:public-source": {
       "profile": "motiongit.public-source/1",
-      "upstreamAuthorArchiveSha256": "c502364502cc8560fef05683d1c69c919db3f90771962946ecca9bb1c2aa3d25",
-      "upstreamReleaseId": 722,
+      "upstreamAuthorArchiveSha256": "740fde784be1a51bfcb2c6ff8ec583d9d57dfa7ec80c25676c7eb4044e499f2f",
+      "upstreamReleaseId": 736,
       "guide": "PUBLIC-SOURCE.md",
       "documentationAdapted": true,
       "runtimeAndMediaUnchanged": true,
       "credentialsIncluded": false,
-      "apiEnabled": false
+      "apiEnabled": false,
+      "currentPlatformValidation": {
+        "profile": "motiongit.public-windows-static-face-validation/1",
+        "sourceVersion": "0.2.31-open-beta",
+        "upstreamAuthorArchiveSha256": "740fde784be1a51bfcb2c6ff8ec583d9d57dfa7ec80c25676c7eb4044e499f2f",
+        "platform": "Windows 11",
+        "scope": "Coarse fixed face centering through normal setup, doctor, plan, prepare, preview, render and full movie decode",
+        "pathScope": "Chinese and space-containing folders",
+        "samplePolicy": "One image or at most five video samples for one fixed anchor; no real-time tracking",
+        "testPermissions": "Administrator/elevated test context; this is not a stated runtime permission requirement",
+        "notCovered": [
+          "Complete original native scene library",
+          "Ordinary-permission execution",
+          "A real Chinese Windows username"
+        ],
+        "acceptanceSha256": "54e9f9d8606b6d60337431c528bcbce6c48b1f8434bb21cdeefeb192302e1b5a",
+        "sourceReportSha256": "99d5f669e8f54ba902719b7638aae37a2d1f5b677ba66975c13eb2800c4fb139",
+        "guide": "PUBLIC-SOURCE.md#platform-validation"
+      }
     }
   },
   "integrity": "integrity.json"

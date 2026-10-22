@@ -4,7 +4,7 @@
     "00-START-HERE.md": {
       "role": "contract",
       "reason": "Inherited public0.2.7 closure or explicit portrait/face-framing derivative",
-      "sha256": "441f063884fa4ed2e65ee92461a112a5b75824f929f70855aa297f5d7745d868"
+      "sha256": "ef7242814f8ef493ecfeec7fab7e229af67ddca6dfd73b86beb3d7e7ff65e069"
     },
     "AUDIO.md": {
       "role": "contract",
@@ -29,7 +29,7 @@
     "CURRENT-REVISION.md": {
       "role": "contract",
       "reason": "Audio and narration ownership repair",
-      "sha256": "3c136d3e724c3c2292e1db79164d660825cbb8d53df8b7977a4c0b6c318aff50"
+      "sha256": "b105859c941b315d191d5059e3819b825c7eb68c14fac178ed45f8c432d6bdb9"
     },
     "DURATION.md": {
       "role": "contract",
@@ -59,12 +59,12 @@
     "PORTABLE-PATHS.md": {
       "role": "contract",
       "reason": "Portable media binding and tested platform scope",
-      "sha256": "93918c776174d813012ff1ad05bcb0ea913ee503b93ff31b47f177b25dab8408"
+      "sha256": "30da6b34fdbc1ef821a06763d8d738b1d2a86d18fb232bc88a9cc7aa1b13dae8"
     },
     "PORTRAIT-COMPOSITION.md": {
       "role": "contract",
       "reason": "Additive narrated-story and runtime compatibility",
-      "sha256": "94a4d2a5a2b2e946ec82a36e5ca9fa27b49e72609e6d7998f82d9d5d56bc4c5b"
+      "sha256": "d91fd1681d9bcc3e49f0a50b9b242cfe147a79345e1afc7e29860352eeff8e26"
     },
     "PORTRAIT-SIGNATURE.md": {
       "role": "contract",
@@ -74,12 +74,12 @@
     "PUBLIC-SOURCE.md": {
       "role": "contract",
       "reason": "Public source onboarding",
-      "sha256": "dc6c29158603d9b7e94005a8a7b9b95d88ee78534abee7e0717dbe6f18b6b2b6"
+      "sha256": "7480e745b7117e11ffe82d2107d25f28c12c74a7e906b1b3a62c55c62afbacbd"
     },
     "README.md": {
       "role": "contract",
       "reason": "Inherited public0.2.7 closure or explicit portrait/face-framing derivative",
-      "sha256": "301df3b15d865c76940c1762bf8d778962d68645573539e89289c6978d34d6b4"
+      "sha256": "a5feb37b5d4fab14d25c80f61d8646cffdb8947ca67f9688ec8f779b45e29f59"
     },
     "STARTUP.md": {
       "role": "contract",
@@ -1724,17 +1724,17 @@
     "guide.en.json": {
       "role": "contract",
       "reason": "Inherited public0.2.7 closure or explicit portrait/face-framing derivative",
-      "sha256": "00fd39f8b6d798f4c64c522c065c47b7e21f929ab27939849deafbb1718fc54d"
+      "sha256": "edabae167c84fda63a8dae7b7f13a53a8d5af0176dbc3040fa4116c8f092f037"
     },
     "guide.json": {
       "role": "contract",
       "reason": "Inherited public0.2.7 closure or explicit portrait/face-framing derivative",
-      "sha256": "1b3fce16b1ff12fc125b738c9a22c25d1a5cefc2701552844c14b0310fe019f0"
+      "sha256": "9497f84e583e516e9ed7cecafa6383f310059116c62eb5e1e1335af3a3ce1a10"
     },
     "kinetic_bootstrap.py": {
       "role": "method",
       "reason": "Audio and narration ownership repair",
-      "sha256": "ee4a9bf1eba2ed7cb6d017e99b2c02e4c32ff5eda9e169033feabe94beb9c641"
+      "sha256": "ad3d535f50a86e1e73ae615710882e4d1dbf67a13dd758f99afc09c507768565"
     },
     "kinetic_story.py": {
       "role": "method",
@@ -1799,7 +1799,7 @@
     "locales/en/README.md": {
       "role": "contract",
       "reason": "Inherited public0.2.7 closure or explicit portrait/face-framing derivative",
-      "sha256": "3dec0582774b8a9fd389de10858f25f64f9568281856c8b53e4343c9f3c39852"
+      "sha256": "439f44ce2a0355c2aac0aae3d9fc5d2927fbdcecd23d93576738d27263639f73"
     },
     "locales/en/STARTUP.md": {
       "role": "contract",
@@ -1809,7 +1809,7 @@
     "locales/en/guide.json": {
       "role": "contract",
       "reason": "Inherited public0.2.7 closure or explicit portrait/face-framing derivative",
-      "sha256": "32329c8b4e7b24a0c4e6c9617720b990d05594b42c4eda19105a8c2de010ca0a"
+      "sha256": "21c03d11e63d19eb99ec0b5586be4393251558cd086034c1c19085996d0ebfaf"
     },
     "locales/en/params.schema.json": {
       "role": "contract",
@@ -1824,7 +1824,7 @@
     "motion.json": {
       "role": "contract",
       "reason": "Inherited public0.2.7 closure or explicit portrait/face-framing derivative",
-      "sha256": "b9f654e2c2a698c5fc69ce4e68bcb45064251b1073453f5c20d141c8971984f7"
+      "sha256": "043132327329bbbd998c1506f517a1a83437f8e6fb9afe255d6c14c41fa51818"
     },
     "motion.lock.json": {
       "role": "contract",
@@ -1864,7 +1864,7 @@
     "presenter_face.py": {
       "role": "method",
       "reason": "Inherited public0.2.7 closure or explicit portrait/face-framing derivative",
-      "sha256": "2e4e81918aa29de2f867ea7fa085b1adbaadc1596f60f4e58d4a3b26794490d2"
+      "sha256": "3c90d7bd63dd2fad2eed89801f0b69f27cc3c4d077e1119244e152ec9b445a7a"
     },
     "render.mjs": {
       "role": "method",

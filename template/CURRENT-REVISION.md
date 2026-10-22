@@ -1,8 +1,8 @@
-# Public source edition / 公开源码版 · 0.2.30-open-beta
+# Public source edition / 公开源码版 · 0.2.31-open-beta
 
-This is the no-Key ordinary source package, synchronized from official release **626 / 722**. Run the extracted source directly with `python3 -B kinetic_bootstrap.py`; this archive does not include `assistant/motion.mjs`, personal identity, API credentials or signed personal updates. First read PUBLIC-SOURCE.md, motion.json, guide.json (English: guide.en.json), and STARTUP.md. Runtime code, native media, fonts, dependencies and timing contracts match the released author source; only public documentation, guide entry and integrity metadata are adapted.
+This is the no-Key ordinary source package, synchronized from official release **626 / 736**. Run the extracted source directly with `python3 -B kinetic_bootstrap.py`; this archive does not include `assistant/motion.mjs`, personal identity, API credentials or signed personal updates. First read PUBLIC-SOURCE.md, motion.json, guide.json (English: guide.en.json), and STARTUP.md. Runtime code, native media, fonts, dependencies and timing contracts match the released author source; only public documentation, guide entry and integrity metadata are adapted.
 
-本包是免登录、无 Key 的普通公开源码包，同步官网 **626 / 722** 的修复。解压到新目录后使用 `python3 -B kinetic_bootstrap.py` 正常制作；不需要个人包。官网个人下载与 API/增量更新请使用 https://motiongit.com/@adunext/385712，本包不包含这些身份。先读 PUBLIC-SOURCE.md 与实际参数合同，不把旧版本说明或演示当作本期内容。保留原包、工程与原始字幕时间。
+本包是免登录、无 Key 的普通公开源码包，同步官网 **626 / 736** 的修复。解压到新目录后使用 `python3 -B kinetic_bootstrap.py` 正常制作；不需要个人包。官网个人下载与 API/增量更新请使用 https://motiongit.com/@adunext/385712，本包不包含这些身份。先读 PUBLIC-SOURCE.md 与实际参数合同，不把旧版本说明或演示当作本期内容。保留原包、工程与原始字幕时间。
 
 # Current source revision 0.2.19-open-beta
 

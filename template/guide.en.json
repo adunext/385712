@@ -1,4 +1,22 @@
 {
+  "currentPlatformValidation": {
+    "profile": "motiongit.public-windows-static-face-validation/1",
+    "sourceVersion": "0.2.31-open-beta",
+    "upstreamAuthorArchiveSha256": "740fde784be1a51bfcb2c6ff8ec583d9d57dfa7ec80c25676c7eb4044e499f2f",
+    "platform": "Windows 11",
+    "scope": "Coarse fixed face centering through normal setup, doctor, plan, prepare, preview, render and full movie decode",
+    "pathScope": "Chinese and space-containing folders",
+    "samplePolicy": "One image or at most five video samples for one fixed anchor; no real-time tracking",
+    "testPermissions": "Administrator/elevated test context; this is not a stated runtime permission requirement",
+    "notCovered": [
+      "Complete original native scene library",
+      "Ordinary-permission execution",
+      "A real Chinese Windows username"
+    ],
+    "acceptanceSha256": "54e9f9d8606b6d60337431c528bcbce6c48b1f8434bb21cdeefeb192302e1b5a",
+    "sourceReportSha256": "99d5f669e8f54ba902719b7638aae37a2d1f5b677ba66975c13eb2800c4fb139",
+    "guide": "PUBLIC-SOURCE.md#platform-validation"
+  },
   "guideVersion": "0.1",
   "defaultMode": "user-media",
   "firstResponse": "Kinetic Tech uses metal typography, light and mechanical motion to explain your story. What would you like to say? Send your topic, script or existing material; I will arrange the scenes and show you a plan and preview.",
@@ -296,13 +314,23 @@
       "B3",
       "B4"
     ],
-    "englishNativeGroups": "landscape only"
+    "englishNativeGroups": "landscape only",
+    "historicalSourceNotice": "This block records the source version named here, including its original notClaimed evidence. Current 0.2.31 Windows fixed-centering acceptance is currentPlatformValidation/PUBLIC-SOURCE.md, not a prohibition on Windows use."
   },
   "presenterFraming": {
     "default": "One image or at most five uniformly sampled video frames; largest-face median, local only; preserve original aspect ratio",
     "manual": "media.presenter.face:{cx,cy,h}; original-frame normalized coordinates; existing tracking takes priority",
     "fallback": "undetected is reported; center cover without additional zoom; manually hint a rough face center if needed",
-    "carriers": "Same geometry for horizontal,vertical and circular carriers; continuous rectangular/circular morph; no identity recognition or mandatory cloud service"
+    "carriers": "Same geometry for horizontal,vertical and circular carriers; continuous rectangular/circular morph; no identity recognition or mandatory cloud service",
+    "platformCompatibility": {
+      "profile": "motiongit.static-face-portability/1",
+      "scope": "Same local OpenCV/FFmpeg path on Windows, macOS and Linux; actual OS validation is recorded outside the archive.",
+      "detectorLoad": "Python UTF-8 read plus OpenCV memory storage; no C++ filename load from a Unicode installation path.",
+      "samples": "One image or at most five video samples; keep successful samples after an individual frame failure and use one fixed median face.",
+      "manual": "Existing explicit face or valid tracking still takes priority.",
+      "fallback": "Report undetected and a specific dependency/tool/detector/sample error; centered cover without extra zoom.",
+      "geometry": "Presenter carrier positions, rectangular/circular morph, captions and source clocks unchanged; no real-time tracking."
+    }
   },
   "wholeNarrationPolicy": {
     "contract": "duration-policy.json",
@@ -325,8 +353,10 @@
   "portableMediaPaths": {
     "guide": "PORTABLE-PATHS.md",
     "serialization": "POSIX relative URL paths; legacy backslashes normalized",
-    "windowsScope": "Path semantics regression; native Windows execution not tested",
-    "publication": "candidate not uploaded"
+    "windowsScope": "0.2.31 Windows 11 coarse fixed-centering normal workflow tested in Chinese/spaces folders; full native scene library, ordinary permissions and a real Chinese Windows username are outside acceptance. See PUBLIC-SOURCE.md#platform-validation.",
+    "publication": "candidate not uploaded",
+    "historicalWindowsScope": "Path semantics regression; native Windows execution not tested",
+    "historicalSourceNotice": "Earlier candidate publication/path-semantics statements below are source-stage provenance, not current Windows support restrictions."
   },
   "audioIntegrity": {
     "contract": "audio-contract.json",
@@ -337,7 +367,7 @@
     "instructions": "NARRATION-MAP.md",
     "meaningAcceptance": "Listen and inspect actual encoded frames; ASR and structural timing are not semantic acceptance"
   },
-  "version": "0.2.30-open-beta",
+  "version": "0.2.31-open-beta",
   "environment": {
     "readFirst": "STARTUP.md",
     "dependencies": "dependencies/runtime-dependencies.json",
@@ -461,7 +491,7 @@
     "scope": "Current optional narration enhancement; preserve existing projects, native audio/action clocks and current signed delivery identity."
   },
   "currentNarrationRelease": {
-    "version": "0.2.30-open-beta",
+    "version": "0.2.31-open-beta",
     "guide": "NARRATION-VISUAL.md",
     "delivery": "Ordinary no-Key public source; read PUBLIC-SOURCE.md and use kinetic_bootstrap.py. Official personal downloads and signed incremental updates remain separate."
   },
@@ -520,8 +550,8 @@
   "publicSourceEdition": {
     "profile": "motiongit.public-source/1",
     "guide": "PUBLIC-SOURCE.md",
-    "upstreamAuthorArchiveSha256": "c502364502cc8560fef05683d1c69c919db3f90771962946ecca9bb1c2aa3d25",
-    "upstreamReleaseId": 722,
+    "upstreamAuthorArchiveSha256": "740fde784be1a51bfcb2c6ff8ec583d9d57dfa7ec80c25676c7eb4044e499f2f",
+    "upstreamReleaseId": 736,
     "credentialsIncluded": false,
     "apiEnabled": false,
     "runtimeAndMediaUnchanged": true,

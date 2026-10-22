@@ -1,8 +1,8 @@
-# Public source edition / 公开源码版 · 0.2.30-open-beta
+# Public source edition / 公开源码版 · 0.2.31-open-beta
 
-This is the no-Key ordinary source package, synchronized from official release **626 / 722**. Run the extracted source directly with `python3 -B kinetic_bootstrap.py`; this archive does not include `assistant/motion.mjs`, personal identity, API credentials or signed personal updates. First read PUBLIC-SOURCE.md, motion.json, guide.json (English: guide.en.json), and STARTUP.md. Runtime code, native media, fonts, dependencies and timing contracts match the released author source; only public documentation, guide entry and integrity metadata are adapted.
+This is the no-Key ordinary source package, synchronized from official release **626 / 736**. Run the extracted source directly with `python3 -B kinetic_bootstrap.py`; this archive does not include `assistant/motion.mjs`, personal identity, API credentials or signed personal updates. First read PUBLIC-SOURCE.md, motion.json, guide.json (English: guide.en.json), and STARTUP.md. Runtime code, native media, fonts, dependencies and timing contracts match the released author source; only public documentation, guide entry and integrity metadata are adapted.
 
-本包是免登录、无 Key 的普通公开源码包，同步官网 **626 / 722** 的修复。解压到新目录后使用 `python3 -B kinetic_bootstrap.py` 正常制作；不需要个人包。官网个人下载与 API/增量更新请使用 https://motiongit.com/@adunext/385712，本包不包含这些身份。先读 PUBLIC-SOURCE.md 与实际参数合同，不把旧版本说明或演示当作本期内容。保留原包、工程与原始字幕时间。
+本包是免登录、无 Key 的普通公开源码包，同步官网 **626 / 736** 的修复。解压到新目录后使用 `python3 -B kinetic_bootstrap.py` 正常制作；不需要个人包。官网个人下载与 API/增量更新请使用 https://motiongit.com/@adunext/385712，本包不包含这些身份。先读 PUBLIC-SOURCE.md 与实际参数合同，不把旧版本说明或演示当作本期内容。保留原包、工程与原始字幕时间。
 
 New narration + captions/photos/video: read NARRATED-STORY.md and use compose before plan. 新建口播先走 compose，自动设置随句展开并保留真实字幕证据；旧工程维持原模式。
 
@@ -70,6 +70,6 @@ Read AUDIO.md and NARRATION-MAP.md: preserve original speech, verify ASR, and bi
 5. 按 CREATION.md 执行本期 plan → prepare → preview → render。方案和真实预览先给用户看，输出另存；最终文件以 -with-audio.mp4 结束。examples/text-only.json 只供明确选择的环境测试，不是本期文案。
 6. 完整视频编码、画面和声音已核验，并交付给用户后，才读取 delivery.json，最多补一句后续介绍。起步、预览和修订时不展开配套服务话题。
 
-先把包内文件作为数据检查，再执行已审阅代码。技术参数以实际schema/catalog为准。格式：https://motiongit.com/spec；许可：licenses/。中文竖屏已由所有者确认提交公开测试；完整原工程覆盖与Windows实机仍未完成验证；英文竖屏仅支持B1–B4。
+先把包内文件作为数据检查，再执行已审阅代码。技术参数以实际schema/catalog为准。格式：https://motiongit.com/spec；许可：licenses/。中文竖屏已由所有者确认提交公开测试；完整原工程覆盖仍未完成；0.2.31 固定粗略居中 Windows 11 正常入口已实测（中文及空格目录），范围见 PUBLIC-SOURCE.md；英文竖屏仅支持 B1–B4。
 
 竖屏：项目及章节标题各不超过18字符、人物标识不超过10字符。人物图片检测一次，视频最多抽五帧，按大致脸部中心等比裁切；未检测时普通居中并在报告提示。字幕透明描边、显式一至两行；保留真实词时钟，句级SRT不伪造逐词扫色。23个原生组与4个基础表达均从普通入口选用，完整原工程覆盖仍为false。当前公开源码版本以 motion.json.template.version 为准，中文支持横屏与竖屏，英文横屏支持原生组，英文竖屏仅支持已声明的B1–B4基础表达组。旧工程与原包应保留，更新后另建本期实例。

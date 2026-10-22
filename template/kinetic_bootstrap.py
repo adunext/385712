@@ -64,7 +64,7 @@ def cache_root(argument,digest):
 
 def python_in(cache):return cache/'.venv'/('Scripts/python.exe'if os.name=='nt'else'bin/python')
 def package_versions(python,expected):
- snippet="import importlib.metadata,json;wanted=json.loads(__import__('sys').argv[1]);found={};errors=[]\nfor name,want in wanted.items():\n try:\n  got=importlib.metadata.version(name);found[name]=got\n  if got!=want:errors.append(name+' version differs')\n except importlib.metadata.PackageNotFoundError:errors.append(name+' missing')\nfor name in ['numpy','scipy','soundfile','pyloudnorm','jsonschema','cv2']:\n try:__import__(name)\n except Exception as e:errors.append(name+' import: '+type(e).__name__)\nprint(json.dumps({'versions':found,'errors':errors}))"
+ snippet="import importlib.metadata,json;wanted=json.loads(__import__('sys').argv[1]);found={};errors=[]\nfor name,want in wanted.items():\n try:\n  got=importlib.metadata.version(name);found[name]=got\n  if got!=want:errors.append(name+' version differs')\n except importlib.metadata.PackageNotFoundError:errors.append(name+' missing')\nfor name in ['numpy','scipy','soundfile','pyloudnorm','jsonschema','cv2']:\n try:__import__(name)\n except Exception as e:errors.append(name+' import: '+type(e).__name__)\ntry:\n import cv2\n from pathlib import Path\n xml=(Path(cv2.data.haarcascades)/'haarcascade_frontalface_default.xml').read_text(encoding='utf-8')\n storage=cv2.FileStorage(xml,cv2.FILE_STORAGE_READ|cv2.FILE_STORAGE_MEMORY)\n try:\n  detector=cv2.CascadeClassifier()\n  if not storage.isOpened() or not detector.read(storage.getFirstTopLevelNode()) or detector.empty():\n   raise ValueError('Frontal face model could not load from memory')\n finally:storage.release()\nexcept Exception as error:errors.append('cv2 frontal face model: '+type(error).__name__)\nprint(json.dumps({'versions':found,'errors':errors}))"
  code,out,_=probe_command([python,'-I','-c',snippet,json.dumps(expected)],timeout=120)
  try:return json.loads(out)if code==0 else {'versions':{},'errors':['Isolated Python dependencies could not be imported']}
  except ValueError:return {'versions':{},'errors':['Isolated Python dependency check did not return a report']}
@@ -135,7 +135,7 @@ def setup(cache,identity,data):
   try:
    for source,target in [('dependencies/package.json','package.json'),('dependencies/package-lock.json','package-lock.json'),('dependencies/requirements-runtime.lock.txt','requirements-runtime.lock.txt')]:shutil.copy2(ROOT/source,cache/target)
    install([selected,'-m','venv',cache/'.venv'],'Isolated Python environment creation')
-   install([python_in(cache),'-I','-m','pip','install','--disable-pip-version-check','--no-input','--only-binary=:all:','--require-hashes','-r',cache/'requirements-runtime.lock.txt'],'Locked Python dependency installation')
+   install([python_in(cache),'-I','-X','utf8','-m','pip','install','--disable-pip-version-check','--no-input','--progress-bar','off','--only-binary=:all:','--require-hashes','-r',cache/'requirements-runtime.lock.txt'],'Locked Python dependency installation')
    install([*npm_command(),'ci','--prefix',cache,'--ignore-scripts','--no-audit','--no-fund'],'Locked Node dependency installation')
    checked=package_versions(python_in(cache),data['pythonPackages'])
    if checked['errors']:raise SetupRequired('; '.join(checked['errors']))

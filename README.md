@@ -6,7 +6,7 @@
 
 **横屏 1920 × 1080 / 竖屏 1080 × 1920 · 60fps**
 
-**GitHub 公开源码版: 0.2.30-open-beta** · 同步官网 626 / 722 的源码修复；普通公开包不包含个人身份。
+**GitHub 公开源码版: 0.2.31-open-beta** · 同步官网 626 / 736 的源码修复；普通公开包不包含个人身份。
 
 本版默认竖屏口播将原先右下的人物移到画面中部（1080×1920 画布中心坐标 540,1040），保留原生尺寸与裁切，并将字幕上移。显式设置和已有工程按包内合同处理；保留完整字幕与实际时间。
 
@@ -46,7 +46,7 @@
 
 普通 ZIP 封装可编辑模板、制作指南、参数、依赖和可分发资产。助手使用你的内容，按包内流程制作；Demo 人物与声音不作为本期素材打包。 [https://motiongit.com/spec](https://motiongit.com/spec)
 
-公开测试版 · 已核验 macOS 中文横屏、英文竖屏普通入口与预览；中文支持声明的横竖屏组，英文竖屏仅 B1–B4。完整原工程覆盖仍为 false，不声称 Windows 实机视觉验收。 [MIT](LICENSE) · [字体与品牌许可](template/licenses/THIRD-PARTY-NOTICES.md)
+公开测试版 · 已核验 macOS 中文横屏、英文竖屏普通入口与预览；中文支持声明的横竖屏组，英文竖屏仅 B1–B4。完整原工程覆盖仍为 false；0.2.31 固定粗略居中 Windows 11 正常入口已实测（中文及空格目录），完整原生场景库、普通权限及真实中文用户名未扩大验收，详见 template/PUBLIC-SOURCE.md。 [MIT](LICENSE) · [字体与品牌许可](template/licenses/THIRD-PARTY-NOTICES.md)
 
 
-公开包从正式普通作者源 c502364502cc8560fef05683d1c69c919db3f90771962946ecca9bb1c2aa3d25 同步，执行代码、媒体、字体、依赖、参数与时钟保持一致，仅适配公开入口文档及完整性元数据。详见[来源与使用范围](template/PUBLIC-SOURCE.md)、[下载校验值](downloads/SHA256SUMS)；历史命名包完整保留。
+公开包从正式普通作者源 740fde784be1a51bfcb2c6ff8ec583d9d57dfa7ec80c25676c7eb4044e499f2f 同步，执行代码、媒体、字体、依赖、参数与时钟保持一致，仅适配公开入口文档及完整性元数据。详见[来源与使用范围](template/PUBLIC-SOURCE.md)、[下载校验值](downloads/SHA256SUMS)；历史命名包完整保留。

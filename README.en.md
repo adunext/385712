@@ -6,7 +6,7 @@ A **MotionGit .motion video template (ZIP)** with editable animation source and 
 
 **Landscape 1920 × 1080 / portrait 1080 × 1920 · 60fps**
 
-**GitHub public source: 0.2.30-open-beta** · Synchronized from official source release 626 / 722; no personal identity is included.
+**GitHub public source: 0.2.31-open-beta** · Synchronized from official source release 626 / 736; no personal identity is included.
 
 Default portrait narration moves the presenter from the bottom-right to the middle (centre 540,1040 on the 1080×1920 canvas), preserving its native size and crop while lifting captions. Explicit settings and existing projects follow the package contract; complete captions and actual clocks are preserved.
 
@@ -46,7 +46,7 @@ Template 385712 is available for direct download and testing. Follow the include
 
 An ordinary ZIP includes the editable template, production guide, parameters, dependencies and permitted assets. The assistant handles the included workflow with your own content. Showcase people and voices are not included as your material. [https://motiongit.com/spec](https://motiongit.com/spec)
 
-Open beta · macOS Chinese landscape and English portrait source workflows/previews checked. Chinese retains its declared landscape and portrait groups; English portrait supports B1–B4 only. Full extraction coverage remains false; native Windows visual acceptance is not claimed. [MIT](LICENSE) · [Font/brand notices](template/licenses/THIRD-PARTY-NOTICES.md)
+Open beta · macOS Chinese landscape and English portrait source workflows/previews checked. Chinese retains its declared landscape and portrait groups; English portrait supports B1–B4 only. Full extraction coverage remains false. The 0.2.31 Windows 11 fixed-centering normal workflow was tested in Chinese/spaces folders. Complete native scene-library, ordinary-permission and real-Chinese-username acceptance remain outside scope; see template/PUBLIC-SOURCE.md. [MIT](LICENSE) · [Font/brand notices](template/licenses/THIRD-PARTY-NOTICES.md)
 
 
-This source follows ordinary author archive c502364502cc8560fef05683d1c69c919db3f90771962946ecca9bb1c2aa3d25. Executable code, media, fonts, dependencies, parameters and clocks are unchanged; public entry documentation and integrity metadata are adapted. See [source notes and limits](template/PUBLIC-SOURCE.md) and [download checksums](downloads/SHA256SUMS). Historical version-named archives are retained.
+This source follows ordinary author archive 740fde784be1a51bfcb2c6ff8ec583d9d57dfa7ec80c25676c7eb4044e499f2f. Executable code, media, fonts, dependencies, parameters and clocks are unchanged; public entry documentation and integrity metadata are adapted. See [source notes and limits](template/PUBLIC-SOURCE.md) and [download checksums](downloads/SHA256SUMS). Historical version-named archives are retained.
